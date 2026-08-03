@@ -1,0 +1,158 @@
+Notebook[{Cell["Mathematica calculations for the p-norm Tur\[AAcute]n paper", 
+   "Title"], Cell["This notebook records the three numerical checks cited in \
+Lemmas 4.2 and 4.3 of the revised manuscript. Evaluate the notebook from top \
+to bottom. Named functions are used so that each displayed calculation can be \
+compared directly with the corresponding formula in the paper.", "Text"], 
+  Cell["Setup", "Section"], Cell["The setup clears only the symbols used \
+below. The polynomial h is the function h_p from the manuscript. The \
+auxiliary value hAtTestPoint evaluates it at (1/(p+2), 1/(p+2), p/(p+2)).", 
+   "Text"], Cell[BoxData[RowBox[{RowBox[{"ClearAll", "[", 
+        RowBox[{"p", ",", "x1", ",", "x2", ",", "x3", ",", "h", ",", 
+          "hAtTestPoint", ",", "caseOneBound", ",", "caseOneMaximum", ",", 
+          "caseTwoBound", ",", "caseTwoEndpointExact", ",", 
+          "caseTwoEndpointNumeric", ",", "baseCaseBound", ",", 
+          "baseCaseMaximum", ",", "checks"}], "]"}], ";", 
+      RowBox[{RowBox[{"h", "[", RowBox[{"p_", ",", "x1_", ",", "x2_", ",", 
+            "x3_"}], "]"}], ":=", RowBox[{RowBox[{"x1", " ", "x2", " ", 
+            SuperscriptBox["x3", "p"]}], "+", RowBox[{"x1", " ", 
+            SuperscriptBox["x2", "p"], " ", "x3"}], "+", 
+          RowBox[{SuperscriptBox["x1", "p"], " ", "x2", " ", "x3"}]}]}], ";", 
+      RowBox[{RowBox[{"hAtTestPoint", "[", "p_", "]"}], ":=", 
+        RowBox[{"h", "[", RowBox[{"p", ",", FractionBox["1", 
+             RowBox[{"p", "+", "2"}]], ",", FractionBox["1", 
+             RowBox[{"p", "+", "2"}]], ",", FractionBox["p", 
+             RowBox[{"p", "+", "2"}]]}], "]"}]}], ";"}]], "Input"], 
+  Cell["Lemma 4.2", "Section"], Cell["Case 1: 2 <= p <= 8", "Subsection"], 
+  Cell["caseOneBound is the upper bound in Case 1. The plot compares it with \
+6.55 on the full interval [2,8], and NMaximize checks the maximum \
+numerically.", "Text"], 
+  Cell[BoxData[RowBox[{RowBox[{RowBox[{"caseOneBound", "[", "p_", "]"}], 
+        ":=", FractionBox[RowBox[{FractionBox[RowBox[{"3", " ", 
+              RowBox[{"Max", "[", RowBox[{"{", RowBox[{FractionBox["1", 
+                     SuperscriptBox["2", RowBox[{"p", "-", "1"}]]], ",", 
+                    RowBox[{FractionBox["1", "8"], " ", SuperscriptBox[
+                       RowBox[{"(", FractionBox[RowBox[{"p", "-", "1"}], 
+                          "p"], ")"}], RowBox[{"p", "-", "4"}]]}]}], "}"}], 
+                "]"}]}], RowBox[{"2", " ", "\[ExponentialE]"}]], "+", 
+           RowBox[{"Max", "[", RowBox[{"{", RowBox[{FractionBox["1", 
+                  SuperscriptBox["2", "p"]], ",", RowBox[{FractionBox["1", 
+                    "8"], " ", SuperscriptBox[RowBox[{"(", FractionBox["p", 
+                       RowBox[{"p", "+", "1"}]], ")"}], RowBox[{"p", "-", 
+                      "3"}]]}]}], "}"}], "]"}]}], 
+         RowBox[{RowBox[{"(", RowBox[{"p", "+", "2"}], ")"}], " ", 
+           RowBox[{"hAtTestPoint", "[", "p", "]"}]}]]}], ";"}]], "Input"], 
+  Cell[BoxData[RowBox[{"Plot", "[", 
+      RowBox[{RowBox[{"{", RowBox[{RowBox[{"caseOneBound", "[", "p", "]"}], 
+            ",", "6.55`"}], "}"}], ",", 
+        RowBox[{"{", RowBox[{"p", ",", "2", ",", "8"}], "}"}], ",", 
+        RowBox[{"PlotLegends", "\[Rule]", RowBox[{"Placed", "[", 
+            RowBox[{RowBox[{"{", RowBox[{"\"upper bound\"", ",", 
+                  "\"threshold 6.55\""}], "}"}], ",", "Below"}], "]"}]}], 
+        ",", RowBox[{"AxesLabel", "\[Rule]", 
+          RowBox[{"{", RowBox[{"\"p\"", ",", "\"value\""}], "}"}]}], ",", 
+        RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
+        RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]], "Input"], 
+  Cell[CellGroupData[
+    {Cell[BoxData[RowBox[{"caseOneMaximum", "=", 
+         RowBox[{"NMaximize", "[", RowBox[{RowBox[{"{", RowBox[
+                {RowBox[{"caseOneBound", "[", "p", "]"}], ",", RowBox[
+                  {"2", "\[LessEqual]", "p", "\[LessEqual]", "8"}]}], "}"}], 
+             ",", "p"}], "]"}]}]], "Input"], 
+     Cell[BoxData[RowBox[{"{", RowBox[{"6.544548132804099`", ",", 
+           RowBox[{"{", RowBox[{"p", "\[Rule]", "8.`"}], "}"}]}], "}"}]], 
+      "Output"]}, Open]], Cell["The maximum is approximately 6.544548 at p = \
+8, hence it is strictly smaller than 6.55.", "Text"], 
+  Cell["Case 2: p > 8", "Subsection"], Cell["In the manuscript, the six \
+factors forming this bound are decreasing for p >= 8. It therefore suffices \
+to evaluate the resulting upper bound at p = 8. The formula below matches the \
+current revised manuscript.", "Text"], 
+  Cell[BoxData[RowBox[{RowBox[{RowBox[{"caseTwoBound", "[", "p_", "]"}], 
+        ":=", RowBox[{FractionBox[RowBox[{RowBox[{"(", RowBox[{"3", " ", 
+                 "\[ExponentialE]"}], ")"}], " ", RowBox[{"(", RowBox[
+                {SuperscriptBox["p", "2"], "-", RowBox[{"3", " ", "p"}], "+", 
+                 "4"}], ")"}], " ", RowBox[{"(", RowBox[{FractionBox[
+                  RowBox[{RowBox[{"(", RowBox[{"p", "+", "2"}], ")"}], " ", 
+                    RowBox[{"(", RowBox[{"p", "-", "3"}], ")"}]}], 
+                  SuperscriptBox[RowBox[{"(", RowBox[{"p", "-", "2"}], ")"}], 
+                   "p"]], "+", FractionBox[RowBox[{"p", "+", "2"}], 
+                  RowBox[{"\[ExponentialE]", " ", RowBox[{"(", RowBox[
+                       {"p", "-", "2"}], ")"}]}]]}], ")"}]}], 
+           RowBox[{"2", " ", RowBox[{"(", RowBox[{"p", " ", RowBox[
+                  {"(", RowBox[{"p", "-", "3"}], ")"}]}], ")"}]}]], "+", 
+          FractionBox[RowBox[{RowBox[{"(", RowBox[{SuperscriptBox["p", "2"], 
+                 "-", "p", "+", "2"}], ")"}], " ", RowBox[{"(", RowBox[
+                {FractionBox[RowBox[{RowBox[{"(", RowBox[{"p", "+", "2"}], 
+                      ")"}], " ", RowBox[{"(", RowBox[{"p", "-", "2"}], 
+                      ")"}]}], SuperscriptBox[RowBox[{"(", RowBox[{"p", "-", 
+                       "1"}], ")"}], RowBox[{"p", "+", "1"}]]], "+", 
+                 FractionBox[RowBox[{"p", "+", "2"}], RowBox[
+                   {"\[ExponentialE]", " ", RowBox[{"(", RowBox[{"p", "-", 
+                        "1"}], ")"}]}]]}], ")"}], " ", SuperscriptBox[
+              "\[ExponentialE]", "2"]}], RowBox[
+            {RowBox[{"(", RowBox[{"p", "-", "2"}], ")"}], " ", 
+             RowBox[{"(", RowBox[{"p", "+", "1"}], ")"}]}]]}]}], ";"}]], 
+   "Input"], Cell[CellGroupData[
+    {Cell[BoxData[RowBox[{"caseTwoEndpointExact", "=", 
+         RowBox[{"FullSimplify", "[", RowBox[{"caseTwoBound", "[", "8", 
+             "]"}], "]"}]}]], "Input"], 
+     Cell[BoxData[RowBox[{FractionBox["11", "4"], "+", 
+         FractionBox[RowBox[{"12027265", " ", "\[ExponentialE]"}], 
+          "7838208"], "+", FractionBox[RowBox[{"580", " ", 
+            SuperscriptBox["\[ExponentialE]", "2"]}], "363182463"]}]], 
+      "Output"]}, Open]], 
+  Cell[CellGroupData[{Cell[BoxData[RowBox[{"caseTwoEndpointNumeric", "=", 
+         RowBox[{"N", "[", RowBox[{"caseTwoEndpointExact", ",", "16"}], 
+           "]"}]}]], "Input"], Cell[BoxData["6.921053943524174`"], 
+      "Output"]}, Open]], Cell["Thus the Case 2 upper bound is approximately \
+6.921054, which is strictly smaller than 6.93.", "Text"], 
+  Cell["Lemma 4.3: base case", "Section"], Cell["baseCaseBound is the \
+expression used for 1 <= p <= 2. The plot compares it with 5, and NMaximize \
+checks its maximum numerically.", "Text"], 
+  Cell[BoxData[RowBox[{RowBox[{RowBox[{"baseCaseBound", "[", "p_", "]"}], 
+        ":=", FractionBox[RowBox[{RowBox[{"p", " ", SuperscriptBox[
+              RowBox[{"(", FractionBox["1", "2"], ")"}], RowBox[{"2", "-", 
+                "p"}]], " ", SuperscriptBox[RowBox[{"(", FractionBox["1", 
+                 "9"], ")"}], RowBox[{"p", "-", "1"}]]}], "+", 
+           FractionBox["1", SuperscriptBox["4", RowBox[{"p", "-", "1"}]]]}], 
+         RowBox[{RowBox[{"(", RowBox[{"p", "+", "2"}], ")"}], " ", 
+           SuperscriptBox[RowBox[{"(", FractionBox["1", "3"], ")"}], 
+            RowBox[{"p", "+", "1"}]]}]]}], ";"}]], "Input"], 
+  Cell[BoxData[RowBox[{"Plot", "[", 
+      RowBox[{RowBox[{"{", RowBox[{RowBox[{"baseCaseBound", "[", "p", "]"}], 
+            ",", "5"}], "}"}], ",", RowBox[
+         {"{", RowBox[{"p", ",", "1", ",", "2"}], "}"}], ",", 
+        RowBox[{"PlotLegends", "\[Rule]", RowBox[{"Placed", "[", 
+            RowBox[{RowBox[{"{", RowBox[{"\"upper bound\"", ",", 
+                  "\"threshold 5\""}], "}"}], ",", "Below"}], "]"}]}], ",", 
+        RowBox[{"AxesLabel", "\[Rule]", RowBox[
+           {"{", RowBox[{"\"p\"", ",", "\"value\""}], "}"}]}], ",", 
+        RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
+        RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}]], "Input"], 
+  Cell[CellGroupData[
+    {Cell[BoxData[RowBox[{"baseCaseMaximum", "=", 
+         RowBox[{"NMaximize", "[", RowBox[{RowBox[{"{", RowBox[
+                {RowBox[{"baseCaseBound", "[", "p", "]"}], ",", 
+                 RowBox[{"1", "\[LessEqual]", "p", "\[LessEqual]", "2"}]}], 
+               "}"}], ",", "p"}], "]"}]}]], "Input"], 
+     Cell[BoxData[RowBox[{"{", RowBox[{"4.500000014692439`", ",", 
+           RowBox[{"{", RowBox[{"p", "\[Rule]", "0.9999999900135937`"}], 
+             "}"}]}], "}"}]], "Output"]}, Open]], 
+  Cell["The numerical maximum is 4.5 at the endpoint p = 1, hence it is \
+strictly smaller than 5.", "Text"], Cell["Summary", "Section"], 
+  Cell["All three Boolean checks should evaluate to True.", "Text"], 
+  Cell[CellGroupData[
+    {Cell[BoxData[RowBox[{"checks", "=", RowBox[{"Association", "[", 
+           RowBox[{RowBox[{"\"Lemma 4.2, Case 1\"", "\[Rule]", RowBox[
+                {RowBox[{"First", "[", "caseOneMaximum", "]"}], "<", 
+                 "6.55`"}]}], ",", RowBox[{"\"Lemma 4.2, Case 2\"", 
+               "\[Rule]", RowBox[{"caseTwoEndpointNumeric", "<", "6.93`"}]}], 
+             ",", RowBox[{"\"Lemma 4.3, base case\"", "\[Rule]", RowBox[
+                {RowBox[{"First", "[", "baseCaseMaximum", "]"}], "<", 
+                 "5"}]}]}], "]"}]}]], "Input"], 
+     Cell[BoxData[RowBox[{"\[LeftAssociation]", 
+         RowBox[{RowBox[{"\"Lemma 4.2, Case 1\"", "\[Rule]", "True"}], ",", 
+           RowBox[{"\"Lemma 4.2, Case 2\"", "\[Rule]", "True"}], ",", 
+           RowBox[{"\"Lemma 4.3, base case\"", "\[Rule]", "True"}]}], 
+         "\[RightAssociation]"}]], "Output"]}, Open]]}, 
+ WindowSize -> {1100, 850}, Magnification :> 1.1*Inherited, 
+ StyleDefinitions -> "Default.nb"]

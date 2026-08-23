@@ -1,0 +1,148 @@
+MANIFEST AND CONSTRUCTION AUDIT
+
+Source contract:
+  A_Transcendental_Uniform_Turan_Density_Simplified_Proof.tex
+  Sections 4--5 and Appendices A--B (definitions, not parsed prose).
+
+Canonical interpretations forced by the manuscript counts:
+  1. The aggregate T package is expanded into exactly OU, OZ, DU, DP.
+  2. A conflict on atomic type X uses Q_X when present and every
+     same-component package reserve on X; cross-component reserves
+     are signature symbols but are not members of N_X.
+  3. Every selected same-type reserve is expanded in both directed
+     variable orientations.  This is used for relator endpoints and
+     zero-injectivity as well as functionality/injectivity conflicts.
+  4. Relation-symbol pairs are unordered with repetition in the fixed
+     construction order; path-interior variables are fresh.
+  5. Written identifications are represented by reusing one formal
+     variable name.  Simple incidence means no repeated unordered
+     pair of formal variable names in one expanded query.
+  6. The endpoint-type order is Y; U by phase; V by phase/tag; then
+     O,D,Z,P by family, phase, and letter.  This is the fixed order
+     used by the certificate (the prose does not spell out names X_q).
+
+Signature census:
+  PASS types.source: 1
+  PASS types.semantic: 3
+  PASS types.scored: 12
+  PASS types.auxiliary: 36
+  PASS types.total: 52
+  PASS relations.source: 1
+  PASS relations.pairing: 12
+  PASS relations.scored: 30
+  PASS relations.square_reserve: 15
+  PASS relations.ie_complement: 30
+  PASS relations.sibling_complement: 27
+  PASS relations.primary_bridge: 54
+  PASS relations.package_reserve: 153
+  PASS relations.total: 322
+
+Same-type conflict-reserve census:
+  PASS N[D_0_a]: 2
+  PASS N[D_0_b]: 2
+  PASS N[D_0_c]: 2
+  PASS N[D_1_a]: 2
+  PASS N[D_1_b]: 2
+  PASS N[D_1_c]: 2
+  PASS N[D_2_a]: 2
+  PASS N[D_2_b]: 2
+  PASS N[D_2_c]: 2
+  PASS N[O_0_a]: 2
+  PASS N[O_0_b]: 2
+  PASS N[O_0_c]: 2
+  PASS N[O_1_a]: 2
+  PASS N[O_1_b]: 2
+  PASS N[O_1_c]: 2
+  PASS N[O_2_a]: 2
+  PASS N[O_2_b]: 2
+  PASS N[O_2_c]: 2
+  PASS N[P_0_a]: 1
+  PASS N[P_0_b]: 1
+  PASS N[P_0_c]: 1
+  PASS N[P_1_a]: 1
+  PASS N[P_1_b]: 1
+  PASS N[P_1_c]: 1
+  PASS N[P_2_a]: 1
+  PASS N[P_2_b]: 1
+  PASS N[P_2_c]: 1
+  PASS N[U_0]: 10
+  PASS N[U_1]: 10
+  PASS N[U_2]: 10
+  PASS N[V_0_*]: 1
+  PASS N[V_0_a]: 1
+  PASS N[V_0_b]: 1
+  PASS N[V_0_c]: 1
+  PASS N[V_1_*]: 1
+  PASS N[V_1_a]: 1
+  PASS N[V_1_b]: 1
+  PASS N[V_1_c]: 1
+  PASS N[V_2_*]: 1
+  PASS N[V_2_a]: 1
+  PASS N[V_2_b]: 1
+  PASS N[V_2_c]: 1
+  PASS N[Z_0_a]: 1
+  PASS N[Z_0_b]: 1
+  PASS N[Z_0_c]: 1
+  PASS N[Z_1_a]: 1
+  PASS N[Z_1_b]: 1
+  PASS N[Z_1_c]: 1
+  PASS N[Z_2_a]: 1
+  PASS N[Z_2_b]: 1
+  PASS N[Z_2_c]: 1
+
+Expanded-query census:
+  PASS queries.package_functionality: 486
+  PASS queries.package_injectivity: 513
+  PASS queries.pairing_functionality: 42
+  PASS queries.pairing_injectivity: 240
+  PASS queries.scored_edge_incoming_uniqueness: 96
+  PASS queries.scored_edge_outgoing_functionality: 60
+  PASS queries.source_functionality: 2
+  PASS queries.relator_zero_nonzero_mismatch: 27
+  PASS queries.relator_nonzero_endpoint_mismatch: 120
+  PASS queries.ideal_word: 3
+  PASS queries.zero_injectivity: 180
+  PASS queries.zero_edge_compatibility: 30
+  PASS queries.coreference_compatibility: 600
+  PASS queries.ie_complement: 30
+  PASS queries.sibling_complement: 27
+  PASS queries.total: 2456
+  PASS maximum atoms: 11
+  PASS maximum variables: 11
+  PASS same-type atom histogram: {0: 198, 1: 2258}
+  PASS local-cell schemas: 42
+
+Per-query atom-level tests (run independently on all 2456 rows):
+  PASS every atom uses its relation's declared ordered endpoint types
+  PASS no atom is a formal loop R(x,x)
+  PASS no two atoms use the same unordered formal-variable pair
+  PASS at most one equal-endpoint-type atom, always a reserve
+  PASS every formal variable has one atomic type
+  PASS every query has at most 11 atoms and at most 11 variables
+
+Exact Fraction arithmetic:
+  PASS all 322 c_R are positive
+  PASS all 322 m_R=L_0*c_R*p_X*p_Y are positive integers
+  PASS sum m_R=M=8527079511467783033168342073204
+  PASS min/max m_R=17638200000/221966587180821106316170480000
+  PASS B(p_0)=-477982848835180189012746061632/8030184823044151
+  PASS beta(1)=-33801870975609290652993973554657/8
+  PASS beta(g_max)=-4225233871951161331615439107266
+  PASS min/max d_v (all 54 types)=316/905257
+  PASS min/max d_v (52 endpoint types)=316/80000
+
+Determinism:
+  PASS independent in-process rebuild is byte-identical
+  generator SHA-256: 68447be5aa74ba04defbfd25814d2d0de5ebad177a446d24a032b497145fc11d
+  query_manifest.json SHA-256: 6ec364ea1470dbfcbf3371021f31924323766273f839d24c6a5be74cd5f47a7e
+  relation_signature.tsv SHA-256: 9ecbfdc291aec84ac4c41ebf445dd9d17e08a6b9b1aa1a1d7f63908840f619ad
+  construction_certificate.json SHA-256: f193c435e2d65c4cf78211705c9e0f11b0e79a24213a3850ad58f34f368593eb
+
+Scope:
+  The signature, every query atom, and all displayed rational and
+  integer construction data are fully instantiated.  The script
+  does not enumerate the M signal-copy words or the later ordinary
+  hypergraph gadgets; those are outside the three ancillary finite
+  data files claimed in Appendices A--B.
+
+ALL EXACT-ARITHMETIC AND STRUCTURAL TESTS PASSED

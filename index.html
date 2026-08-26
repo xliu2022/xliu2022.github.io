@@ -13,6 +13,8 @@
       --muted: #bac2cc;
       --soft: #dde4ec;
       --link: #f0f4fa;
+      --open-access: #78d99d;
+      --chinese-journal: #ff9292;
     }
 
     * {
@@ -37,6 +39,12 @@
 
     a:hover {
       border-bottom-color: rgba(232, 237, 245, 0.48);
+    }
+
+    a:focus-visible {
+      outline: 2px solid #9dccff;
+      outline-offset: 3px;
+      border-bottom-color: transparent;
     }
 
     .page {
@@ -92,10 +100,10 @@
 
     h2 {
       margin: 0 0 12px;
-      font-size: 1.02rem;
+      font-size: 1.2rem;
       font-weight: 600;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
+      line-height: 1.3;
+      letter-spacing: 0.02em;
       color: var(--soft);
     }
 
@@ -109,8 +117,168 @@
       margin-top: 10px;
     }
 
-    .publication {
+    .publication-title-links {
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 400;
+    }
+
+    .publication-group + .publication-group {
+      margin-top: 24px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    .publication-subhead {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px 16px;
+      margin-bottom: 12px;
+    }
+
+    .publication-group h3 {
+      margin: 0;
       color: var(--soft);
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    .publication-note-inline {
+      color: var(--muted);
+      font-size: 0.94rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    .publication-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .publication-legend span {
+      padding: 3px 9px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 0.78rem;
+      line-height: 1.4;
+    }
+
+    .publication-legend .open-access,
+    .publication-legend-inline .open-access,
+    .journal-tag.open-access {
+      color: var(--open-access);
+    }
+
+    .publication-legend .chinese-journal,
+    .publication-legend-inline .chinese-journal,
+    .journal-tag.chinese-journal {
+      color: var(--chinese-journal);
+    }
+
+    .publication-legend-inline {
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    .pub-list {
+      margin: 0;
+      padding-left: 2.6rem;
+      list-style: none;
+      color: var(--soft);
+    }
+
+    .pub-list li {
+      position: relative;
+      margin: 0;
+      padding: 0 0 0.4rem 0.2rem;
+      border-bottom: 1px solid rgba(230, 236, 244, 0.1);
+    }
+
+    .pub-list li + li {
+      margin-top: 0.4rem;
+    }
+
+    .pub-list li:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    .pub-list li::before {
+      content: "✍️";
+      position: absolute;
+      left: -2.15rem;
+      font-size: 0.86rem;
+    }
+
+    .pub-list li.ai-assisted::before {
+      content: "🤖";
+    }
+
+    .pub-list li.human-ai-assisted::before {
+      content: "✍️🤖";
+      left: -2.55rem;
+      font-size: 0.78rem;
+    }
+
+    .pub-list li.flag-algebra-assisted::before {
+      content: "✍️📺";
+      left: -2.55rem;
+      font-size: 0.78rem;
+    }
+
+    .pub-list em {
+      color: var(--text);
+    }
+
+    .pub-list a {
+      display: inline-flex;
+      align-items: center;
+      margin-left: 0.3rem;
+      padding: 0.05rem 0.45rem;
+      border: 1px solid rgba(232, 237, 245, 0.18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.05);
+      font-size: 0.82rem;
+      font-weight: 600;
+      line-height: 1.5;
+      vertical-align: middle;
+    }
+
+    .pub-list a:hover {
+      border-color: rgba(232, 237, 245, 0.48);
+      background: rgba(255, 255, 255, 0.09);
+    }
+
+    .pub-list .arxiv-link {
+      color: #ffd27d;
+      border-color: rgba(218, 165, 74, 0.5);
+      background: rgba(168, 112, 28, 0.22);
+    }
+
+    .pub-list .journal-link {
+      color: #9dccff;
+      border-color: rgba(75, 142, 214, 0.48);
+      background: rgba(42, 103, 168, 0.2);
+    }
+
+    .pub-list .github-link {
+      color: #d6bcff;
+      border-color: rgba(151, 105, 219, 0.5);
+      background: rgba(111, 66, 193, 0.22);
+    }
+
+    .pub-list .arxiv-link:hover,
+    .pub-list .journal-link:hover,
+    .pub-list .github-link:hover {
+      filter: brightness(1.18);
     }
 
     @media (max-width: 640px) {
@@ -123,6 +291,10 @@
       .section {
         padding: 20px 0;
       }
+
+      .pub-list {
+        padding-left: 2.35rem;
+      }
     }
   </style>
 </head>
@@ -131,9 +303,9 @@
     <header class="hero">
       <h1>Xizhi Liu</h1>
       <p class="subtitle">
-        Special-Term Professor, 2025-2031,
+        Special-Term Professor, 2025–2031,
         <a href="https://math.ustc.edu.cn/main.htm" target="_blank" rel="noreferrer">School of Mathematical Sciences</a>,
-        <a href="http://www.ustc.edu.cn/" target="_blank" rel="noreferrer">University of Science and Technology of China</a>
+        <a href="https://www.ustc.edu.cn/" target="_blank" rel="noreferrer">University of Science and Technology of China</a>
       </p>
       <div class="meta">
         <p>
@@ -159,7 +331,7 @@
       <ul>
         <li>
           <a href="https://a372959313.github.io/" target="_blank" rel="noreferrer">Wanfang Chen</a>,
-          Postdoc, 2025.07-2027.07
+          Postdoc, July 2025–July 2027
         </li>
       </ul>
     </section>
@@ -173,22 +345,22 @@
         <li>2026 Spring, MATH7425P 图论选讲 (2/4), USTC.</li>
         <li>2025 Fall, <a href="MATH5006P_2025Fall.html">MATH5006P 图论</a>, USTC.</li>
         <li>
-          2025 Apr. 15-19,
+          Apr. 15–19, 2025,
           <a href="https://math.tyut.edu.cn/info/1053/10143.htm" target="_blank" rel="noreferrer">
             Mini-course on hypergraph Turan problems
           </a>,
           Taiyuan University of Technology.
         </li>
         <li>
-          2025 Jan. 01-Mar. 16,
+          Jan. 1–Mar. 16, 2025,
           <a href="https://warwick.ac.uk/fac/sci/maths/currentstudents/currentpostgraduates/phd_studies/modules/ma9m2/" target="_blank" rel="noreferrer">
             MA9M2 Topics in Combinatorics
           </a>,
           University of Warwick.
         </li>
         <li>
-          2023 Aug. 21-25,
-          <a href="http://math.suda.edu.cn/47/65/c10710a542565/page.htm" target="_blank" rel="noreferrer">
+          Aug. 21–25, 2023,
+          <a href="https://math.suda.edu.cn/47/65/c10710a542565/page.htm" target="_blank" rel="noreferrer">
             Mini-course on Extremal Hypergraph Theory
           </a>,
           Suzhou University.
@@ -200,18 +372,123 @@
     <section class="section">
       <h2>Conference / Workshop Organization</h2>
       <ul>
-        <li>2026 Jan. 14-17, 中科大冬季组合图论研讨会.</li>
-        <li>2025 July 08-11, Combinatorics and Graph Theory Workshop, USTC.</li>
+        <li>Jan. 14–17, 2026, 中科大冬季组合图论研讨会.</li>
+        <li>July 8–11, 2025, Combinatorics and Graph Theory Workshop, USTC.</li>
       </ul>
     </section>
 
-    <section class="section">
-      <h2>Publications/Preprints</h2>
-      <p class="publication">
-        <a href="https://arxiv.org/a/liu_x_15.html" target="_blank" rel="noreferrer">arXiv</a>, 
-        <a href="https://github.com/xliu2022/xliu2022.github.io/tree/main/Unpolished_Manuscripts" target="_blank" rel="noreferrer">GitHub</a> 
-        (contains unpolished research notes that have not been verified by a human)
-      </p>
+    <section class="section" id="publications">
+      <h2 class="publication-title">
+        Publications/Preprints/Research Notes
+        <span class="publication-title-links">(<a class="arxiv-link" href="https://arxiv.org/a/liu_x_15.html" target="_blank" rel="noreferrer">[arXiv]</a>, <a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/tree/main/Unpolished_Manuscripts" target="_blank" rel="noreferrer">[GitHub:UnpolishedNotes]</a>, <a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/tree/main/ResearchNotes" target="_blank" rel="noreferrer">[GitHub:ResearchNotes]</a>)</span>
+      </h2>
+
+      <div class="publication-group">
+        <div class="publication-subhead">
+          <h3>Preprints/Research Notes <span class="publication-note-inline">(Some are preliminary drafts and have not yet been fully polished or verified by a human; some research notes are not intended for publication)</span></h3>
+        </div>
+      <ul class="pub-list">
+        <li class="ai-assisted"><em>On the spectrum of minimum ℓ-degree Turan densities</em>, (with H. Li) 28 pp.<a href="https://github.com/xliu2022/xliu2022.github.io/tree/main/CodegreeTuranInterval_certificates" target="_blank" rel="noopener noreferrer">Scripts</a><a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/On%20the%20spectrum%20of%20minimum%20ell-degree%20Turan%20densities.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li class="ai-assisted"><em>Turing universality, computability, and incompleteness in hypergraph Turan theory</em>, (with H. Li) 141 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/Turing%20universality%2C%20computability%2C%20and%20incompleteness%20in%20hypergraph%20Turan%20theory.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li class="ai-assisted"><em>A finite family with transcendental uniform Turan density</em>, (with H. Li) 36 pp.<a href="https://github.com/xliu2022/xliu2022.github.io/tree/main/Unpolished_Manuscripts/scripts%20for%20Trancendental%20Uniform%20Turan" target="_blank" rel="noopener noreferrer">Scripts</a><a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/A%20finite%20family%20with%20transcendental%20uniform%20Turan%20density.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li class="ai-assisted"><em>Undecidability in uniform Turan densities</em>, (with H. Li) 26 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/Undecidability%20in%20Uniform%20Turan%20Densities.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li class="ai-assisted"><em>Gaps between Turan densities for r-graphs on r+1 vertices</em>, (with H. Li) 17 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/Gaps%20between%20Turan%20densities%20for%20r-graphs%20on%20r%2B1%20vertices.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li class="ai-assisted"><em>On the VC-dimension of Erdos-Renyi random graphs</em>, (with H. Li) 51 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/On%20the%20VC-dimension%20of%20Erdos-Renyi%20random%20graphs.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li><em>Tight Hamiltonian cycles in uniformly dense 3-graphs</em>, (with Y. Chen and J. Han) 43 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2608.14338" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>Forcing quasirandomness via rooted F-densities</em>, (with H. Li) 21 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2608.08679" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>Intervals of uniform Turan densities</em>, (with H. Li and O. Pikhurko) 19 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2608.04790" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>Transcendence and undecidability for ℓ-degree Turan densities</em>, (with H. Li) 46 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/Transcendence%20and%20undecidability%20for%20ell-degree%20Turan%20densities.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li class="ai-assisted"><em>Transcendence and undecidability in hypergraph Turan densities</em>, (with H. Li and H. Liu) 48 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/Transcendence%20and%20Undecidability%20in%20Hypergraph%20Turan%20Densities.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li class="ai-assisted"><em>Nearly sharp bounds for lattice coverings by convex bodies</em>, (with H. Li) 45 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2607.28429" target="_blank" rel="noopener noreferrer">[arXiv]</a><br>Accompanying draft: <em>Two-stage binary correction for nearly linear lattice coverings</em>, (with H. Li) 15 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/Two-Stage%20Binary%20Correction%20for%20Nearly%20Linear%20Lattice%20Coverings.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li class="ai-assisted"><em>The density Hajnal-Szemeredi theorem</em>, (with ***) 46 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/The%20density%20Hajnal-Szemeredi%20theorem.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li class="ai-assisted"><em>The anti-supersaturation problem</em>, (with H. Li and J. Zeng) 21 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/The%20anti-supersaturation%20problem.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li><em>Strong counterexamples to Mubayi's supersaturation conjecture in every uniformity</em>, (with H. Li, H. Liu, and J. Wang) 27 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2606.26735" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>Sharp bounds for minimal dependencies of linear-form powers</em>, (with H. Li) 20 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/A%20Sharp%20Bound%20for%20Minimal%20Dependencies%20among%20Powers%20of%20Linear%20Forms.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a><a class="arxiv-link" href="https://arxiv.org/abs/2606.24349" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="flag-algebra-assisted"><em>Turan numbers of 4-uniform tight even cycles minus one edge</em>, (with W. Chen, J. Hou, Y. Zhang, and H. Zhao) 24 pp.<a href="https://github.com/xliu2022/xliu2022.github.io/tree/main/FlagAlgebra_Certificate/FourUniformTightCycles" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2606.22828" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>A note on Bukh's construction of extremal graphs without small bicliques</em>, (with H. Li) 11 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/A%20note%20on%20Bukh%27s%20construction%20of%20extremal%20graphs%20without%20small%20bicliques.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li class="ai-assisted"><em>Logarithmic colourings, monomial shrinking targets, and product-configuration obstructions</em>, (with H. Li) 29 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/Unpolished_Manuscripts/Logarithmic%2C%20high-density%20fibre%2C%20and%20finite-fibre%20obstructions%20to%20infinite%20product%20configurations.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li><em>Exact extremal constructions for the inducibility of blowup graphs</em>, (with W. Chen) 14 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2606.06202" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>Physical-space scarring in generic Bunimovich stadia</em>, (with H. Li) 15 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2606.02426" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="flag-algebra-assisted"><em>Vertex-colored Turan theorems with applications in extremal hypergraph problems</em>, (with W. Chen, J. Deng, J. Hou, and Y. Zhang) 34 pp.<a href="https://github.com/xliu2022/xliu2022.github.io/tree/main/FlagAlgebra_Certificate/ForbidK53CountK43" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2606.02210" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Upper bounds on Turan densities via extremal set theory</em>, (with Y. Chen, N. Yang, and T. Zhu) 14 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2606.02135" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="flag-algebra-assisted"><em>The inducibility of 6-vertex graphs</em>, (with L. Bodnar, J. Gao, J. Leon, O. Pikhurko, and S. Sun) 34 pp.<a href="https://github.com/bodnalev/supplementary_files/tree/main/graph_inducibility_6vtx" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2606.00290" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>The spectral inducibility of graphs</em>, (with L. Kang and Y. Lu) 14 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2605.30821" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="human-ai-assisted"><em>A finite-board reduction for the Erdos matching conjecture and the 4-uniform case via exact certificates</em>, (with J. Hou and C. Hu) 28 pp.<a href="EMC_certificate.zip" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2605.26060" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="human-ai-assisted"><em>Intervals of hypergraph Turan densities</em>, (with O. Pikhurko) 23 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2605.25914" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>On Mubayi's polynomial-ideal conjecture and a hypergraph Turan theorem</em>, (with H. Li) 13 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2605.24507" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>A single 3-graph with infinite stability number</em>, (with H. Li) 11 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2605.21877" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>The spectral radius of k-chromatic r-graphs</em>, (with J. Luo) 41 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2605.14755" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="human-ai-assisted"><em>The number 4/9 is a non-jump for 3-graphs</em>, (with D. Mubayi) 12 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2605.13567" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Spectral sensitivity of directed weighted networks: Why weakening edges may trigger synchronization</em>, (with X. Wu, C. Zhang, T. Chen, and W. Lu) 18 pp.<a href="https://github.com/xinyu970905-cloud/SpectralSensitivity" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2605.11728" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="ai-assisted"><em>A note on the t-partite link problem of Furedi</em>, (with J. Hou, X. Hou, J. Zeng, and Y. Zhang) 14 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2605.11049" target="_blank" rel="noopener noreferrer">[arXiv]</a><br>This paper improves upon the following earlier research note: <em>Improved upper bound for the Turan density of daisies</em>, (with J. Hou and Y. Zhang) 10 pp.<a class="github-link" href="https://github.com/xliu2022/xliu2022.github.io/blob/main/ResearchNotes/Improved%20upper%20bound%20for%20the%20Turan%20density%20of%20daisies.pdf" target="_blank" rel="noopener noreferrer">[GitHub]</a></li>
+        <li><em>The inducibility of Turan graphs</em>, (with J. Ma and T. Zhu) 32 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2601.10548" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Andrasfai-Erdos-Sos theorem under max-degree constraints</em>, (with S. Ren and J. Wang) 12 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2512.10190" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="flag-algebra-assisted"><em>Tetrahedron conjecture in the &ell;<sub>2</sub>-norm</em>, (with L. Bodnar, W. Chen, J. Deng, J. Hou, J. Song, J. Yang, and Y. Zhang) 28 pp.<a href="https://github.com/xliu2022/xliu2022.github.io/tree/main/FlagAlgebra_Certificate/ThreeColored-Mantel-L2norm" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2511.12506" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="flag-algebra-assisted"><em>Odd hypergraph Mantel theorems</em>, (with J. Hou, Y. Zhang, and H. Zhao) 13 pp.<a href="https://github.com/xliu2022/xliu2022.github.io/tree/main/FlagAlgebra_Certificate" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2510.10590" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Toward a rainbow Corradi-Hajnal theorem I</em>, (with J. Deng, J. Hou, and C. Hu) 28 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2510.04018" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Spectral generalized Turan problems</em>, 24 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2507.21689" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Exact Turan number of the Fano plane in the &ell;<sub>2</sub>-norm</em>, (with J. Hou and Y. Zhang) 43 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2507.12354" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="flag-algebra-assisted"><em>Turan density of tight cycles minus one edge in the &ell;<sub>2</sub>-norm</em>, (with L. Bodnar, J. Deng, J. Hou, and H. Zhao) 18 pp.<a href="https://drive.google.com/drive/folders/175ciwbvhYCeCQmub2mVzslRxopIHZAl6?usp=share_link" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2507.00812" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="flag-algebra-assisted"><em>The Turan density of short tight cycles</em>, (with L. Bodnar, J. Leon, and O. Pikhurko) 28 pp.<a href="https://github.com/bodnalev/supplementary_files/tree/main/no_cl" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2506.03223" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>On a hypergraph Mantel theorem</em>, 18 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2501.19229" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Tiling H in dense graphs</em>, (with N. Chen, L. Sun, and G. Wang) 45 pp.<a href="Calculations-H-tiling.nb" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2501.11450" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Density Hajnal-Szemeredi theorem for cliques of size four</em>, (with J. Hou, C. Hu, and Y. Zhang) 99 pp.<a href="DensityHSK4.nb" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2501.00801" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li class="flag-algebra-assisted"><em>The Turan density of the tight 5-cycle minus one edge</em>, (with L. Bodnar, J. Leon, and O. Pikhurko) 26 pp.<a href="https://github.com/bodnalev/supplementary_files/tree/main/no_c5m" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2412.21011" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Andrasfai-Erdos-Sos theorem for the generalized triangle</em>, (with S. Ren and J. Wang) 23 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2410.20832" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Uniquely colorable hypergraphs</em>, (with J. Ma, T. Wang, and T. Zhu) 29 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2409.01654" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Nondegenerate Turan problems under (t,p)-norms</em>, (with W. Chen, D. Ilkovi, J. Leon, and O. Pikhurko) 46 pp.<a href="Mathematica_Calculations/tp-Norm_Turan.nb" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2406.15934" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Strong stability from vertex-extendability and applications in generalized Turan problems</em>, (with W. Chen) 30 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2406.05748" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+      </ul>
+      </div>
+
+      <div class="publication-group">
+        <div class="publication-subhead">
+          <h3>Published/Accepted <span class="publication-legend-inline">(<span class="open-access">Free open-access journal</span>, <span class="chinese-journal">Chinese math journal</span>)</span></h3>
+        </div>
+      <ul class="pub-list">
+        <li><em>Covering large-dimensional Euclidean spaces by random translates of a given convex body</em>, (with B. Bukh, J. Gao, O. Pikhurko, and S. Sun) Discrete Comput. Geom., 16 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2510.25685" target="_blank" rel="noopener noreferrer">[arXiv]</a></li>
+        <li><em>Generalized Andrasfai-Erdos-Sos theorems for odd cycles</em>, (with Z. Chen, J. Hou, and C. Hu) <span class="journal-tag chinese-journal">Acta Math. Appl. Sin. Engl. Ser.</span> 7 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2409.11950" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1007/s10255-026-0097-y" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>A generalized Turan extension of the Deza-Erdos-Frankl theorem</em>, (with C. Helliar) J. Graph Theory, 12 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2404.02762" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1002/jgt.70023" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>A criterion for Andrasfai--Erdos--Sos type theorems and applications</em>, (with J. Hou and H. Zhao) <span class="journal-tag chinese-journal">Ann. Appl. Math.</span> 23 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2401.17219" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.4208/aam.OA-2025-0015" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>On a refinement of the Ahlswede--Katona theorem</em>, (with J. Hou and Y. Zhang) <span class="journal-tag chinese-journal">Ann. Appl. Math.</span> 25 pp.<a href="https://github.com/xliu2022/xliu2022.github.io/blob/main/AKS2.nb" target="_blank" rel="noopener noreferrer">Scripts</a><a class="arxiv-link" href="https://arxiv.org/abs/2510.19681" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.4208/aam.oa-2025-0031" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Positive codegree Andrasfai-Erdos-Sos theorem for the generalized triangle</em>, (with S. Ren and J. Wang) J. Graph Theory, 9 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2411.07090" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1002/jgt.70012" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Many vertex-disjoint even cycles of fixed length in a graph</em>, (with J. Hou, C. Hu, H. Li, C. Yang, and Y. Zhang) J. Graph Theory, 12 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2311.16189" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1002/jgt.70003" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Convergence of spectra of digraph limits</em>, (with J. Grebik, D. Kral, O. Pikhurko, and J. Slipantschuk) European J. Combin. 15 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2506.04426" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.ejc.2026.104349" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>A note on the minimum size of Turan systems</em>, (with O. Pikhurko) <span class="journal-tag open-access">Electron. J. Combin.</span> 8 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2501.15457" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.37236/14584" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Sabotage the Mantel theorem</em>, (with N. Behague and D. Chakraborti) <span class="journal-tag open-access">Electron. J. Combin.</span> 8 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2506.23794" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.37236/14324" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>New upper bound for lattice covering by spheres</em>, (with J. Gao, O. Pikhurko, and S. Sun) Mathematika, 15 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2508.06446" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1112/mtk.70066" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>On the boundedness of degenerate hypergraphs</em>, (with J. Hou, C. Hu, H. Li, C. Yang, and Y. Zhang) <span class="journal-tag chinese-journal">Acta Math. Sin. (Engl. Ser.)</span> 19 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2407.00427" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1007/s10114-026-4419-z" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Tight bounds for rainbow partial F-tiling in edge-colored complete hypergraphs</em>, (with J. Deng, J. Hou, and C. Yang) J. Graph Theory, 19 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2406.14083" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1002/jgt.23282" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Phase transition of degenerate Turan problems in p-norms</em>, (with J. Gao, J. Ma, and O. Pikhurko) SIAM J. Discrete Math. 28 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2411.15579" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1137/25M1738401" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Exact results for some extremal problems on expansions I</em>, (with J. Song and L. Yuan), <span class="journal-tag chinese-journal">Commun. Math. Stat.</span> 50 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2310.01736" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1007/s40304-024-00429-y" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>A step towards a general density Corradi-Hajnal theorem</em>, (with J. Hou, H. Li, L.-T. Yuan, and Y. Zhang) Canad. J. Math. 32 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2302.09849" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.4153/S0008414X25000197" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Random Turan and counting results for general position sets over finite fields</em>, (with Y. Chen, J. Nie, and J. Zeng) <span class="journal-tag chinese-journal">Sci. China Math.</span> 28 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2309.07744" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://link.springer.com/article/10.1007/s11425-024-2384-x" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Hypergraphs with many extremal configurations</em>, (with D. Mubayi and C. Reiher) Israel. J. Math., 34 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2102.02103" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://link.springer.com/article/10.1007/s11856-025-2792-4" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Finite hypergraph families with rich extremal Turan constructions via mixing patterns</em>, (with O. Pikhurko) Forum of Math, Sigma, 13 (2025) Paper e53, 49 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2212.08636" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1017/fms.2025.12" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Toward a density Corradi-Hajnal theorem for degenerate hypergraphs</em>, (with J. Hou, C. Hu, H. Li, C. Yang, and Y. Zhang), J. Combin. Theory Ser. B 172 (2025), 221-262, 42 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2311.15172" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.jctb.2025.01.001" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Hypergraph anti-Ramsey theorems</em>, (with J. Song), J. Graph Theory 108 (2025), no. 4, 808-816, 9 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2310.01186" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1002/jgt.23204" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>A note on extremal constructions for the Erdos-Rademacher problem</em>, (with O. Pikhurko), Combin. Probab. Comput. 34 (2025), no. 1, 52-62, 11 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2311.18753" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1017/S0963548324000269" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Turan problems in pseudorandom graphs</em>, (with D. Mubayi and David Munha Correia), Combin. Probab. Comput. 33 (2024), no. 5, 583-596, 14 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2209.12103" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1017/S0963548324000142" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Cancellative hypergraphs and Steiner triple systems</em>, J. Combin. Theory Ser. B 167 (2024), 303-337, 35 pp.<a class="arxiv-link" href="https://arxiv.org/abs/1912.11917" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.jctb.2024.03.006" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Hypergraphs with infinitely many extremal constructions</em>, (with J. Hou, H. Li, D. Mubayi, and Y. Zhang) <span class="journal-tag open-access">Discrete Analysis</span> 2023:18, 34 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2206.03948" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://discreteanalysisjournal.com/article/88508-hypergraphs-with-infinitely-many-extremal-constructions" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Hypergraph Turan densities can have arbitrarily large algebraic degree</em>, (with O. Pikhurko) J. Combin. Theory Ser. B 161 (2023), 407-416, 10 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2207.05576" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.jctb.2023.03.003" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Stability theorems for some Kruskal-Katona type results</em>, (with S. Mukherjee) European J. Combin. 110:103666, 2023, 20 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2006.04848" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.ejc.2022.103666" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>The feasible region of induced graphs</em>, (with D. Mubayi and C. Reiher) J. Combin. Theory Ser. B 158 (2023), 105--135, 31 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2106.16203" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.jctb.2022.09.003" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>A unified approach to hypergraph stability</em>, (with D. Mubayi and C. Reiher) J. Combin. Theory Ser. B 158 (2023), 36--62, 27 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2104.00167" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.jctb.2022.08.008" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Tight query complexity bounds for learning graph partitions</em>, (with S. Mukherjee) Conference on Learning Theory (COLT), 2022, 13 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2112.07897" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://proceedings.mlr.press/v178/liu22a.html" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Hypergraphs without non-trivial intersecting subgraphs</em>, Combin. Probab. Comput. 31(6), 1076-1091, 2022, 16 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2007.11055" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1017/S096354832200013X" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>On explicit constructions of designs</em>, (with D. Mubayi) <span class="journal-tag open-access">Electron. J. Combin.</span> 29 (2022), no. 1, Paper No. 1.53, 11 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2106.05347" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.37236/10513" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Independent sets in hypergraphs omitting an intersection</em>, (with T. Bohman and D. Mubayi) Random Structures Algorithms 61 (2022), no. 3, 493--519, 27 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2101.04258" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1002/rsa.21071" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>On a generalized Erdos-Rademacher problem</em>, (with D. Mubayi) J. Graph Theory 100 (2022), no. 1, 101--126, 26 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2005.07224" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1002/jgt.22768" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Sparse halves in K4-free graphs</em>, (with J. Ma) J. Graph Theory 99 (2022), no. 1, 5-25, 21 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2007.14623" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1002/jgt.22722" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>A hypergraph Turan problem with no stability</em>, (with D. Mubayi) Combinatorica 42 (2022), no. 3, 433-462, 30 pp.<a class="arxiv-link" href="https://arxiv.org/abs/1911.07969" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1007/s00493-021-4561-2" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Tight bounds for Katona's shadow intersection theorem</em>, (with D. Mubayi) European J. Combin. 97:103391, 2021, 17 pp.<a class="arxiv-link" href="https://arxiv.org/abs/2005.06999" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.ejc.2021.103391" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>The feasible region of hypergraphs</em>, (with D. Mubayi) J. Combin. Theory Ser. B 148 (2021), 23--59, 37 pp.<a class="arxiv-link" href="https://arxiv.org/abs/1911.02090" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.jctb.2020.12.004" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>New short proofs to some stability theorems</em>, European J. Combin. 96:103350, 2021, 8 pp.<a class="arxiv-link" href="https://arxiv.org/abs/1903.01606" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.ejc.2021.103350" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>Structural results for conditionally intersecting families and some applications</em>, <span class="journal-tag open-access">Electron. J. Combin.</span>, 33(2), 2020, 13 pp.<a class="arxiv-link" href="https://arxiv.org/abs/1903.01622" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.37236/8894" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+        <li><em>d-cluster-free sets with a given matching number</em>, European J. Combin. 82:103000, 2019, 19 pp.<a class="arxiv-link" href="https://arxiv.org/abs/1811.07064" target="_blank" rel="noopener noreferrer">[arXiv]</a><a class="journal-link" href="https://doi.org/10.1016/j.ejc.2019.103000" target="_blank" rel="noopener noreferrer">[journal]</a></li>
+      </ul>
+      </div>
     </section>
   </main>
 </body>

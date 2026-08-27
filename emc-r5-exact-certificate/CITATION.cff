@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this certificate, please cite the associated paper."
+title: "Exact certificate for the Erdős matching conjecture in uniformity five"
+type: software
+authors:
+  - family-names: "Han"
+    given-names: "Jie"
+  - family-names: "Liu"
+    given-names: "Xizhi"
+  - family-names: "Wang"
+    given-names: "Jian"
+version: 1.0.0
+date-released: 2026-08-27
+abstract: >-
+  Exact rational, quotient-ring, and outward-rounded interval certificate
+  accompanying the paper The Erdős matching conjecture for 5-uniform
+  hypergraphs with large ground sets.
+keywords:
+  - extremal combinatorics
+  - hypergraphs
+  - exact certificate
+  - interval arithmetic
+  - Bernstein basis
+

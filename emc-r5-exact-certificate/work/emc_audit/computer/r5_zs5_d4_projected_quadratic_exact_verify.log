@@ -1,0 +1,8 @@
+R5_ZS5_D4_QUADRATIC_EXACT_INTERVAL_PASS
+vertices 587 projected_keys 545 simplices 40990 rows 5164740
+strict_rows 5151946 exact_active_rows 12794
+minimum_strict_lower_scaled 5411340156129015928571 scale_bits 90
+largest_active_interval_width_scaled 267468378
+row_stream_fnv1a64 49063aa32fa17a6f
+closed_top_face_corrections INCLUDED
+EXACT ACTIVE IDENTITIES REQUIRED FROM FACE-REPAIR REPLAY

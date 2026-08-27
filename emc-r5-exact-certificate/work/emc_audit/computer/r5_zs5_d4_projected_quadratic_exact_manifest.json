@@ -1,0 +1,48 @@
+{
+  "expected_frozen_hashes_sha256": {
+    "active_audit": "d08c9b2dccb89c0ae3a1d10abbc48b8028a4ecf9ee6b433e72419e211a18c7c0",
+    "active_system": "aaf2b6fdf682386c93e2cdaca0c958071d8e9d253c2b40d112ad3a7ccd102a2e",
+    "face_repair": "4d537d614540337e4b55226fb7edfe91109fd38a00b6bc0e6b817a37b785b5f1",
+    "floating_candidate": "322348e1f8451a6e7757c0ca8ba184230cd0d8e5d98652e7b977f5d941571897",
+    "geometry_flat": "567faf32d329ebb1a3a653edcd4918136d1053a0e93ce4ab6f2faa86d8307fd4",
+    "geometry_json": "681ab4c16db61bdad98d121c6c265c18918169e9b0081f5d47f4591eebf361c2",
+    "interval_certificate": "4dc19e34b4e13ce3a849ac286e8b7c8dc4c2ef4bcf0c60db4e047bc7be565239"
+  },
+  "hashes_sha256": {
+    "active_audit": "d08c9b2dccb89c0ae3a1d10abbc48b8028a4ecf9ee6b433e72419e211a18c7c0",
+    "active_system": "aaf2b6fdf682386c93e2cdaca0c958071d8e9d253c2b40d112ad3a7ccd102a2e",
+    "active_system_generator": "4fcd950310e4afd0d00ae4da7d190a13963c6b37772baa7b04e15072bd5e5373",
+    "cpp_verifier": "d6380ec11782d1cdb2f16e1988ecf0a073b45e95e9f06a9ae2d9166931523507",
+    "face_repair": "4d537d614540337e4b55226fb7edfe91109fd38a00b6bc0e6b817a37b785b5f1",
+    "face_repair_generator": "0ad364ab87d3520852ca40130f0ed3386584fdcd137b55bea4f7e3e52d5b02cb",
+    "floating_candidate": "322348e1f8451a6e7757c0ca8ba184230cd0d8e5d98652e7b977f5d941571897",
+    "geometry_flat": "567faf32d329ebb1a3a653edcd4918136d1053a0e93ce4ab6f2faa86d8307fd4",
+    "geometry_json": "681ab4c16db61bdad98d121c6c265c18918169e9b0081f5d47f4591eebf361c2",
+    "interval_certificate": "4dc19e34b4e13ce3a849ac286e8b7c8dc4c2ef4bcf0c60db4e047bc7be565239",
+    "interval_generator": "77e929807b6572319dbd7cdd423e100bf4b4a0a7aa6dcdc7727fb24753552a6c",
+    "manifest_wrapper": "c42bb6d57f7c4361866ca8b8f1545b51782e353b80d6b05adcf963efbf91a5f0"
+  },
+  "logical_stages": {
+    "active_face": {
+      "maximum_sparse_support": 60,
+      "represented_active_rows": 12794,
+      "status": "EXACT_QZ_MOD_CUSP_PASS",
+      "unique_equations": 1620
+    },
+    "all_rows_interval_replay": {
+      "active_rows": 12794,
+      "largest_active_interval_width_scaled": 267468378,
+      "minimum_strict_lower_scaled": 5411340156129015928571,
+      "row_stream_fnv1a64": "49063aa32fa17a6f",
+      "rows": 5164740,
+      "scale_bits": 90,
+      "strict_rows": 5151946
+    },
+    "closed_top_face_corrections": "INCLUDED",
+    "interval_certificate_regeneration": "BYTE_IDENTICAL_PASS"
+  },
+  "proof_status": "EXACT D4 PROJECTED-DUAL REPLAY PASS",
+  "reproduction_command": ".venv/bin/python work/emc_audit/scripts/r5_zs5_d4_quadratic_exact_manifest.py",
+  "scanner_stdout_sha256": "d2094e4d6c19c2426af21de2d718d3ec3a4258caa320a1839d342ca9326833e6",
+  "schema": "r5_zs5_d4_projected_quadratic_exact_manifest_v1"
+}

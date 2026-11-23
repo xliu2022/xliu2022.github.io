@@ -1,6 +1,8 @@
 Triple-source networks for “Unbounded GHZ dimension from fixed-order multiphoton sources”
 Heng Li and Xizhi Liu
 
+The index in certificates.md lists the periodic transfer data, affine parameters, finite matching lists, and residue decompositions used in Sections S2 and S4–S7.
+
 A row of small_m_1_to_1000_cumulative.json specifies an exact matching size m. The network has n = 3m paths. The dimension columns give certified constructions for unrestricted triples, triples meeting three fixed groups once, and triples satisfying that grouping with no repeated pair of paths. The edge columns give the corresponding source counts. For a smaller target dimension, delete entire matching classes. The columns give lower bounds on the attainable dimensions.
 
 To export a network, run these commands in the extracted supplementary_data directory. Python 3.10 or later suffices.
@@ -15,8 +17,12 @@ The examples directory contains these networks:
 
     twelve_on_9.json           d = 12, 36 sources, first 12 classes of Table 1
     thirteen_on_9.json         d = 13, 39 sources, all classes of Table 1
+    twelve_on_12.json          d = 12, 48 sources, unrestricted
     eight_on_15.json           d = 8, 40 sources, the modulo-5 construction
+    ten_on_15.json             d = 10, 50 sources, unrestricted
     thirteen_on_18.json        d = 13, 78 sources, unrestricted
+    ten_on_21.json             d = 10, 70 sources, unrestricted
+    ten_on_24.json             d = 10, 80 sources, unrestricted
     twelve_on_39.json          d = 12, 156 sources, three fixed groups
     twelve_linear_on_117.json  d = 12, 468 sources, three groups and no repeated pair
 
@@ -30,7 +36,7 @@ Run the paper-specific checks with
 
     python3 verify_paper_examples.py
 
-This checks the source lists against Table 1 and the modulo-5 formula, enumerates the perfect matchings of the 9-, 15-, and 18-path examples, and enumerates the two affine sum classes on 39 paths. On 117 paths it reconstructs the three-sheet lift of the verified 13-element base and checks each path pair. Completeness of the lifted list follows from the cyclic signature-lift theorem in Section S4 and its linear refinement in Section S5 of the Supplemental Material. The script also regenerates every dimension and source count in the 1000-row table.
+This checks the source lists against Table 1 and the modulo-5 formula, enumerates all perfect matchings of the examples on 9, 12, 15, 18, 21, and 24 paths, and enumerates the two affine sum classes on 39 paths. On 117 paths it reconstructs the three-sheet lift of the verified 13-element base and checks each path pair. Completeness of the lifted list follows from the cyclic signature-lift theorem in Section S4 and its linear refinement in Section S5 of the Supplemental Material. The script also regenerates every dimension and source count in the 1000-row table.
 
 To check the estimates for the growth construction in Appendix A of the article, run
 
@@ -44,5 +50,11 @@ Two further checks for the finite networks are
     python3 retained_v11/verification/verify_small_ten_seeds.py
 
 The first accepts any small export and compares its entire family of perfect matchings with the supplied list. The second exhaustively checks the ten initial matching sizes used for the unrestricted dimension-10 construction. Larger instances are proved by grafting and lifting the finite inputs.
+
+To verify the linear thresholds in Section S7, run
+
+    python3 retained_v11/verification/verify_linear_arithmetic.py
+
+This checks the linear seed parameters and every residue representative for dimensions 8 through 12. Section S7 explains how repeated grafting extends the finite check to every matching size above the given threshold.
 
 The retained_v11 directory holds the original construction routines, finite seed certificates, and their dependencies. The numerical table reproduces the cumulative PM3 construction record of 22 November 2026. For nine unrestricted paths the exporter uses the algebraic labeling of the paper. The optional command python3 verification/reproduce_finite.py additionally requires a C++17 compiler and runs two independent checks of the nine-path upper bound.

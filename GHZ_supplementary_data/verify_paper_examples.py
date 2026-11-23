@@ -76,8 +76,16 @@ def check_three_sheet_lift(data):
 
 
 def main():
-    cases = [('twelve_on_9', 36, 12), ('thirteen_on_9', 39, 13),
-             ('eight_on_15', 40, 8), ('thirteen_on_18', 78, 13)]
+    cases = [
+        ('twelve_on_9', 36, 12),
+        ('thirteen_on_9', 39, 13),
+        ('twelve_on_12', 48, 12),
+        ('eight_on_15', 40, 8),
+        ('ten_on_15', 50, 10),
+        ('thirteen_on_18', 78, 13),
+        ('ten_on_21', 70, 10),
+        ('ten_on_24', 80, 10),
+    ]
     for name, sources, dimension in cases:
         record = verify(ROOT / 'examples' / (name + '.json'))
         assert (record['edges'], record['actual_matchings']) == (sources, dimension)

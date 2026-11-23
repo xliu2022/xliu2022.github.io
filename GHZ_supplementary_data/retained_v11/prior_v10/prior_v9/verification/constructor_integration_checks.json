@@ -1,0 +1,1418 @@
+[
+  {
+    "m": 1,
+    "vertices": 3,
+    "states": 1,
+    "edges": 1,
+    "method": "single_edge",
+    "setting": "unrestricted"
+  },
+  {
+    "m": 1,
+    "vertices": 3,
+    "states": 1,
+    "edges": 1,
+    "method": "single_edge",
+    "setting": "balanced_tripartite"
+  },
+  {
+    "m": 2,
+    "vertices": 6,
+    "states": 10,
+    "edges": 20,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 2,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 2,
+    "vertices": 6,
+    "states": 4,
+    "edges": 8,
+    "method": "complete_two",
+    "setting": "balanced_tripartite"
+  },
+  {
+    "m": 3,
+    "vertices": 9,
+    "states": 13,
+    "edges": 39,
+    "method": "prior_finite_example",
+    "setting": "unrestricted"
+  },
+  {
+    "m": 3,
+    "vertices": 9,
+    "states": 6,
+    "edges": 18,
+    "method": "prior_cyclic_six",
+    "setting": "balanced_tripartite"
+  },
+  {
+    "m": 4,
+    "vertices": 12,
+    "states": 12,
+    "edges": 48,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 4,
+    "vertices": 12,
+    "states": 6,
+    "edges": 24,
+    "method": "prior_cyclic_six",
+    "setting": "balanced_tripartite"
+  },
+  {
+    "m": 5,
+    "vertices": 15,
+    "states": 10,
+    "edges": 50,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 5,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 5,
+    "vertices": 15,
+    "states": 8,
+    "edges": 40,
+    "setting": "balanced_tripartite",
+    "method": "prior_partite",
+    "base_m": 5,
+    "base_kind": "prior_partite",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 6,
+    "vertices": 18,
+    "states": 11,
+    "edges": 66,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 6,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 6,
+    "vertices": 18,
+    "states": 6,
+    "edges": 36,
+    "method": "prior_cyclic_six",
+    "setting": "balanced_tripartite"
+  },
+  {
+    "m": 7,
+    "vertices": 21,
+    "states": 10,
+    "edges": 70,
+    "setting": "unrestricted",
+    "method": "twenty_one",
+    "base_m": 7,
+    "base_kind": "twenty_one",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 7,
+    "vertices": 21,
+    "states": 8,
+    "edges": 56,
+    "setting": "balanced_tripartite",
+    "method": "prior_partite",
+    "base_m": 7,
+    "base_kind": "prior_partite",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 8,
+    "vertices": 24,
+    "states": 9,
+    "edges": 72,
+    "method": "prior_uniform_nine_state_certificate",
+    "setting": "unrestricted"
+  },
+  {
+    "m": 8,
+    "vertices": 24,
+    "states": 8,
+    "edges": 64,
+    "setting": "balanced_tripartite",
+    "method": "prior_partite",
+    "base_m": 8,
+    "base_kind": "prior_partite",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 9,
+    "vertices": 27,
+    "states": 11,
+    "edges": 99,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 9,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 9,
+    "vertices": 27,
+    "states": 8,
+    "edges": 72,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 5,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      5
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 10,
+    "vertices": 30,
+    "states": 10,
+    "edges": 100,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 10,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 10,
+    "vertices": 30,
+    "states": 6,
+    "edges": 60,
+    "method": "prior_cyclic_six",
+    "setting": "balanced_tripartite"
+  },
+  {
+    "m": 11,
+    "vertices": 33,
+    "states": 10,
+    "edges": 110,
+    "setting": "unrestricted",
+    "method": "new_partite_seed",
+    "base_m": 11,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 11,
+    "vertices": 33,
+    "states": 10,
+    "edges": 110,
+    "setting": "balanced_tripartite",
+    "method": "new_partite_seed",
+    "base_m": 11,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 12,
+    "vertices": 36,
+    "states": 11,
+    "edges": 132,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 12,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 12,
+    "vertices": 36,
+    "states": 8,
+    "edges": 96,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 5,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      8
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 13,
+    "vertices": 39,
+    "states": 12,
+    "edges": 156,
+    "setting": "unrestricted",
+    "method": "new_partite_seed",
+    "base_m": 13,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 13,
+    "vertices": 39,
+    "states": 12,
+    "edges": 156,
+    "setting": "balanced_tripartite",
+    "method": "new_partite_seed",
+    "base_m": 13,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 15,
+    "vertices": 45,
+    "states": 12,
+    "edges": 180,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 3,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      13
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false
+  },
+  {
+    "m": 15,
+    "vertices": 45,
+    "states": 8,
+    "edges": 120,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 5,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      11
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 16,
+    "vertices": 48,
+    "states": 12,
+    "edges": 192,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      13
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false
+  },
+  {
+    "m": 16,
+    "vertices": 48,
+    "states": 8,
+    "edges": 128,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 5,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      5,
+      8
+    ],
+    "graft_steps": 2,
+    "tripartition_available": true
+  },
+  {
+    "m": 17,
+    "vertices": 51,
+    "states": 10,
+    "edges": 170,
+    "setting": "unrestricted",
+    "method": "new_partite_seed",
+    "base_m": 17,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 17,
+    "vertices": 51,
+    "states": 10,
+    "edges": 170,
+    "setting": "balanced_tripartite",
+    "method": "new_partite_seed",
+    "base_m": 17,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 19,
+    "vertices": 57,
+    "states": 12,
+    "edges": 228,
+    "setting": "unrestricted",
+    "method": "new_partite_seed",
+    "base_m": 19,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 19,
+    "vertices": 57,
+    "states": 12,
+    "edges": 228,
+    "setting": "balanced_tripartite",
+    "method": "new_partite_seed",
+    "base_m": 19,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 20,
+    "vertices": 60,
+    "states": 10,
+    "edges": 200,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 2,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      19
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false
+  },
+  {
+    "m": 20,
+    "vertices": 60,
+    "states": 8,
+    "edges": 160,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 8,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      13
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 21,
+    "vertices": 63,
+    "states": 12,
+    "edges": 252,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 3,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      19
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false
+  },
+  {
+    "m": 21,
+    "vertices": 63,
+    "states": 10,
+    "edges": 210,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 11,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      11
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 22,
+    "vertices": 66,
+    "states": 12,
+    "edges": 264,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      19
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false
+  },
+  {
+    "m": 22,
+    "vertices": 66,
+    "states": 8,
+    "edges": 176,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 5,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      8,
+      11
+    ],
+    "graft_steps": 2,
+    "tripartition_available": true
+  },
+  {
+    "m": 24,
+    "vertices": 72,
+    "states": 11,
+    "edges": 264,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 24,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 24,
+    "vertices": 72,
+    "states": 8,
+    "edges": 192,
+    "setting": "balanced_tripartite",
+    "method": "prior_partite",
+    "base_m": 24,
+    "base_kind": "prior_partite",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 26,
+    "vertices": 78,
+    "states": 12,
+    "edges": 312,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      23
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false
+  },
+  {
+    "m": 26,
+    "vertices": 78,
+    "states": 8,
+    "edges": 208,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 8,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      19
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 28,
+    "vertices": 84,
+    "states": 12,
+    "edges": 336,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      13,
+      13
+    ],
+    "graft_steps": 2,
+    "tripartition_available": false
+  },
+  {
+    "m": 28,
+    "vertices": 84,
+    "states": 8,
+    "edges": 224,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 24,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      5
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 30,
+    "vertices": 90,
+    "states": 11,
+    "edges": 330,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 30,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 30,
+    "vertices": 90,
+    "states": 8,
+    "edges": 240,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 8,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      23
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 32,
+    "vertices": 96,
+    "states": 12,
+    "edges": 384,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false
+  },
+  {
+    "m": 32,
+    "vertices": 96,
+    "states": 8,
+    "edges": 256,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 25,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      8
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 34,
+    "vertices": 102,
+    "states": 12,
+    "edges": 408,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false
+  },
+  {
+    "m": 34,
+    "vertices": 102,
+    "states": 8,
+    "edges": 272,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 24,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      11
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 36,
+    "vertices": 108,
+    "states": 11,
+    "edges": 396,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 36,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 36,
+    "vertices": 108,
+    "states": 8,
+    "edges": 288,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 8,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 38,
+    "vertices": 114,
+    "states": 12,
+    "edges": 456,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      13,
+      23
+    ],
+    "graft_steps": 2,
+    "tripartition_available": false
+  },
+  {
+    "m": 38,
+    "vertices": 114,
+    "states": 8,
+    "edges": 304,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 8,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 40,
+    "vertices": 120,
+    "states": 12,
+    "edges": 480,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      19,
+      19
+    ],
+    "graft_steps": 2,
+    "tripartition_available": false
+  },
+  {
+    "m": 40,
+    "vertices": 120,
+    "states": 8,
+    "edges": 320,
+    "setting": "balanced_tripartite",
+    "method": "prior_partite",
+    "base_m": 40,
+    "base_kind": "prior_partite",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 41,
+    "vertices": 123,
+    "states": 12,
+    "edges": 492,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 41,
+    "vertices": 123,
+    "states": 12,
+    "edges": 492,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 42,
+    "vertices": 126,
+    "states": 11,
+    "edges": 462,
+    "setting": "unrestricted",
+    "method": "prior_unrestricted",
+    "base_m": 42,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false
+  },
+  {
+    "m": 42,
+    "vertices": 126,
+    "states": 8,
+    "edges": 336,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 24,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      19
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 43,
+    "vertices": 129,
+    "states": 12,
+    "edges": 516,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 43,
+    "vertices": 129,
+    "states": 12,
+    "edges": 516,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 44,
+    "vertices": 132,
+    "states": 12,
+    "edges": 528,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      13,
+      29
+    ],
+    "graft_steps": 2,
+    "tripartition_available": false
+  },
+  {
+    "m": 44,
+    "vertices": 132,
+    "states": 8,
+    "edges": 352,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 8,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      37
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 46,
+    "vertices": 138,
+    "states": 12,
+    "edges": 552,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      13,
+      31
+    ],
+    "graft_steps": 2,
+    "tripartition_available": false
+  },
+  {
+    "m": 46,
+    "vertices": 138,
+    "states": 8,
+    "edges": 368,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 24,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      23
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 48,
+    "vertices": 144,
+    "states": 12,
+    "edges": 576,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      23,
+      23
+    ],
+    "graft_steps": 2,
+    "tripartition_available": false
+  },
+  {
+    "m": 48,
+    "vertices": 144,
+    "states": 8,
+    "edges": 384,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 8,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      41
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 50,
+    "vertices": 150,
+    "states": 12,
+    "edges": 600,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      19,
+      29
+    ],
+    "graft_steps": 2,
+    "tripartition_available": false
+  },
+  {
+    "m": 50,
+    "vertices": 150,
+    "states": 8,
+    "edges": 400,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 8,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      43
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 52,
+    "vertices": 156,
+    "states": 12,
+    "edges": 624,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      19,
+      31
+    ],
+    "graft_steps": 2,
+    "tripartition_available": false
+  },
+  {
+    "m": 52,
+    "vertices": 156,
+    "states": 8,
+    "edges": 416,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 24,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 54,
+    "vertices": 162,
+    "states": 12,
+    "edges": 648,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      23,
+      29
+    ],
+    "graft_steps": 2,
+    "tripartition_available": false
+  },
+  {
+    "m": 54,
+    "vertices": 162,
+    "states": 8,
+    "edges": 432,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 8,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      47
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 99,
+    "vertices": 297,
+    "states": 12,
+    "edges": 1188,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      29,
+      29,
+      31
+    ],
+    "graft_steps": 3,
+    "tripartition_available": true
+  },
+  {
+    "m": 99,
+    "vertices": 297,
+    "states": 12,
+    "edges": 1188,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      29,
+      29,
+      31
+    ],
+    "graft_steps": 3,
+    "tripartition_available": true
+  },
+  {
+    "m": 100,
+    "vertices": 300,
+    "states": 12,
+    "edges": 1200,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      19,
+      19,
+      31,
+      31
+    ],
+    "graft_steps": 4,
+    "tripartition_available": false
+  },
+  {
+    "m": 100,
+    "vertices": 300,
+    "states": 8,
+    "edges": 800,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 72,
+    "base_kind": "prior_partite",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true
+  },
+  {
+    "m": 199,
+    "vertices": 597,
+    "states": 12,
+    "edges": 2388,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      31,
+      31,
+      31,
+      31,
+      31,
+      31
+    ],
+    "graft_steps": 6,
+    "tripartition_available": true
+  },
+  {
+    "m": 199,
+    "vertices": 597,
+    "states": 12,
+    "edges": 2388,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      31,
+      31,
+      31,
+      31,
+      31,
+      31
+    ],
+    "graft_steps": 6,
+    "tripartition_available": true
+  },
+  {
+    "m": 500,
+    "vertices": 1500,
+    "states": 12,
+    "edges": 6000,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      19,
+      29,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31
+    ],
+    "graft_steps": 17,
+    "tripartition_available": false
+  },
+  {
+    "m": 500,
+    "vertices": 1500,
+    "states": 8,
+    "edges": 4000,
+    "setting": "balanced_tripartite",
+    "method": "prior_partite",
+    "base_m": 500,
+    "base_kind": "prior_partite",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  },
+  {
+    "m": 681,
+    "vertices": 2043,
+    "states": 12,
+    "edges": 8172,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      29,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31
+    ],
+    "graft_steps": 22,
+    "tripartition_available": true
+  },
+  {
+    "m": 681,
+    "vertices": 2043,
+    "states": 12,
+    "edges": 8172,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      29,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31
+    ],
+    "graft_steps": 22,
+    "tripartition_available": true
+  },
+  {
+    "m": 999,
+    "vertices": 2997,
+    "states": 12,
+    "edges": 11988,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      29,
+      29,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31
+    ],
+    "graft_steps": 33,
+    "tripartition_available": true
+  },
+  {
+    "m": 999,
+    "vertices": 2997,
+    "states": 12,
+    "edges": 11988,
+    "setting": "balanced_tripartite",
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "new_partite_seed",
+    "seed_orders": [
+      29,
+      29,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31
+    ],
+    "graft_steps": 33,
+    "tripartition_available": true
+  },
+  {
+    "m": 1000,
+    "vertices": 3000,
+    "states": 12,
+    "edges": 12000,
+    "setting": "unrestricted",
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      19,
+      19,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31,
+      31
+    ],
+    "graft_steps": 34,
+    "tripartition_available": false
+  },
+  {
+    "m": 1000,
+    "vertices": 3000,
+    "states": 8,
+    "edges": 8000,
+    "setting": "balanced_tripartite",
+    "method": "prior_partite",
+    "base_m": 1000,
+    "base_kind": "prior_partite",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "small_complete_examples": [
+    {
+      "vertices": 18,
+      "part_size_parameter": 6,
+      "states": 3,
+      "exact_matchings": 3,
+      "nodes": 30
+    },
+    {
+      "vertices": 24,
+      "part_size_parameter": 8,
+      "states": 3,
+      "exact_matchings": 3,
+      "nodes": 36
+    },
+    {
+      "vertices": 33,
+      "part_size_parameter": 11,
+      "states": 3,
+      "exact_matchings": 3,
+      "nodes": 52
+    }
+  ],
+  "residue_first_covered": {
+    "1": 733,
+    "4": 712,
+    "5": 689,
+    "7": 727,
+    "8": 692,
+    "11": 683
+  },
+  "all_order_threshold": 722,
+  "last_uncovered_by_these_rules": 721,
+  "finite_arithmetic_checked_through": 10000
+}

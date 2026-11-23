@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "direct_group_elements": 1296,
+  "all_missing_pair_sets": 3304,
+  "orbit_counts": {
+    "0": 1,
+    "1": 1,
+    "2": 4,
+    "3": 14
+  },
+  "all_partitions": 280,
+  "positive_control_perfect_matchings": 13,
+  "positive_control_all_local_conditions_passed": true,
+  "positive_control_local_counts": [
+    {
+      "arcs": 18,
+      "triangles": 6,
+      "fork_matchings": 0,
+      "pure_matchings": 6,
+      "free_triples": 27
+    },
+    {
+      "arcs": 21,
+      "triangles": 3,
+      "fork_matchings": 6,
+      "pure_matchings": 3,
+      "free_triples": 15
+    },
+    {
+      "arcs": 21,
+      "triangles": 3,
+      "fork_matchings": 6,
+      "pure_matchings": 3,
+      "free_triples": 12
+    },
+    {
+      "arcs": 21,
+      "triangles": 3,
+      "fork_matchings": 6,
+      "pure_matchings": 3,
+      "free_triples": 12
+    },
+    {
+      "arcs": 21,
+      "triangles": 3,
+      "fork_matchings": 6,
+      "pure_matchings": 3,
+      "free_triples": 15
+    },
+    {
+      "arcs": 18,
+      "triangles": 6,
+      "fork_matchings": 0,
+      "pure_matchings": 6,
+      "free_triples": 27
+    },
+    {
+      "arcs": 21,
+      "triangles": 3,
+      "fork_matchings": 6,
+      "pure_matchings": 3,
+      "free_triples": 12
+    },
+    {
+      "arcs": 21,
+      "triangles": 3,
+      "fork_matchings": 6,
+      "pure_matchings": 3,
+      "free_triples": 12
+    },
+    {
+      "arcs": 18,
+      "triangles": 6,
+      "fork_matchings": 0,
+      "pure_matchings": 6,
+      "free_triples": 18
+    },
+    {
+      "arcs": 27,
+      "triangles": 9,
+      "fork_matchings": 0,
+      "pure_matchings": 3,
+      "free_triples": 9
+    },
+    {
+      "arcs": 21,
+      "triangles": 3,
+      "fork_matchings": 6,
+      "pure_matchings": 3,
+      "free_triples": 12
+    },
+    {
+      "arcs": 21,
+      "triangles": 3,
+      "fork_matchings": 6,
+      "pure_matchings": 3,
+      "free_triples": 15
+    },
+    {
+      "arcs": 21,
+      "triangles": 3,
+      "fork_matchings": 6,
+      "pure_matchings": 3,
+      "free_triples": 12
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "seven_rigid_seed_found": false,
+  "m13_all_residual_transversals": 644,
+  "m13_single_extension_exhaustive": true,
+  "m39_random_extensions_checked": 46699,
+  "m39_random_extensions_unresolved": 0,
+  "m39_nonexistence_claim": false,
+  "positive_result": "constant-sum-preserving odd-sheet lift",
+  "base_m39_verification": {
+    "count": 6,
+    "nodes": 10372,
+    "complete": true
+  },
+  "independent_python_verification": {
+    "perfect_matchings": 6,
+    "search_nodes": 14273,
+    "seconds": 0.19254652200106648,
+    "complete": true
+  }
+}

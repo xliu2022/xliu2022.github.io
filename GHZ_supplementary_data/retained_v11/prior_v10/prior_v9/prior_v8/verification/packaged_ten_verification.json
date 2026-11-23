@@ -1,0 +1,107 @@
+[
+  {
+    "m": 23,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      11
+    ],
+    "count": 5,
+    "complete": true,
+    "nodes": 13697,
+    "seconds": 0.03153185900009703,
+    "timeout": false
+  },
+  {
+    "m": 29,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      17
+    ],
+    "count": 5,
+    "complete": true,
+    "nodes": 25581,
+    "seconds": 0.09088959399969099,
+    "timeout": false
+  },
+  {
+    "m": 31,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      11
+    ],
+    "count": 5,
+    "complete": true,
+    "nodes": 92102,
+    "seconds": 0.2766337520001798,
+    "timeout": false
+  },
+  {
+    "m": 37,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      21
+    ],
+    "count": 5,
+    "complete": true,
+    "nodes": 76975,
+    "seconds": 0.31340502600005493,
+    "timeout": false
+  },
+  {
+    "m": 41,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      16
+    ],
+    "count": 5,
+    "complete": true,
+    "nodes": 670928,
+    "seconds": 2.7321182420000696,
+    "timeout": false
+  },
+  {
+    "m": 43,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      38
+    ],
+    "count": 5,
+    "complete": true,
+    "nodes": 295339,
+    "seconds": 1.2828434890002427,
+    "timeout": false
+  },
+  {
+    "m": 47,
+    "S": [
+      0,
+      1,
+      2,
+      11,
+      23
+    ],
+    "count": 5,
+    "complete": true,
+    "nodes": 1190391,
+    "seconds": 5.504825052999877,
+    "timeout": false
+  }
+]

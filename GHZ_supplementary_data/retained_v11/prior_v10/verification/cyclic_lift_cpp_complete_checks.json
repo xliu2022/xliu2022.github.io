@@ -1,0 +1,38 @@
+[
+  {
+    "base_m": 3,
+    "sheets": 2,
+    "m": 6,
+    "states": 6,
+    "perfect_matchings": 6,
+    "search_nodes": 100,
+    "complete": true
+  },
+  {
+    "base_m": 5,
+    "sheets": 2,
+    "m": 10,
+    "states": 8,
+    "perfect_matchings": 8,
+    "search_nodes": 3357,
+    "complete": true
+  },
+  {
+    "base_m": 5,
+    "sheets": 3,
+    "m": 15,
+    "states": 8,
+    "perfect_matchings": 8,
+    "search_nodes": 34113,
+    "complete": true
+  },
+  {
+    "base_m": 5,
+    "sheets": 4,
+    "m": 20,
+    "states": 8,
+    "perfect_matchings": 8,
+    "search_nodes": 240611,
+    "complete": true
+  }
+]

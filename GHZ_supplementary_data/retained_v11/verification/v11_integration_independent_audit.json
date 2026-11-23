@@ -1,0 +1,2208 @@
+{
+  "status": "passed",
+  "scope": "Independent structural, table-retention, parameter and global-label audit; no complete PM enumeration",
+  "table_rows_checked": 1000,
+  "unrestricted_changes": [
+    {
+      "m": 8,
+      "old": 9,
+      "new": 10
+    }
+  ],
+  "balanced_changes": [],
+  "selected_orders": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    73,
+    74,
+    75,
+    111,
+    112,
+    113,
+    114,
+    150,
+    169,
+    500,
+    999,
+    1000
+  ],
+  "constructor_checks": 225,
+  "linear_constructor_checks": 75,
+  "whole_color_deletion_check": {
+    "m": 1000,
+    "states": 10,
+    "vertices": 3000,
+    "edges": 10000,
+    "maximum_codegree": 1,
+    "valid": true
+  },
+  "checks": [
+    {
+      "setting": "unrestricted",
+      "m": 1,
+      "states": 1,
+      "vertices": 3,
+      "edges": 1,
+      "maximum_codegree": 1,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 1,
+      "states": 1,
+      "vertices": 3,
+      "edges": 1,
+      "maximum_codegree": 1,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 1,
+      "states": 1,
+      "vertices": 3,
+      "edges": 1,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 2,
+      "states": 10,
+      "vertices": 6,
+      "edges": 20,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 2,
+      "states": 4,
+      "vertices": 6,
+      "edges": 8,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 2,
+      "states": 1,
+      "vertices": 6,
+      "edges": 2,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 3,
+      "states": 13,
+      "vertices": 9,
+      "edges": 39,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 3,
+      "states": 6,
+      "vertices": 9,
+      "edges": 18,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 3,
+      "states": 3,
+      "vertices": 9,
+      "edges": 9,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 4,
+      "states": 12,
+      "vertices": 12,
+      "edges": 48,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 4,
+      "states": 6,
+      "vertices": 12,
+      "edges": 24,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 4,
+      "states": 2,
+      "vertices": 12,
+      "edges": 8,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 5,
+      "states": 10,
+      "vertices": 15,
+      "edges": 50,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 5,
+      "states": 8,
+      "vertices": 15,
+      "edges": 40,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 5,
+      "states": 4,
+      "vertices": 15,
+      "edges": 20,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 6,
+      "states": 12,
+      "vertices": 18,
+      "edges": 72,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 6,
+      "states": 6,
+      "vertices": 18,
+      "edges": 36,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 6,
+      "states": 2,
+      "vertices": 18,
+      "edges": 12,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 7,
+      "states": 10,
+      "vertices": 21,
+      "edges": 70,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 7,
+      "states": 8,
+      "vertices": 21,
+      "edges": 56,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 7,
+      "states": 4,
+      "vertices": 21,
+      "edges": 28,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 8,
+      "states": 10,
+      "vertices": 24,
+      "edges": 80,
+      "maximum_codegree": 3,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 8,
+      "states": 8,
+      "vertices": 24,
+      "edges": 64,
+      "maximum_codegree": 1,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 8,
+      "states": 8,
+      "vertices": 24,
+      "edges": 64,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 9,
+      "states": 11,
+      "vertices": 27,
+      "edges": 99,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 9,
+      "states": 8,
+      "vertices": 27,
+      "edges": 72,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 9,
+      "states": 4,
+      "vertices": 27,
+      "edges": 36,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 10,
+      "states": 10,
+      "vertices": 30,
+      "edges": 100,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 10,
+      "states": 8,
+      "vertices": 30,
+      "edges": 80,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 10,
+      "states": 5,
+      "vertices": 30,
+      "edges": 50,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 11,
+      "states": 10,
+      "vertices": 33,
+      "edges": 110,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 11,
+      "states": 10,
+      "vertices": 33,
+      "edges": 110,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 11,
+      "states": 5,
+      "vertices": 33,
+      "edges": 55,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 12,
+      "states": 11,
+      "vertices": 36,
+      "edges": 132,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 12,
+      "states": 8,
+      "vertices": 36,
+      "edges": 96,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 12,
+      "states": 4,
+      "vertices": 36,
+      "edges": 48,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 13,
+      "states": 12,
+      "vertices": 39,
+      "edges": 156,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 13,
+      "states": 12,
+      "vertices": 39,
+      "edges": 156,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 13,
+      "states": 6,
+      "vertices": 39,
+      "edges": 78,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 14,
+      "states": 10,
+      "vertices": 42,
+      "edges": 140,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 14,
+      "states": 8,
+      "vertices": 42,
+      "edges": 112,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 14,
+      "states": 7,
+      "vertices": 42,
+      "edges": 98,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 15,
+      "states": 12,
+      "vertices": 45,
+      "edges": 180,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 15,
+      "states": 8,
+      "vertices": 45,
+      "edges": 120,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 15,
+      "states": 8,
+      "vertices": 45,
+      "edges": 120,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 16,
+      "states": 12,
+      "vertices": 48,
+      "edges": 192,
+      "maximum_codegree": 3,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 16,
+      "states": 8,
+      "vertices": 48,
+      "edges": 128,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 16,
+      "states": 4,
+      "vertices": 48,
+      "edges": 64,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 17,
+      "states": 10,
+      "vertices": 51,
+      "edges": 170,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 17,
+      "states": 10,
+      "vertices": 51,
+      "edges": 170,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 17,
+      "states": 5,
+      "vertices": 51,
+      "edges": 85,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 18,
+      "states": 12,
+      "vertices": 54,
+      "edges": 216,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 18,
+      "states": 8,
+      "vertices": 54,
+      "edges": 144,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 18,
+      "states": 5,
+      "vertices": 54,
+      "edges": 90,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 19,
+      "states": 12,
+      "vertices": 57,
+      "edges": 228,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 19,
+      "states": 12,
+      "vertices": 57,
+      "edges": 228,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 19,
+      "states": 6,
+      "vertices": 57,
+      "edges": 114,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 20,
+      "states": 10,
+      "vertices": 60,
+      "edges": 200,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 20,
+      "states": 8,
+      "vertices": 60,
+      "edges": 160,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 20,
+      "states": 8,
+      "vertices": 60,
+      "edges": 160,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 21,
+      "states": 12,
+      "vertices": 63,
+      "edges": 252,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 21,
+      "states": 10,
+      "vertices": 63,
+      "edges": 210,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 21,
+      "states": 8,
+      "vertices": 63,
+      "edges": 168,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 22,
+      "states": 12,
+      "vertices": 66,
+      "edges": 264,
+      "maximum_codegree": 3,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 22,
+      "states": 10,
+      "vertices": 66,
+      "edges": 220,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 22,
+      "states": 9,
+      "vertices": 66,
+      "edges": 198,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 23,
+      "states": 12,
+      "vertices": 69,
+      "edges": 276,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 23,
+      "states": 12,
+      "vertices": 69,
+      "edges": 276,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 23,
+      "states": 6,
+      "vertices": 69,
+      "edges": 138,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 24,
+      "states": 12,
+      "vertices": 72,
+      "edges": 288,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 24,
+      "states": 8,
+      "vertices": 72,
+      "edges": 192,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 24,
+      "states": 8,
+      "vertices": 72,
+      "edges": 192,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 25,
+      "states": 12,
+      "vertices": 75,
+      "edges": 300,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 25,
+      "states": 12,
+      "vertices": 75,
+      "edges": 300,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 25,
+      "states": 6,
+      "vertices": 75,
+      "edges": 150,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 26,
+      "states": 12,
+      "vertices": 78,
+      "edges": 312,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 26,
+      "states": 12,
+      "vertices": 78,
+      "edges": 312,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 26,
+      "states": 10,
+      "vertices": 78,
+      "edges": 260,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 27,
+      "states": 12,
+      "vertices": 81,
+      "edges": 324,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 27,
+      "states": 10,
+      "vertices": 81,
+      "edges": 270,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 27,
+      "states": 8,
+      "vertices": 81,
+      "edges": 216,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 28,
+      "states": 12,
+      "vertices": 84,
+      "edges": 336,
+      "maximum_codegree": 3,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 28,
+      "states": 8,
+      "vertices": 84,
+      "edges": 224,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 28,
+      "states": 8,
+      "vertices": 84,
+      "edges": 224,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 29,
+      "states": 12,
+      "vertices": 87,
+      "edges": 348,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 29,
+      "states": 12,
+      "vertices": 87,
+      "edges": 348,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 29,
+      "states": 8,
+      "vertices": 87,
+      "edges": 232,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 30,
+      "states": 12,
+      "vertices": 90,
+      "edges": 360,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 30,
+      "states": 8,
+      "vertices": 90,
+      "edges": 240,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 30,
+      "states": 8,
+      "vertices": 90,
+      "edges": 240,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 31,
+      "states": 12,
+      "vertices": 93,
+      "edges": 372,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 31,
+      "states": 12,
+      "vertices": 93,
+      "edges": 372,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 31,
+      "states": 8,
+      "vertices": 93,
+      "edges": 248,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 32,
+      "states": 12,
+      "vertices": 96,
+      "edges": 384,
+      "maximum_codegree": 3,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 32,
+      "states": 10,
+      "vertices": 96,
+      "edges": 320,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 32,
+      "states": 6,
+      "vertices": 96,
+      "edges": 192,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 33,
+      "states": 12,
+      "vertices": 99,
+      "edges": 396,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 33,
+      "states": 10,
+      "vertices": 99,
+      "edges": 330,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 33,
+      "states": 10,
+      "vertices": 99,
+      "edges": 330,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 34,
+      "states": 12,
+      "vertices": 102,
+      "edges": 408,
+      "maximum_codegree": 3,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 34,
+      "states": 10,
+      "vertices": 102,
+      "edges": 340,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 34,
+      "states": 10,
+      "vertices": 102,
+      "edges": 340,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 35,
+      "states": 12,
+      "vertices": 105,
+      "edges": 420,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 35,
+      "states": 12,
+      "vertices": 105,
+      "edges": 420,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 35,
+      "states": 8,
+      "vertices": 105,
+      "edges": 280,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 36,
+      "states": 12,
+      "vertices": 108,
+      "edges": 432,
+      "maximum_codegree": 4,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 36,
+      "states": 10,
+      "vertices": 108,
+      "edges": 360,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 36,
+      "states": 8,
+      "vertices": 108,
+      "edges": 288,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 37,
+      "states": 12,
+      "vertices": 111,
+      "edges": 444,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 37,
+      "states": 12,
+      "vertices": 111,
+      "edges": 444,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 37,
+      "states": 8,
+      "vertices": 111,
+      "edges": 296,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 38,
+      "states": 12,
+      "vertices": 114,
+      "edges": 456,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 38,
+      "states": 12,
+      "vertices": 114,
+      "edges": 456,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 38,
+      "states": 11,
+      "vertices": 114,
+      "edges": 418,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 39,
+      "states": 12,
+      "vertices": 117,
+      "edges": 468,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 39,
+      "states": 12,
+      "vertices": 117,
+      "edges": 468,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 39,
+      "states": 12,
+      "vertices": 117,
+      "edges": 468,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 40,
+      "states": 12,
+      "vertices": 120,
+      "edges": 480,
+      "maximum_codegree": 3,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 40,
+      "states": 10,
+      "vertices": 120,
+      "edges": 400,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 40,
+      "states": 8,
+      "vertices": 120,
+      "edges": 320,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 41,
+      "states": 12,
+      "vertices": 123,
+      "edges": 492,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 41,
+      "states": 12,
+      "vertices": 123,
+      "edges": 492,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 41,
+      "states": 8,
+      "vertices": 123,
+      "edges": 328,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 42,
+      "states": 12,
+      "vertices": 126,
+      "edges": 504,
+      "maximum_codegree": 3,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 42,
+      "states": 10,
+      "vertices": 126,
+      "edges": 420,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 42,
+      "states": 8,
+      "vertices": 126,
+      "edges": 336,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 43,
+      "states": 12,
+      "vertices": 129,
+      "edges": 516,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 43,
+      "states": 12,
+      "vertices": 129,
+      "edges": 516,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 43,
+      "states": 9,
+      "vertices": 129,
+      "edges": 387,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 44,
+      "states": 12,
+      "vertices": 132,
+      "edges": 528,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 44,
+      "states": 12,
+      "vertices": 132,
+      "edges": 528,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 44,
+      "states": 10,
+      "vertices": 132,
+      "edges": 440,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 45,
+      "states": 12,
+      "vertices": 135,
+      "edges": 540,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 45,
+      "states": 12,
+      "vertices": 135,
+      "edges": 540,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 45,
+      "states": 8,
+      "vertices": 135,
+      "edges": 360,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 46,
+      "states": 12,
+      "vertices": 138,
+      "edges": 552,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 46,
+      "states": 12,
+      "vertices": 138,
+      "edges": 552,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 46,
+      "states": 12,
+      "vertices": 138,
+      "edges": 552,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 47,
+      "states": 12,
+      "vertices": 141,
+      "edges": 564,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 47,
+      "states": 12,
+      "vertices": 141,
+      "edges": 564,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 47,
+      "states": 9,
+      "vertices": 141,
+      "edges": 423,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 48,
+      "states": 12,
+      "vertices": 144,
+      "edges": 576,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 48,
+      "states": 12,
+      "vertices": 144,
+      "edges": 576,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 48,
+      "states": 8,
+      "vertices": 144,
+      "edges": 384,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 49,
+      "states": 12,
+      "vertices": 147,
+      "edges": 588,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 49,
+      "states": 12,
+      "vertices": 147,
+      "edges": 588,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 49,
+      "states": 8,
+      "vertices": 147,
+      "edges": 392,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 50,
+      "states": 12,
+      "vertices": 150,
+      "edges": 600,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 50,
+      "states": 12,
+      "vertices": 150,
+      "edges": 600,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 50,
+      "states": 8,
+      "vertices": 150,
+      "edges": 400,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 51,
+      "states": 12,
+      "vertices": 153,
+      "edges": 612,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 51,
+      "states": 12,
+      "vertices": 153,
+      "edges": 612,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 51,
+      "states": 10,
+      "vertices": 153,
+      "edges": 510,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 52,
+      "states": 12,
+      "vertices": 156,
+      "edges": 624,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 52,
+      "states": 12,
+      "vertices": 156,
+      "edges": 624,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 52,
+      "states": 12,
+      "vertices": 156,
+      "edges": 624,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 53,
+      "states": 12,
+      "vertices": 159,
+      "edges": 636,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 53,
+      "states": 12,
+      "vertices": 159,
+      "edges": 636,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 53,
+      "states": 8,
+      "vertices": 159,
+      "edges": 424,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 54,
+      "states": 12,
+      "vertices": 162,
+      "edges": 648,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 54,
+      "states": 12,
+      "vertices": 162,
+      "edges": 648,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 54,
+      "states": 9,
+      "vertices": 162,
+      "edges": 486,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 55,
+      "states": 12,
+      "vertices": 165,
+      "edges": 660,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 55,
+      "states": 12,
+      "vertices": 165,
+      "edges": 660,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 55,
+      "states": 10,
+      "vertices": 165,
+      "edges": 550,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 56,
+      "states": 12,
+      "vertices": 168,
+      "edges": 672,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 56,
+      "states": 12,
+      "vertices": 168,
+      "edges": 672,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 56,
+      "states": 8,
+      "vertices": 168,
+      "edges": 448,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 57,
+      "states": 12,
+      "vertices": 171,
+      "edges": 684,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 57,
+      "states": 12,
+      "vertices": 171,
+      "edges": 684,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 57,
+      "states": 12,
+      "vertices": 171,
+      "edges": 684,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 58,
+      "states": 12,
+      "vertices": 174,
+      "edges": 696,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 58,
+      "states": 12,
+      "vertices": 174,
+      "edges": 696,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 58,
+      "states": 12,
+      "vertices": 174,
+      "edges": 696,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 59,
+      "states": 12,
+      "vertices": 177,
+      "edges": 708,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 59,
+      "states": 12,
+      "vertices": 177,
+      "edges": 708,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 59,
+      "states": 10,
+      "vertices": 177,
+      "edges": 590,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 60,
+      "states": 12,
+      "vertices": 180,
+      "edges": 720,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 60,
+      "states": 12,
+      "vertices": 180,
+      "edges": 720,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 60,
+      "states": 9,
+      "vertices": 180,
+      "edges": 540,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 61,
+      "states": 12,
+      "vertices": 183,
+      "edges": 732,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 61,
+      "states": 12,
+      "vertices": 183,
+      "edges": 732,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 61,
+      "states": 8,
+      "vertices": 183,
+      "edges": 488,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 62,
+      "states": 12,
+      "vertices": 186,
+      "edges": 744,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 62,
+      "states": 12,
+      "vertices": 186,
+      "edges": 744,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 62,
+      "states": 12,
+      "vertices": 186,
+      "edges": 744,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 63,
+      "states": 12,
+      "vertices": 189,
+      "edges": 756,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 63,
+      "states": 12,
+      "vertices": 189,
+      "edges": 756,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 63,
+      "states": 10,
+      "vertices": 189,
+      "edges": 630,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 73,
+      "states": 12,
+      "vertices": 219,
+      "edges": 876,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 73,
+      "states": 12,
+      "vertices": 219,
+      "edges": 876,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 73,
+      "states": 9,
+      "vertices": 219,
+      "edges": 657,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 74,
+      "states": 12,
+      "vertices": 222,
+      "edges": 888,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 74,
+      "states": 12,
+      "vertices": 222,
+      "edges": 888,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 74,
+      "states": 10,
+      "vertices": 222,
+      "edges": 740,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 75,
+      "states": 12,
+      "vertices": 225,
+      "edges": 900,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 75,
+      "states": 12,
+      "vertices": 225,
+      "edges": 900,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 75,
+      "states": 11,
+      "vertices": 225,
+      "edges": 825,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 111,
+      "states": 12,
+      "vertices": 333,
+      "edges": 1332,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 111,
+      "states": 12,
+      "vertices": 333,
+      "edges": 1332,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 111,
+      "states": 10,
+      "vertices": 333,
+      "edges": 1110,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 112,
+      "states": 12,
+      "vertices": 336,
+      "edges": 1344,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 112,
+      "states": 12,
+      "vertices": 336,
+      "edges": 1344,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 112,
+      "states": 11,
+      "vertices": 336,
+      "edges": 1232,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 113,
+      "states": 12,
+      "vertices": 339,
+      "edges": 1356,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 113,
+      "states": 12,
+      "vertices": 339,
+      "edges": 1356,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 113,
+      "states": 12,
+      "vertices": 339,
+      "edges": 1356,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 114,
+      "states": 12,
+      "vertices": 342,
+      "edges": 1368,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 114,
+      "states": 12,
+      "vertices": 342,
+      "edges": 1368,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 114,
+      "states": 12,
+      "vertices": 342,
+      "edges": 1368,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 150,
+      "states": 12,
+      "vertices": 450,
+      "edges": 1800,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 150,
+      "states": 12,
+      "vertices": 450,
+      "edges": 1800,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 150,
+      "states": 12,
+      "vertices": 450,
+      "edges": 1800,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 169,
+      "states": 12,
+      "vertices": 507,
+      "edges": 2028,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 169,
+      "states": 12,
+      "vertices": 507,
+      "edges": 2028,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 169,
+      "states": 12,
+      "vertices": 507,
+      "edges": 2028,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 500,
+      "states": 12,
+      "vertices": 1500,
+      "edges": 6000,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 500,
+      "states": 12,
+      "vertices": 1500,
+      "edges": 6000,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 500,
+      "states": 12,
+      "vertices": 1500,
+      "edges": 6000,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 999,
+      "states": 12,
+      "vertices": 2997,
+      "edges": 11988,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 999,
+      "states": 12,
+      "vertices": 2997,
+      "edges": 11988,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 999,
+      "states": 12,
+      "vertices": 2997,
+      "edges": 11988,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    },
+    {
+      "setting": "unrestricted",
+      "m": 1000,
+      "states": 12,
+      "vertices": 3000,
+      "edges": 12000,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "balanced",
+      "m": 1000,
+      "states": 12,
+      "vertices": 3000,
+      "edges": 12000,
+      "maximum_codegree": 2,
+      "valid": true
+    },
+    {
+      "setting": "linear",
+      "m": 1000,
+      "states": 12,
+      "vertices": 3000,
+      "edges": 12000,
+      "maximum_codegree": 1,
+      "valid": true,
+      "seed_metadata_valid": true
+    }
+  ],
+  "source_sha256": {
+    "construct_practical.py": "d9476179aa7df4a24593e99f2e164ed2cdb04648539ca868d7a0756c3e89bc4a",
+    "linear_cyclic_lift.py": "d2db3297bc13de2beb9b6b4d7013cb9c0748832e1048188322d410e7c5b30ea8",
+    "small_m_1_to_1000_v11.json": "f653d98af37e0075b44771c8106c222326ba948047d45b7d01130c8f1e977080"
+  },
+  "seconds": 1.497936034000304
+}

@@ -1,0 +1,354 @@
+{
+  "status": "all missing-edge subsets covered exactly once",
+  "orbit_counts": {
+    "0": 1,
+    "1": 1,
+    "2": 4,
+    "3": 14
+  },
+  "orbits": [
+    {
+      "missing_count": 0,
+      "representative_mask": 0,
+      "orbit_size": 1,
+      "missing_pairs": []
+    },
+    {
+      "missing_count": 1,
+      "representative_mask": 1,
+      "orbit_size": 27,
+      "missing_pairs": [
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "missing_count": 2,
+      "representative_mask": 3,
+      "orbit_size": 54,
+      "missing_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "missing_count": 2,
+      "representative_mask": 10,
+      "orbit_size": 54,
+      "missing_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "missing_count": 2,
+      "representative_mask": 513,
+      "orbit_size": 81,
+      "missing_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "missing_count": 2,
+      "representative_mask": 514,
+      "orbit_size": 162,
+      "missing_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 7,
+      "orbit_size": 18,
+      "missing_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 11,
+      "orbit_size": 108,
+      "missing_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 14,
+      "orbit_size": 108,
+      "missing_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 84,
+      "orbit_size": 18,
+      "missing_pairs": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 515,
+      "orbit_size": 324,
+      "missing_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 518,
+      "orbit_size": 162,
+      "missing_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 521,
+      "orbit_size": 162,
+      "missing_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 522,
+      "orbit_size": 648,
+      "missing_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 530,
+      "orbit_size": 324,
+      "missing_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 532,
+      "orbit_size": 324,
+      "missing_pairs": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 262657,
+      "orbit_size": 27,
+      "missing_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 262658,
+      "orbit_size": 162,
+      "missing_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 262672,
+      "orbit_size": 324,
+      "missing_pairs": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "missing_count": 3,
+      "representative_mask": 263184,
+      "orbit_size": 216,
+      "missing_pairs": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          0
+        ]
+      ]
+    }
+  ]
+}

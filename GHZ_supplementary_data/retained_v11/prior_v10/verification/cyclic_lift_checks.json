@@ -1,0 +1,356 @@
+[
+  {
+    "m": 6,
+    "states": 6,
+    "vertices": 18,
+    "edges": 36,
+    "maximum_codegree": 2,
+    "base_m": 3,
+    "lambda": 1,
+    "shifts": [
+      0,
+      1,
+      2
+    ],
+    "sheets": 2,
+    "marking": {
+      "base_m": 3,
+      "marked_labels": [
+        0,
+        1
+      ],
+      "bounded_mean_solutions": 1
+    },
+    "exact": {
+      "perfect_matchings": 6,
+      "search_nodes": 114,
+      "complete": true,
+      "seconds": 0.00040452600023854757
+    }
+  },
+  {
+    "m": 10,
+    "states": 8,
+    "vertices": 30,
+    "edges": 80,
+    "maximum_codegree": 2,
+    "base_m": 5,
+    "lambda": 1,
+    "shifts": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sheets": 2,
+    "marking": {
+      "base_m": 5,
+      "marked_labels": [
+        0,
+        1
+      ],
+      "bounded_mean_solutions": 1
+    },
+    "exact": {
+      "perfect_matchings": 8,
+      "search_nodes": 3758,
+      "complete": true,
+      "seconds": 0.021628530999805662
+    }
+  },
+  {
+    "m": 15,
+    "states": 8,
+    "vertices": 45,
+    "edges": 120,
+    "maximum_codegree": 2,
+    "base_m": 5,
+    "lambda": 1,
+    "shifts": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sheets": 3,
+    "marking": {
+      "base_m": 5,
+      "marked_labels": [
+        0,
+        1
+      ],
+      "bounded_mean_solutions": 1
+    },
+    "exact": {
+      "perfect_matchings": 8,
+      "search_nodes": 37700,
+      "complete": true,
+      "seconds": 0.3773906460000944
+    }
+  },
+  {
+    "m": 20,
+    "states": 8,
+    "vertices": 60,
+    "edges": 160,
+    "maximum_codegree": 2,
+    "base_m": 5,
+    "lambda": 1,
+    "shifts": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sheets": 4,
+    "marking": {
+      "base_m": 5,
+      "marked_labels": [
+        0,
+        1
+      ],
+      "bounded_mean_solutions": 1
+    }
+  },
+  {
+    "m": 22,
+    "states": 10,
+    "vertices": 66,
+    "edges": 220,
+    "maximum_codegree": 2,
+    "base_m": 11,
+    "lambda": 2,
+    "shifts": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "sheets": 2,
+    "marking": {
+      "base_m": 11,
+      "marked_labels": [
+        0,
+        1,
+        2
+      ],
+      "bounded_mean_solutions": 1
+    }
+  },
+  {
+    "m": 26,
+    "states": 12,
+    "vertices": 78,
+    "edges": 312,
+    "maximum_codegree": 2,
+    "base_m": 13,
+    "lambda": 2,
+    "shifts": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      8
+    ],
+    "sheets": 2,
+    "marking": {
+      "base_m": 13,
+      "marked_labels": [
+        0,
+        1,
+        2
+      ],
+      "bounded_mean_solutions": 1
+    }
+  },
+  {
+    "m": 39,
+    "states": 12,
+    "vertices": 117,
+    "edges": 468,
+    "maximum_codegree": 2,
+    "base_m": 13,
+    "lambda": 2,
+    "shifts": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      8
+    ],
+    "sheets": 3,
+    "marking": {
+      "base_m": 13,
+      "marked_labels": [
+        0,
+        1,
+        2
+      ],
+      "bounded_mean_solutions": 1
+    }
+  },
+  {
+    "m": 52,
+    "states": 12,
+    "vertices": 156,
+    "edges": 624,
+    "maximum_codegree": 2,
+    "base_m": 13,
+    "lambda": 2,
+    "shifts": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      8
+    ],
+    "sheets": 4,
+    "marking": {
+      "base_m": 13,
+      "marked_labels": [
+        0,
+        1,
+        2
+      ],
+      "bounded_mean_solutions": 1
+    }
+  },
+  {
+    "m": 34,
+    "states": 10,
+    "vertices": 102,
+    "edges": 340,
+    "maximum_codegree": 2,
+    "base_m": 17,
+    "lambda": 2,
+    "shifts": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ],
+    "sheets": 2,
+    "marking": {
+      "base_m": 17,
+      "marked_labels": [
+        0,
+        1,
+        2
+      ],
+      "bounded_mean_solutions": 1
+    }
+  },
+  {
+    "m": 38,
+    "states": 12,
+    "vertices": 114,
+    "edges": 456,
+    "maximum_codegree": 2,
+    "base_m": 19,
+    "lambda": 3,
+    "shifts": [
+      0,
+      1,
+      3,
+      12,
+      14,
+      15
+    ],
+    "sheets": 2,
+    "marking": {
+      "base_m": 19,
+      "marked_labels": [
+        0,
+        1,
+        2
+      ],
+      "bounded_mean_solutions": 1
+    }
+  },
+  {
+    "m": 46,
+    "states": 12,
+    "vertices": 138,
+    "edges": 552,
+    "maximum_codegree": 2,
+    "base_m": 23,
+    "lambda": 2,
+    "shifts": [
+      0,
+      1,
+      2,
+      9,
+      10,
+      11
+    ],
+    "sheets": 2,
+    "marking": {
+      "base_m": 23,
+      "marked_labels": [
+        0,
+        1,
+        2
+      ],
+      "bounded_mean_solutions": 1
+    }
+  },
+  {
+    "m": 58,
+    "states": 12,
+    "vertices": 174,
+    "edges": 696,
+    "maximum_codegree": 2,
+    "base_m": 29,
+    "lambda": 8,
+    "shifts": [
+      0,
+      1,
+      2,
+      7,
+      20,
+      21
+    ],
+    "sheets": 2,
+    "marking": {
+      "base_m": 29,
+      "marked_labels": [
+        0,
+        1,
+        2
+      ],
+      "bounded_mean_solutions": 1
+    }
+  },
+  {
+    "m": 62,
+    "states": 12,
+    "vertices": 186,
+    "edges": 744,
+    "maximum_codegree": 2,
+    "base_m": 31,
+    "lambda": 4,
+    "shifts": [
+      0,
+      1,
+      3,
+      16,
+      21,
+      28
+    ],
+    "sheets": 2,
+    "marking": {
+      "base_m": 31,
+      "marked_labels": [
+        0,
+        1,
+        2
+      ],
+      "bounded_mean_solutions": 1
+    }
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "m": 10,
+    "states": 5,
+    "vertices": 30,
+    "edges": 50,
+    "maximum_codegree": 1,
+    "simple": true,
+    "balanced_tripartite": true,
+    "base_m": 5,
+    "sheets": 2,
+    "delta": 1,
+    "codes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "delete_h1": [
+      1,
+      2,
+      3
+    ],
+    "enumeration": {
+      "perfect_matchings": 5,
+      "nodes": 223,
+      "complete": true,
+      "seconds": 0.0006619329997192835
+    }
+  },
+  {
+    "m": 14,
+    "states": 7,
+    "vertices": 42,
+    "edges": 98,
+    "maximum_codegree": 1,
+    "simple": true,
+    "balanced_tripartite": true,
+    "base_m": 7,
+    "sheets": 2,
+    "delta": 3,
+    "codes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "delete_h1": [
+      3
+    ],
+    "enumeration": {
+      "perfect_matchings": 7,
+      "nodes": 11030,
+      "complete": true,
+      "seconds": 0.047467111000514706
+    }
+  },
+  {
+    "m": 15,
+    "states": 8,
+    "vertices": 45,
+    "edges": 120,
+    "maximum_codegree": 1,
+    "simple": true,
+    "balanced_tripartite": true,
+    "base_m": 5,
+    "sheets": 3,
+    "delta": 1,
+    "codes": [
+      7,
+      6,
+      4,
+      0
+    ],
+    "delete_h1": [],
+    "enumeration": {
+      "perfect_matchings": 8,
+      "nodes": 108558,
+      "complete": true,
+      "seconds": 0.5034758410001814
+    }
+  },
+  {
+    "m": 20,
+    "states": 8,
+    "vertices": 60,
+    "edges": 160,
+    "maximum_codegree": 1,
+    "simple": true,
+    "balanced_tripartite": true,
+    "base_m": 5,
+    "sheets": 4,
+    "delta": 1,
+    "codes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "delete_h1": [],
+    "enumeration": {
+      "perfect_matchings": 8,
+      "nodes": 1279373,
+      "complete": true,
+      "seconds": 8.11053069099944
+    }
+  }
+]

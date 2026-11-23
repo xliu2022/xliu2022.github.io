@@ -1,0 +1,4743 @@
+[
+  {
+    "m": 1,
+    "vertices": 3,
+    "states": 1,
+    "edges": 1,
+    "method": "single_edge",
+    "setting": "unrestricted",
+    "maximum_codegree": 1
+  },
+  {
+    "m": 1,
+    "vertices": 3,
+    "states": 1,
+    "edges": 1,
+    "method": "single_edge",
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 1
+  },
+  {
+    "m": 2,
+    "vertices": 6,
+    "states": 10,
+    "edges": 20,
+    "method": "prior_unrestricted",
+    "base_m": 2,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 2,
+    "vertices": 6,
+    "states": 4,
+    "edges": 8,
+    "method": "complete_two",
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 3,
+    "vertices": 9,
+    "states": 13,
+    "edges": 39,
+    "method": "prior_finite_example",
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 3,
+    "vertices": 9,
+    "states": 6,
+    "edges": 18,
+    "method": "prior_cyclic_six",
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 4,
+    "vertices": 12,
+    "states": 12,
+    "edges": 48,
+    "method": "prior_unrestricted",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 4,
+    "vertices": 12,
+    "states": 6,
+    "edges": 24,
+    "method": "prior_cyclic_six",
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 5,
+    "vertices": 15,
+    "states": 10,
+    "edges": 50,
+    "method": "prior_unrestricted",
+    "base_m": 5,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 5,
+    "vertices": 15,
+    "states": 8,
+    "edges": 40,
+    "method": "balanced_seed",
+    "base_m": 5,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 5,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 6,
+    "vertices": 18,
+    "states": 12,
+    "edges": 72,
+    "method": "eighteen_vertex_seed",
+    "base_m": 6,
+    "base_kind": "eighteen_vertex_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 6,
+    "vertices": 18,
+    "states": 6,
+    "edges": 36,
+    "method": "prior_cyclic_six",
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 7,
+    "vertices": 21,
+    "states": 10,
+    "edges": 70,
+    "method": "prior_unrestricted",
+    "base_m": 7,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 7,
+    "vertices": 21,
+    "states": 8,
+    "edges": 56,
+    "method": "balanced_seed",
+    "base_m": 7,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 7,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 8,
+    "vertices": 24,
+    "states": 9,
+    "edges": 72,
+    "method": "prior_uniform_nine_state_certificate",
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 8,
+    "vertices": 24,
+    "states": 8,
+    "edges": 64,
+    "method": "balanced_seed",
+    "base_m": 8,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "retained_latin_seed",
+      "base_m": 8,
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 1
+  },
+  {
+    "m": 9,
+    "vertices": 27,
+    "states": 11,
+    "edges": 99,
+    "method": "prior_unrestricted",
+    "base_m": 9,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 9,
+    "vertices": 27,
+    "states": 8,
+    "edges": 72,
+    "method": "universal_grafting",
+    "base_m": 5,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      5
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 5,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 8,
+        "method": "cyclic_modular_seed",
+        "base_m": 5,
+        "slope": 1,
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 10,
+    "vertices": 30,
+    "states": 10,
+    "edges": 100,
+    "method": "prior_unrestricted",
+    "base_m": 10,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 10,
+    "vertices": 30,
+    "states": 8,
+    "edges": 80,
+    "method": "balanced_seed",
+    "base_m": 10,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 5,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 11,
+    "vertices": 33,
+    "states": 10,
+    "edges": 110,
+    "method": "balanced_seed",
+    "base_m": 11,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 11,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 11,
+    "vertices": 33,
+    "states": 10,
+    "edges": 110,
+    "method": "balanced_seed",
+    "base_m": 11,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 11,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 12,
+    "vertices": 36,
+    "states": 11,
+    "edges": 132,
+    "method": "prior_unrestricted",
+    "base_m": 12,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 12,
+    "vertices": 36,
+    "states": 8,
+    "edges": 96,
+    "method": "universal_grafting",
+    "base_m": 5,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      8
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 5,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 8,
+        "method": "retained_latin_seed",
+        "base_m": 8,
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 13,
+    "vertices": 39,
+    "states": 12,
+    "edges": 156,
+    "method": "balanced_seed",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 13,
+    "vertices": 39,
+    "states": 12,
+    "edges": 156,
+    "method": "balanced_seed",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 14,
+    "vertices": 42,
+    "states": 10,
+    "edges": 140,
+    "method": "prior_unrestricted",
+    "base_m": 14,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 14,
+    "vertices": 42,
+    "states": 8,
+    "edges": 112,
+    "method": "balanced_seed",
+    "base_m": 14,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 7,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 15,
+    "vertices": 45,
+    "states": 12,
+    "edges": 180,
+    "method": "prior_unrestricted",
+    "base_m": 15,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 15,
+    "vertices": 45,
+    "states": 8,
+    "edges": 120,
+    "method": "balanced_seed",
+    "base_m": 15,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 5,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 3
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 16,
+    "vertices": 48,
+    "states": 12,
+    "edges": 192,
+    "method": "prior_unrestricted",
+    "base_m": 16,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 3
+  },
+  {
+    "m": 16,
+    "vertices": 48,
+    "states": 8,
+    "edges": 128,
+    "method": "universal_grafting",
+    "base_m": 7,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      10
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 7,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 8,
+        "method": "cyclic_modular_seed",
+        "base_m": 5,
+        "slope": 1,
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 17,
+    "vertices": 51,
+    "states": 10,
+    "edges": 170,
+    "method": "balanced_seed",
+    "base_m": 17,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 17,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 17,
+    "vertices": 51,
+    "states": 10,
+    "edges": 170,
+    "method": "balanced_seed",
+    "base_m": 17,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 17,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 18,
+    "vertices": 54,
+    "states": 12,
+    "edges": 216,
+    "method": "universal_grafting",
+    "base_m": 6,
+    "base_kind": "eighteen_vertex_seed",
+    "seed_orders": [
+      13
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false,
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 18,
+    "vertices": 54,
+    "states": 8,
+    "edges": 144,
+    "method": "universal_grafting",
+    "base_m": 5,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      14
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 5,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 8,
+        "method": "cyclic_modular_seed",
+        "base_m": 7,
+        "slope": 1,
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 19,
+    "vertices": 57,
+    "states": 12,
+    "edges": 228,
+    "method": "balanced_seed",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 19,
+    "vertices": 57,
+    "states": 12,
+    "edges": 228,
+    "method": "balanced_seed",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 20,
+    "vertices": 60,
+    "states": 10,
+    "edges": 200,
+    "method": "prior_unrestricted",
+    "base_m": 20,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 20,
+    "vertices": 60,
+    "states": 8,
+    "edges": 160,
+    "method": "balanced_seed",
+    "base_m": 20,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 5,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 4
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 21,
+    "vertices": 63,
+    "states": 12,
+    "edges": 252,
+    "method": "prior_unrestricted",
+    "base_m": 21,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 21,
+    "vertices": 63,
+    "states": 10,
+    "edges": 210,
+    "method": "universal_grafting",
+    "base_m": 11,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      11
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 11,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 10,
+        "method": "cyclic_modular_seed",
+        "base_m": 11,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 22,
+    "vertices": 66,
+    "states": 12,
+    "edges": 264,
+    "method": "prior_unrestricted",
+    "base_m": 22,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 3
+  },
+  {
+    "m": 22,
+    "vertices": 66,
+    "states": 10,
+    "edges": 220,
+    "method": "balanced_seed",
+    "base_m": 22,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 11,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 23,
+    "vertices": 69,
+    "states": 12,
+    "edges": 276,
+    "method": "balanced_seed",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 23,
+    "vertices": 69,
+    "states": 12,
+    "edges": 276,
+    "method": "balanced_seed",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 24,
+    "vertices": 72,
+    "states": 12,
+    "edges": 288,
+    "method": "universal_grafting",
+    "base_m": 6,
+    "base_kind": "eighteen_vertex_seed",
+    "seed_orders": [
+      19
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false,
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 24,
+    "vertices": 72,
+    "states": 8,
+    "edges": 192,
+    "method": "universal_grafting",
+    "base_m": 5,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      20
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 5,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 8,
+        "method": "cyclic_modular_seed",
+        "base_m": 5,
+        "slope": 1,
+        "shifts": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "sheets": 4
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 25,
+    "vertices": 75,
+    "states": 12,
+    "edges": 300,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      13
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 25,
+    "vertices": 75,
+    "states": 12,
+    "edges": 300,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      13
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 26,
+    "vertices": 78,
+    "states": 12,
+    "edges": 312,
+    "method": "balanced_seed",
+    "base_m": 26,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 26,
+    "vertices": 78,
+    "states": 12,
+    "edges": 312,
+    "method": "balanced_seed",
+    "base_m": 26,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 27,
+    "vertices": 81,
+    "states": 12,
+    "edges": 324,
+    "method": "prior_unrestricted",
+    "base_m": 27,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 27,
+    "vertices": 81,
+    "states": 10,
+    "edges": 270,
+    "method": "universal_grafting",
+    "base_m": 11,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      17
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 11,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 10,
+        "method": "cyclic_modular_seed",
+        "base_m": 17,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 28,
+    "vertices": 84,
+    "states": 12,
+    "edges": 336,
+    "method": "prior_unrestricted",
+    "base_m": 28,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 3
+  },
+  {
+    "m": 28,
+    "vertices": 84,
+    "states": 8,
+    "edges": 224,
+    "method": "balanced_seed",
+    "base_m": 28,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 7,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 4
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 29,
+    "vertices": 87,
+    "states": 12,
+    "edges": 348,
+    "method": "balanced_seed",
+    "base_m": 29,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 29,
+      "slope": 8,
+      "shifts": [
+        0,
+        1,
+        2,
+        7,
+        20,
+        21
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 29,
+    "vertices": 87,
+    "states": 12,
+    "edges": 348,
+    "method": "balanced_seed",
+    "base_m": 29,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 29,
+      "slope": 8,
+      "shifts": [
+        0,
+        1,
+        2,
+        7,
+        20,
+        21
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 30,
+    "vertices": 90,
+    "states": 12,
+    "edges": 360,
+    "method": "universal_grafting",
+    "base_m": 6,
+    "base_kind": "eighteen_vertex_seed",
+    "seed_orders": [
+      13,
+      13
+    ],
+    "graft_steps": 2,
+    "tripartition_available": false,
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 1
+      },
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 30,
+    "vertices": 90,
+    "states": 8,
+    "edges": 240,
+    "method": "balanced_seed",
+    "base_m": 30,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 8,
+      "method": "cyclic_modular_seed",
+      "base_m": 5,
+      "slope": 1,
+      "shifts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sheets": 6
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 31,
+    "vertices": 93,
+    "states": 12,
+    "edges": 372,
+    "method": "balanced_seed",
+    "base_m": 31,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 31,
+      "slope": 4,
+      "shifts": [
+        0,
+        1,
+        3,
+        16,
+        21,
+        28
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 31,
+    "vertices": 93,
+    "states": 12,
+    "edges": 372,
+    "method": "balanced_seed",
+    "base_m": 31,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 31,
+      "slope": 4,
+      "shifts": [
+        0,
+        1,
+        3,
+        16,
+        21,
+        28
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 32,
+    "vertices": 96,
+    "states": 12,
+    "edges": 384,
+    "method": "prior_unrestricted",
+    "base_m": 32,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 3
+  },
+  {
+    "m": 32,
+    "vertices": 96,
+    "states": 10,
+    "edges": 320,
+    "method": "universal_grafting",
+    "base_m": 11,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      22
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 11,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 10,
+        "method": "cyclic_modular_seed",
+        "base_m": 11,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 33,
+    "vertices": 99,
+    "states": 12,
+    "edges": 396,
+    "method": "prior_unrestricted",
+    "base_m": 33,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 33,
+    "vertices": 99,
+    "states": 10,
+    "edges": 330,
+    "method": "balanced_seed",
+    "base_m": 33,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 11,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "sheets": 3
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 34,
+    "vertices": 102,
+    "states": 12,
+    "edges": 408,
+    "method": "prior_unrestricted",
+    "base_m": 34,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 3
+  },
+  {
+    "m": 34,
+    "vertices": 102,
+    "states": 10,
+    "edges": 340,
+    "method": "balanced_seed",
+    "base_m": 34,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 17,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 35,
+    "vertices": 105,
+    "states": 12,
+    "edges": 420,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      23
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 23,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          9,
+          10,
+          11
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 35,
+    "vertices": 105,
+    "states": 12,
+    "edges": 420,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      23
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 23,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          9,
+          10,
+          11
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 36,
+    "vertices": 108,
+    "states": 12,
+    "edges": 432,
+    "method": "universal_grafting",
+    "base_m": 6,
+    "base_kind": "eighteen_vertex_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false,
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 4
+  },
+  {
+    "m": 36,
+    "vertices": 108,
+    "states": 10,
+    "edges": 360,
+    "method": "universal_grafting",
+    "base_m": 11,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      26
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 11,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 37,
+    "vertices": 111,
+    "states": 12,
+    "edges": 444,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      19
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 37,
+    "vertices": 111,
+    "states": 12,
+    "edges": 444,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      19
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 38,
+    "vertices": 114,
+    "states": 12,
+    "edges": 456,
+    "method": "balanced_seed",
+    "base_m": 38,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 38,
+    "vertices": 114,
+    "states": 12,
+    "edges": 456,
+    "method": "balanced_seed",
+    "base_m": 38,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 39,
+    "vertices": 117,
+    "states": 12,
+    "edges": 468,
+    "method": "balanced_seed",
+    "base_m": 39,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 3
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 39,
+    "vertices": 117,
+    "states": 12,
+    "edges": 468,
+    "method": "balanced_seed",
+    "base_m": 39,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 3
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 40,
+    "vertices": 120,
+    "states": 12,
+    "edges": 480,
+    "method": "prior_unrestricted",
+    "base_m": 40,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": false,
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 3
+  },
+  {
+    "m": 40,
+    "vertices": 120,
+    "states": 10,
+    "edges": 400,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      22
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 10,
+        "method": "cyclic_modular_seed",
+        "base_m": 11,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 41,
+    "vertices": 123,
+    "states": 12,
+    "edges": 492,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 29,
+        "slope": 8,
+        "shifts": [
+          0,
+          1,
+          2,
+          7,
+          20,
+          21
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 41,
+    "vertices": 123,
+    "states": 12,
+    "edges": 492,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 29,
+        "slope": 8,
+        "shifts": [
+          0,
+          1,
+          2,
+          7,
+          20,
+          21
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 42,
+    "vertices": 126,
+    "states": 12,
+    "edges": 504,
+    "method": "universal_grafting",
+    "base_m": 4,
+    "base_kind": "prior_unrestricted",
+    "seed_orders": [
+      39
+    ],
+    "graft_steps": 1,
+    "tripartition_available": false,
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 3
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 3
+  },
+  {
+    "m": 42,
+    "vertices": 126,
+    "states": 10,
+    "edges": 420,
+    "method": "universal_grafting",
+    "base_m": 17,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      26
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 10,
+      "method": "cyclic_modular_seed",
+      "base_m": 17,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 43,
+    "vertices": 129,
+    "states": 12,
+    "edges": 516,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 43,
+    "vertices": 129,
+    "states": 12,
+    "edges": 516,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 44,
+    "vertices": 132,
+    "states": 12,
+    "edges": 528,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      26
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 44,
+    "vertices": 132,
+    "states": 12,
+    "edges": 528,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      26
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 45,
+    "vertices": 135,
+    "states": 12,
+    "edges": 540,
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      23
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 23,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          9,
+          10,
+          11
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 45,
+    "vertices": 135,
+    "states": 12,
+    "edges": 540,
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      23
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 23,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          9,
+          10,
+          11
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 46,
+    "vertices": 138,
+    "states": 12,
+    "edges": 552,
+    "method": "balanced_seed",
+    "base_m": 46,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 46,
+    "vertices": 138,
+    "states": 12,
+    "edges": 552,
+    "method": "balanced_seed",
+    "base_m": 46,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 47,
+    "vertices": 141,
+    "states": 12,
+    "edges": 564,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 29,
+        "slope": 8,
+        "shifts": [
+          0,
+          1,
+          2,
+          7,
+          20,
+          21
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 47,
+    "vertices": 141,
+    "states": 12,
+    "edges": 564,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 29,
+        "slope": 8,
+        "shifts": [
+          0,
+          1,
+          2,
+          7,
+          20,
+          21
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 48,
+    "vertices": 144,
+    "states": 12,
+    "edges": 576,
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      26
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 48,
+    "vertices": 144,
+    "states": 12,
+    "edges": 576,
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      26
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 49,
+    "vertices": 147,
+    "states": 12,
+    "edges": 588,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 49,
+    "vertices": 147,
+    "states": 12,
+    "edges": 588,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 50,
+    "vertices": 150,
+    "states": 12,
+    "edges": 600,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      38
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 50,
+    "vertices": 150,
+    "states": 12,
+    "edges": 600,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      38
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 51,
+    "vertices": 153,
+    "states": 12,
+    "edges": 612,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      39
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 3
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 51,
+    "vertices": 153,
+    "states": 12,
+    "edges": 612,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      39
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 3
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 52,
+    "vertices": 156,
+    "states": 12,
+    "edges": 624,
+    "method": "balanced_seed",
+    "base_m": 52,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 4
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 52,
+    "vertices": 156,
+    "states": 12,
+    "edges": 624,
+    "method": "balanced_seed",
+    "base_m": 52,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 4
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 53,
+    "vertices": 159,
+    "states": 12,
+    "edges": 636,
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 53,
+    "vertices": 159,
+    "states": 12,
+    "edges": 636,
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 54,
+    "vertices": 162,
+    "states": 12,
+    "edges": 648,
+    "method": "universal_grafting",
+    "base_m": 26,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 29,
+        "slope": 8,
+        "shifts": [
+          0,
+          1,
+          2,
+          7,
+          20,
+          21
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 54,
+    "vertices": 162,
+    "states": 12,
+    "edges": 648,
+    "method": "universal_grafting",
+    "base_m": 26,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      29
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 29,
+        "slope": 8,
+        "shifts": [
+          0,
+          1,
+          2,
+          7,
+          20,
+          21
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 55,
+    "vertices": 165,
+    "states": 12,
+    "edges": 660,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      13,
+      31
+    ],
+    "graft_steps": 2,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 1
+      },
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 55,
+    "vertices": 165,
+    "states": 12,
+    "edges": 660,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      13,
+      31
+    ],
+    "graft_steps": 2,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 1
+      },
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 56,
+    "vertices": 168,
+    "states": 12,
+    "edges": 672,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      38
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 56,
+    "vertices": 168,
+    "states": 12,
+    "edges": 672,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      38
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 57,
+    "vertices": 171,
+    "states": 12,
+    "edges": 684,
+    "method": "balanced_seed",
+    "base_m": 57,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 3
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 57,
+    "vertices": 171,
+    "states": 12,
+    "edges": 684,
+    "method": "balanced_seed",
+    "base_m": 57,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 3
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 58,
+    "vertices": 174,
+    "states": 12,
+    "edges": 696,
+    "method": "balanced_seed",
+    "base_m": 58,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 29,
+      "slope": 8,
+      "shifts": [
+        0,
+        1,
+        2,
+        7,
+        20,
+        21
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 58,
+    "vertices": 174,
+    "states": 12,
+    "edges": 696,
+    "method": "balanced_seed",
+    "base_m": 58,
+    "base_kind": "balanced_seed",
+    "seed_orders": [],
+    "graft_steps": 0,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 29,
+      "slope": 8,
+      "shifts": [
+        0,
+        1,
+        2,
+        7,
+        20,
+        21
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 59,
+    "vertices": 177,
+    "states": 12,
+    "edges": 708,
+    "method": "universal_grafting",
+    "base_m": 29,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 29,
+      "slope": 8,
+      "shifts": [
+        0,
+        1,
+        2,
+        7,
+        20,
+        21
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 59,
+    "vertices": 177,
+    "states": 12,
+    "edges": 708,
+    "method": "universal_grafting",
+    "base_m": 29,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      31
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 29,
+      "slope": 8,
+      "shifts": [
+        0,
+        1,
+        2,
+        7,
+        20,
+        21
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 1
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 60,
+    "vertices": 180,
+    "states": 12,
+    "edges": 720,
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      38
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 60,
+    "vertices": 180,
+    "states": 12,
+    "edges": 720,
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      38
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 74,
+    "vertices": 222,
+    "states": 12,
+    "edges": 888,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      62
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 74,
+    "vertices": 222,
+    "states": 12,
+    "edges": 888,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      62
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 31,
+        "slope": 4,
+        "shifts": [
+          0,
+          1,
+          3,
+          16,
+          21,
+          28
+        ],
+        "sheets": 2
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 100,
+    "vertices": 300,
+    "states": 12,
+    "edges": 1200,
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      78
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 6
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 100,
+    "vertices": 300,
+    "states": 12,
+    "edges": 1200,
+    "method": "universal_grafting",
+    "base_m": 23,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      78
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 23,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 6
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 135,
+    "vertices": 405,
+    "states": 12,
+    "edges": 1620,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      117
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 9
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 135,
+    "vertices": 405,
+    "states": 12,
+    "edges": 1620,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      117
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 9
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 263,
+    "vertices": 789,
+    "states": 12,
+    "edges": 3156,
+    "method": "universal_grafting",
+    "base_m": 57,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      207
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 3
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 23,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          9,
+          10,
+          11
+        ],
+        "sheets": 9
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 263,
+    "vertices": 789,
+    "states": 12,
+    "edges": 3156,
+    "method": "universal_grafting",
+    "base_m": 57,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      207
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 3
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 23,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          9,
+          10,
+          11
+        ],
+        "sheets": 9
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 500,
+    "vertices": 1500,
+    "states": 12,
+    "edges": 6000,
+    "method": "universal_grafting",
+    "base_m": 26,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      475
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 25
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 500,
+    "vertices": 1500,
+    "states": 12,
+    "edges": 6000,
+    "method": "universal_grafting",
+    "base_m": 26,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      475
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 2
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 25
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 681,
+    "vertices": 2043,
+    "states": 12,
+    "edges": 8172,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      663
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 51
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 681,
+    "vertices": 2043,
+    "states": 12,
+    "edges": 8172,
+    "method": "universal_grafting",
+    "base_m": 19,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      663
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 19,
+      "slope": 3,
+      "shifts": [
+        0,
+        1,
+        3,
+        12,
+        14,
+        15
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 13,
+        "slope": 2,
+        "shifts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8
+        ],
+        "sheets": 51
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 999,
+    "vertices": 2997,
+    "states": 12,
+    "edges": 11988,
+    "method": "universal_grafting",
+    "base_m": 31,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      969
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 31,
+      "slope": 4,
+      "shifts": [
+        0,
+        1,
+        3,
+        16,
+        21,
+        28
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 51
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 999,
+    "vertices": 2997,
+    "states": 12,
+    "edges": 11988,
+    "method": "universal_grafting",
+    "base_m": 31,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      969
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 31,
+      "slope": 4,
+      "shifts": [
+        0,
+        1,
+        3,
+        16,
+        21,
+        28
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 51
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 1000,
+    "vertices": 3000,
+    "states": 12,
+    "edges": 12000,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      988
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 52
+      }
+    ],
+    "setting": "unrestricted",
+    "maximum_codegree": 2
+  },
+  {
+    "m": 1000,
+    "vertices": 3000,
+    "states": 12,
+    "edges": 12000,
+    "method": "universal_grafting",
+    "base_m": 13,
+    "base_kind": "balanced_seed",
+    "seed_orders": [
+      988
+    ],
+    "graft_steps": 1,
+    "tripartition_available": true,
+    "base_seed": {
+      "states": 12,
+      "method": "cyclic_modular_seed",
+      "base_m": 13,
+      "slope": 2,
+      "shifts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "sheets": 1
+    },
+    "graft_seeds": [
+      {
+        "states": 12,
+        "method": "cyclic_modular_seed",
+        "base_m": 19,
+        "slope": 3,
+        "shifts": [
+          0,
+          1,
+          3,
+          12,
+          14,
+          15
+        ],
+        "sheets": 52
+      }
+    ],
+    "setting": "balanced_tripartite",
+    "maximum_codegree": 2
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "isomorphic": false,
+  "primary_source_url": "https://math.stackexchange.com/questions/4994589/3-uniform-hypergraphs-with-only-disjoint-perfect-matchings",
+  "primary_source_author": "discrete_things",
+  "primary_source_comment_timestamp_as_displayed": "2024-11-05 18:37",
+  "source_list_provenance": "The 13 matchings appear in the comment by discrete_things on November 5, 2024.",
+  "dimension_13_source_doi": "10.1103/PhysRevA.101.033816",
+  "method": "Exact vertex backtracking, independent enumeration of all 1296 codegree-preserving maps, and a hand-verifiable nonisomorphism invariant. Equivalent to color-preserving incidence-graph isomorphism.",
+  "incidence_graph_vertices": 48,
+  "incidence_graph_edges": 117,
+  "backtracking_nodes": 64,
+  "all_codegree_preserving_vertex_bijections_examined": 1296,
+  "isomorphisms_found": 0,
+  "published_to_our_vertex_map": null,
+  "published_example_certificate": {
+    "codegree_four_graph_components": [
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        2,
+        8,
+        9
+      ],
+      [
+        3,
+        5,
+        6
+      ]
+    ],
+    "components_that_are_hyperedges": [
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        3,
+        5,
+        6
+      ]
+    ],
+    "components_not_hyperedges": [
+      [
+        2,
+        8,
+        9
+      ]
+    ]
+  },
+  "vector_sum_example_certificate": {
+    "codegree_four_graph_components": [
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        1,
+        3,
+        8
+      ],
+      [
+        2,
+        4,
+        6
+      ]
+    ],
+    "components_that_are_hyperedges": [
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        1,
+        3,
+        8
+      ],
+      [
+        2,
+        4,
+        6
+      ]
+    ],
+    "components_not_hyperedges": []
+  },
+  "published_c_M_histogram": {
+    "1": 2,
+    "3": 4,
+    "4": 4,
+    "5": 2,
+    "6": 1
+  },
+  "vector_sum_c_M_histogram": {
+    "3": 9,
+    "6": 3,
+    "9": 1
+  },
+  "independent_published_partition_check": {
+    "partitions_examined": 280,
+    "perfect_matchings": 13
+  },
+  "conclusion": "Gu, Chen, and Krenn reported in 2020 that dimension 13 is attainable on nine paths. The finite-field hypergraph and the hypergraph listed by discrete_things in 2024 are nonisomorphic."
+}

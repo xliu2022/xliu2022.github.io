@@ -1,0 +1,166 @@
+{
+  "gadgets": [
+    {
+      "states": 2,
+      "rows": 2,
+      "strict_rank_inequalities": 2
+    },
+    {
+      "states": 3,
+      "rows": 4,
+      "strict_rank_inequalities": 12
+    },
+    {
+      "states": 4,
+      "rows": 8,
+      "strict_rank_inequalities": 48
+    },
+    {
+      "states": 5,
+      "rows": 16,
+      "strict_rank_inequalities": 160
+    },
+    {
+      "states": 6,
+      "rows": 32,
+      "strict_rank_inequalities": 480
+    },
+    {
+      "states": 7,
+      "rows": 64,
+      "strict_rank_inequalities": 1344
+    },
+    {
+      "states": 8,
+      "rows": 128,
+      "strict_rank_inequalities": 3584
+    },
+    {
+      "states": 9,
+      "rows": 256,
+      "strict_rank_inequalities": 9216
+    }
+  ],
+  "seeds": [
+    {
+      "m": 5,
+      "states": 8,
+      "vertices": 15,
+      "edges": 40,
+      "perfect_matchings": 8,
+      "search_nodes": 334
+    },
+    {
+      "m": 8,
+      "states": 8,
+      "vertices": 24,
+      "edges": 64,
+      "perfect_matchings": 8,
+      "search_nodes": 3793
+    }
+  ],
+  "small_complete_checks": [
+    {
+      "m": 8,
+      "states": 3,
+      "vertices": 24,
+      "edges": 24,
+      "perfect_matchings": 3,
+      "search_nodes": 218
+    },
+    {
+      "m": 10,
+      "states": 3,
+      "vertices": 30,
+      "edges": 30,
+      "perfect_matchings": 3,
+      "search_nodes": 351
+    }
+  ],
+  "large_structural_checks": [
+    {
+      "m": 261,
+      "states": 8,
+      "vertices": 783,
+      "edges": 2088,
+      "method": "binary",
+      "base_m": 133,
+      "increment": 128
+    },
+    {
+      "m": 266,
+      "states": 8,
+      "vertices": 798,
+      "edges": 2128,
+      "method": "binary_latin",
+      "base_m": 131,
+      "increment": 135
+    },
+    {
+      "m": 268,
+      "states": 8,
+      "vertices": 804,
+      "edges": 2144,
+      "method": "binary_latin",
+      "base_m": 133,
+      "increment": 135
+    },
+    {
+      "m": 270,
+      "states": 8,
+      "vertices": 810,
+      "edges": 2160,
+      "method": "binary_two_seeds",
+      "base_m": 131,
+      "increment": 139
+    },
+    {
+      "m": 265,
+      "states": 8,
+      "vertices": 795,
+      "edges": 2120,
+      "method": "coprime_six",
+      "base_m": 265
+    },
+    {
+      "m": 391,
+      "states": 8,
+      "vertices": 1173,
+      "edges": 3128,
+      "method": "coprime_six",
+      "base_m": 391
+    },
+    {
+      "m": 396,
+      "states": 8,
+      "vertices": 1188,
+      "edges": 3168,
+      "method": "binary_two_seeds",
+      "base_m": 257,
+      "increment": 139
+    },
+    {
+      "m": 999,
+      "states": 8,
+      "vertices": 2997,
+      "edges": 7992,
+      "method": "binary",
+      "base_m": 871,
+      "increment": 128
+    },
+    {
+      "m": 1000,
+      "states": 8,
+      "vertices": 3000,
+      "edges": 8000,
+      "method": "prior_latin_periodic",
+      "q": 125
+    }
+  ],
+  "arithmetic_coverage": {
+    "eight_from": 263,
+    "seven_from": 135,
+    "through": 1000,
+    "all_covered": true
+  }
+}

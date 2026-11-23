@@ -1,0 +1,151 @@
+{
+  "binary_gadget": {
+    "states": 10,
+    "rows": 512,
+    "strict_rank_inequalities": 23040
+  },
+  "small_exact": [
+    {
+      "n": 18,
+      "m": 6,
+      "states": 3,
+      "edges": 18,
+      "perfect_matchings": 3,
+      "search_nodes": 69
+    },
+    {
+      "n": 21,
+      "m": 7,
+      "states": 3,
+      "edges": 21,
+      "perfect_matchings": 3,
+      "search_nodes": 72
+    },
+    {
+      "n": 24,
+      "m": 8,
+      "states": 3,
+      "edges": 24,
+      "perfect_matchings": 3,
+      "search_nodes": 78
+    }
+  ],
+  "large_structure": [
+    {
+      "n": 2043,
+      "m": 681,
+      "states": 10,
+      "edges": 6810,
+      "method": "prior_eleven_lift",
+      "layers": 227
+    },
+    {
+      "n": 2046,
+      "m": 682,
+      "states": 10,
+      "edges": 6820,
+      "method": "prior_ten_odd_lift",
+      "layers": 341
+    },
+    {
+      "n": 2049,
+      "m": 683,
+      "states": 10,
+      "edges": 6830,
+      "method": "unrestricted_binary",
+      "base_m": 171,
+      "increment": 512,
+      "seed_q": null
+    },
+    {
+      "n": 2052,
+      "m": 684,
+      "states": 10,
+      "edges": 6840,
+      "method": "prior_eleven_lift",
+      "layers": 228
+    },
+    {
+      "n": 2055,
+      "m": 685,
+      "states": 10,
+      "edges": 6850,
+      "method": "unrestricted_binary",
+      "base_m": 171,
+      "increment": 514,
+      "seed_q": 3
+    },
+    {
+      "n": 2064,
+      "m": 688,
+      "states": 10,
+      "edges": 6880,
+      "method": "unrestricted_binary",
+      "base_m": 174,
+      "increment": 514,
+      "seed_q": 3
+    },
+    {
+      "n": 2076,
+      "m": 692,
+      "states": 10,
+      "edges": 6920,
+      "method": "unrestricted_binary",
+      "base_m": 180,
+      "increment": 512,
+      "seed_q": null
+    },
+    {
+      "n": 2163,
+      "m": 721,
+      "states": 10,
+      "edges": 7210,
+      "method": "unrestricted_binary",
+      "base_m": 207,
+      "increment": 514,
+      "seed_q": 3
+    },
+    {
+      "n": 2166,
+      "m": 722,
+      "states": 10,
+      "edges": 7220,
+      "method": "prior_ten_odd_lift",
+      "layers": 361
+    },
+    {
+      "n": 2181,
+      "m": 727,
+      "states": 10,
+      "edges": 7270,
+      "method": "unrestricted_binary",
+      "base_m": 213,
+      "increment": 514,
+      "seed_q": 3
+    },
+    {
+      "n": 2997,
+      "m": 999,
+      "states": 10,
+      "edges": 9990,
+      "method": "prior_eleven_lift",
+      "layers": 333
+    },
+    {
+      "n": 3000,
+      "m": 1000,
+      "states": 10,
+      "edges": 10000,
+      "method": "unrestricted_binary",
+      "base_m": 486,
+      "increment": 514,
+      "seed_q": 3
+    }
+  ],
+  "coverage": {
+    "from": 681,
+    "through": 1000,
+    "all_covered": true,
+    "latest_uncovered_order_by_this_family": 680
+  }
+}

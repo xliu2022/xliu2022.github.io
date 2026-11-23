@@ -1,0 +1,407 @@
+{
+  "all_order_checks": [
+    {
+      "states": 8,
+      "all_orders_from": 33,
+      "increment": 7,
+      "consecutive_orders_verified": 7,
+      "used_seed_count": 7,
+      "valid": true
+    },
+    {
+      "states": 9,
+      "all_orders_from": 62,
+      "increment": 21,
+      "consecutive_orders_verified": 21,
+      "used_seed_count": 18,
+      "valid": true
+    },
+    {
+      "states": 10,
+      "all_orders_from": 74,
+      "increment": 25,
+      "consecutive_orders_verified": 25,
+      "used_seed_count": 18,
+      "valid": true
+    },
+    {
+      "states": 11,
+      "all_orders_from": 112,
+      "increment": 37,
+      "consecutive_orders_verified": 37,
+      "used_seed_count": 18,
+      "valid": true
+    },
+    {
+      "states": 12,
+      "all_orders_from": 113,
+      "increment": 38,
+      "consecutive_orders_verified": 38,
+      "used_seed_count": 18,
+      "valid": true
+    }
+  ],
+  "distinct_structural_seed_checks": 40,
+  "seed_checks": [
+    {
+      "m": 8,
+      "states": 8,
+      "vertices": 24,
+      "edges": 64,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 20,
+      "states": 8,
+      "vertices": 60,
+      "edges": 160,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 21,
+      "states": 8,
+      "vertices": 63,
+      "edges": 168,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 24,
+      "states": 8,
+      "vertices": 72,
+      "edges": 192,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 26,
+      "states": 10,
+      "vertices": 78,
+      "edges": 260,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 30,
+      "states": 8,
+      "vertices": 90,
+      "edges": 240,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 39,
+      "states": 12,
+      "vertices": 117,
+      "edges": 468,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 22,
+      "states": 9,
+      "vertices": 66,
+      "edges": 198,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 33,
+      "states": 10,
+      "vertices": 99,
+      "edges": 330,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 34,
+      "states": 10,
+      "vertices": 102,
+      "edges": 340,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 38,
+      "states": 11,
+      "vertices": 114,
+      "edges": 418,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 44,
+      "states": 10,
+      "vertices": 132,
+      "edges": 440,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 46,
+      "states": 12,
+      "vertices": 138,
+      "edges": 552,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 51,
+      "states": 10,
+      "vertices": 153,
+      "edges": 510,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 52,
+      "states": 12,
+      "vertices": 156,
+      "edges": 624,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 57,
+      "states": 12,
+      "vertices": 171,
+      "edges": 684,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 58,
+      "states": 12,
+      "vertices": 174,
+      "edges": 696,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 62,
+      "states": 12,
+      "vertices": 186,
+      "edges": 744,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 66,
+      "states": 10,
+      "vertices": 198,
+      "edges": 660,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 69,
+      "states": 12,
+      "vertices": 207,
+      "edges": 828,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 74,
+      "states": 10,
+      "vertices": 222,
+      "edges": 740,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 77,
+      "states": 10,
+      "vertices": 231,
+      "edges": 770,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 82,
+      "states": 10,
+      "vertices": 246,
+      "edges": 820,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 55,
+      "states": 10,
+      "vertices": 165,
+      "edges": 550,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 65,
+      "states": 12,
+      "vertices": 195,
+      "edges": 780,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 68,
+      "states": 10,
+      "vertices": 204,
+      "edges": 680,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 78,
+      "states": 12,
+      "vertices": 234,
+      "edges": 936,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 85,
+      "states": 10,
+      "vertices": 255,
+      "edges": 850,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 86,
+      "states": 10,
+      "vertices": 258,
+      "edges": 860,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 87,
+      "states": 12,
+      "vertices": 261,
+      "edges": 1044,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 91,
+      "states": 12,
+      "vertices": 273,
+      "edges": 1092,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 92,
+      "states": 12,
+      "vertices": 276,
+      "edges": 1104,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 93,
+      "states": 12,
+      "vertices": 279,
+      "edges": 1116,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 104,
+      "states": 12,
+      "vertices": 312,
+      "edges": 1248,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 116,
+      "states": 12,
+      "vertices": 348,
+      "edges": 1392,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 117,
+      "states": 12,
+      "vertices": 351,
+      "edges": 1404,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 138,
+      "states": 12,
+      "vertices": 414,
+      "edges": 1656,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 76,
+      "states": 12,
+      "vertices": 228,
+      "edges": 912,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 124,
+      "states": 12,
+      "vertices": 372,
+      "edges": 1488,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    },
+    {
+      "m": 143,
+      "states": 12,
+      "vertices": 429,
+      "edges": 1716,
+      "maximum_codegree": 1,
+      "simple": true,
+      "balanced_tripartite": true
+    }
+  ]
+}

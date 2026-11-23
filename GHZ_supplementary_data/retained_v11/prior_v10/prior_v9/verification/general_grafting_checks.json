@@ -1,0 +1,150 @@
+[
+  {
+    "vertices": 9,
+    "m": 3,
+    "states": 3,
+    "edges": 9,
+    "exact_perfect_matchings": 3,
+    "search_nodes": 10,
+    "complete": true,
+    "triples": [
+      [
+        0,
+        1,
+        2
+      ]
+    ]
+  },
+  {
+    "vertices": 9,
+    "m": 3,
+    "states": 3,
+    "edges": 9,
+    "exact_perfect_matchings": 3,
+    "search_nodes": 10,
+    "complete": true,
+    "triples": [
+      [
+        0,
+        2,
+        4
+      ]
+    ]
+  },
+  {
+    "vertices": 12,
+    "m": 4,
+    "states": 3,
+    "edges": 12,
+    "exact_perfect_matchings": 3,
+    "search_nodes": 13,
+    "complete": true,
+    "triples": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        4,
+        5
+      ]
+    ]
+  },
+  {
+    "vertices": 15,
+    "m": 5,
+    "states": 3,
+    "edges": 15,
+    "exact_perfect_matchings": 3,
+    "search_nodes": 18,
+    "complete": true,
+    "iterated": true
+  },
+  {
+    "vertices": 48,
+    "m": 16,
+    "states": 12,
+    "edges": 192,
+    "input_m": 4,
+    "seed_q": 13
+  },
+  {
+    "vertices": 45,
+    "m": 15,
+    "states": 12,
+    "edges": 180,
+    "input_m": 3,
+    "seed_q": 13
+  },
+  {
+    "vertices": 132,
+    "m": 44,
+    "states": 12,
+    "edges": 528,
+    "input_m": 4,
+    "seed_orders": [
+      13,
+      29
+    ]
+  },
+  {
+    "vertices": 138,
+    "m": 46,
+    "states": 12,
+    "edges": 552,
+    "input_m": 4,
+    "seed_orders": [
+      13,
+      13,
+      19
+    ]
+  },
+  {
+    "vertices": 144,
+    "m": 48,
+    "states": 12,
+    "edges": 576,
+    "input_m": 4,
+    "seed_orders": [
+      23,
+      23
+    ]
+  },
+  {
+    "vertices": 150,
+    "m": 50,
+    "states": 12,
+    "edges": 600,
+    "input_m": 4,
+    "seed_orders": [
+      19,
+      29
+    ]
+  },
+  {
+    "vertices": 156,
+    "m": 52,
+    "states": 12,
+    "edges": 624,
+    "input_m": 4,
+    "seed_orders": [
+      13,
+      13,
+      13,
+      13
+    ]
+  },
+  {
+    "vertices": 162,
+    "m": 54,
+    "states": 12,
+    "edges": 648,
+    "input_m": 4,
+    "seed_orders": [
+      23,
+      29
+    ]
+  }
+]

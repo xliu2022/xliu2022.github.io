@@ -1,0 +1,206 @@
+{
+  "iterated_tests": [
+    {
+      "vertices": 9,
+      "m": 3,
+      "states": 4,
+      "edges": 12,
+      "transversal_size": 3,
+      "exact_transversal": true,
+      "exact_perfect_matchings": 4,
+      "nodes": 13,
+      "complete": true,
+      "iteration": 1,
+      "seed_part_size": 2,
+      "selected_input_vertices": [
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "vertices": 12,
+      "m": 4,
+      "states": 4,
+      "edges": 16,
+      "transversal_size": 4,
+      "exact_transversal": true,
+      "exact_perfect_matchings": 4,
+      "nodes": 19,
+      "complete": true,
+      "iteration": 2,
+      "seed_part_size": 2,
+      "selected_input_vertices": [
+        3,
+        6,
+        8
+      ]
+    },
+    {
+      "vertices": 15,
+      "m": 5,
+      "states": 4,
+      "edges": 20,
+      "transversal_size": 5,
+      "exact_transversal": true,
+      "exact_perfect_matchings": 4,
+      "nodes": 28,
+      "complete": true,
+      "iteration": 3,
+      "seed_part_size": 2,
+      "selected_input_vertices": [
+        6,
+        9,
+        8
+      ]
+    },
+    {
+      "vertices": 18,
+      "m": 6,
+      "states": 4,
+      "edges": 24,
+      "transversal_size": 6,
+      "exact_transversal": true,
+      "exact_perfect_matchings": 4,
+      "nodes": 35,
+      "complete": true,
+      "iteration": 4,
+      "seed_part_size": 2,
+      "selected_input_vertices": [
+        12,
+        14,
+        8
+      ]
+    },
+    {
+      "vertices": 15,
+      "m": 5,
+      "states": 6,
+      "edges": 30,
+      "transversal_size": 5,
+      "exact_transversal": true,
+      "exact_perfect_matchings": 6,
+      "nodes": 45,
+      "complete": true,
+      "iteration": 1,
+      "seed_part_size": 3,
+      "selected_input_vertices": [
+        8,
+        7,
+        3
+      ]
+    },
+    {
+      "vertices": 21,
+      "m": 7,
+      "states": 6,
+      "edges": 42,
+      "transversal_size": 7,
+      "exact_transversal": true,
+      "exact_perfect_matchings": 6,
+      "nodes": 68,
+      "complete": true,
+      "iteration": 2,
+      "seed_part_size": 3,
+      "selected_input_vertices": [
+        6,
+        13,
+        10
+      ]
+    },
+    {
+      "vertices": 27,
+      "m": 9,
+      "states": 6,
+      "edges": 54,
+      "transversal_size": 9,
+      "exact_transversal": true,
+      "exact_perfect_matchings": 6,
+      "nodes": 120,
+      "complete": true,
+      "iteration": 3,
+      "seed_part_size": 3,
+      "selected_input_vertices": [
+        16,
+        5,
+        11
+      ]
+    },
+    {
+      "vertices": 27,
+      "m": 9,
+      "states": 8,
+      "edges": 72,
+      "transversal_size": 9,
+      "exact_transversal": true,
+      "exact_perfect_matchings": 8,
+      "nodes": 439,
+      "complete": true,
+      "iteration": 1,
+      "seed_part_size": 5,
+      "selected_input_vertices": [
+        6,
+        8,
+        13
+      ]
+    },
+    {
+      "vertices": 39,
+      "m": 13,
+      "states": 8,
+      "edges": 104,
+      "transversal_size": 13,
+      "exact_transversal": true,
+      "exact_perfect_matchings": 8,
+      "nodes": 757,
+      "complete": true,
+      "iteration": 2,
+      "seed_part_size": 5,
+      "selected_input_vertices": [
+        7,
+        19,
+        25
+      ]
+    }
+  ],
+  "numerical_semigroup": {
+    "generators": [
+      6,
+      9,
+      11,
+      14
+    ],
+    "conductor": 20,
+    "last_gap": 19,
+    "six_consecutive_witnesses": {
+      "20": [
+        6,
+        14
+      ],
+      "21": [
+        6,
+        6,
+        9
+      ],
+      "22": [
+        11,
+        11
+      ],
+      "23": [
+        9,
+        14
+      ],
+      "24": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "25": [
+        11,
+        14
+      ]
+    },
+    "analytically_implies_all_n_at_least_20": true
+  }
+}

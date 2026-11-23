@@ -1,0 +1,2523 @@
+[
+  {
+    "states": 8,
+    "min_increment": 7,
+    "frobenius": 31,
+    "all_orders_from": 33,
+    "apery": [
+      {
+        "residue": 0,
+        "value": 0,
+        "increments": []
+      },
+      {
+        "residue": 1,
+        "value": 29,
+        "increments": [
+          29
+        ]
+      },
+      {
+        "residue": 2,
+        "value": 23,
+        "increments": [
+          23
+        ]
+      },
+      {
+        "residue": 3,
+        "value": 38,
+        "increments": [
+          38
+        ]
+      },
+      {
+        "residue": 4,
+        "value": 25,
+        "increments": [
+          25
+        ]
+      },
+      {
+        "residue": 5,
+        "value": 19,
+        "increments": [
+          19
+        ]
+      },
+      {
+        "residue": 6,
+        "value": 20,
+        "increments": [
+          20
+        ]
+      }
+    ],
+    "used_seeds": {
+      "8": {
+        "base_m": 8,
+        "sheets": 1,
+        "method": "old_linear_latin_lift",
+        "states": 8
+      },
+      "20": {
+        "base_m": 5,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 8,
+        "delta": 1
+      },
+      "21": {
+        "base_m": 7,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 8,
+        "delta": 1
+      },
+      "24": {
+        "base_m": 8,
+        "sheets": 3,
+        "method": "old_linear_latin_lift",
+        "states": 8
+      },
+      "26": {
+        "base_m": 13,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 10,
+        "delta": 2,
+        "delete_h1": [
+          2,
+          4
+        ]
+      },
+      "30": {
+        "base_m": 5,
+        "sheets": 6,
+        "method": "linear_cyclic_lift",
+        "states": 8,
+        "delta": 1
+      },
+      "39": {
+        "base_m": 13,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      }
+    },
+    "consecutive_representatives": [
+      {
+        "m": 33,
+        "seed_orders": [
+          26,
+          8
+        ]
+      },
+      {
+        "m": 34,
+        "seed_orders": [
+          20,
+          8,
+          8
+        ]
+      },
+      {
+        "m": 35,
+        "seed_orders": [
+          21,
+          8,
+          8
+        ]
+      },
+      {
+        "m": 36,
+        "seed_orders": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      {
+        "m": 37,
+        "seed_orders": [
+          30,
+          8
+        ]
+      },
+      {
+        "m": 38,
+        "seed_orders": [
+          24,
+          8,
+          8
+        ]
+      },
+      {
+        "m": 39,
+        "seed_orders": [
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "states": 9,
+    "min_increment": 21,
+    "frobenius": 60,
+    "all_orders_from": 62,
+    "apery": [
+      {
+        "residue": 0,
+        "value": 0,
+        "increments": []
+      },
+      {
+        "residue": 1,
+        "value": 43,
+        "increments": [
+          43
+        ]
+      },
+      {
+        "residue": 2,
+        "value": 65,
+        "increments": [
+          65
+        ]
+      },
+      {
+        "residue": 3,
+        "value": 45,
+        "increments": [
+          45
+        ]
+      },
+      {
+        "residue": 4,
+        "value": 25,
+        "increments": [
+          25
+        ]
+      },
+      {
+        "residue": 5,
+        "value": 68,
+        "increments": [
+          68
+        ]
+      },
+      {
+        "residue": 6,
+        "value": 69,
+        "increments": [
+          32,
+          37
+        ]
+      },
+      {
+        "residue": 7,
+        "value": 70,
+        "increments": [
+          25,
+          45
+        ]
+      },
+      {
+        "residue": 8,
+        "value": 50,
+        "increments": [
+          50
+        ]
+      },
+      {
+        "residue": 9,
+        "value": 51,
+        "increments": [
+          51
+        ]
+      },
+      {
+        "residue": 10,
+        "value": 73,
+        "increments": [
+          73
+        ]
+      },
+      {
+        "residue": 11,
+        "value": 32,
+        "increments": [
+          32
+        ]
+      },
+      {
+        "residue": 12,
+        "value": 33,
+        "increments": [
+          33
+        ]
+      },
+      {
+        "residue": 13,
+        "value": 76,
+        "increments": [
+          76
+        ]
+      },
+      {
+        "residue": 14,
+        "value": 56,
+        "increments": [
+          56
+        ]
+      },
+      {
+        "residue": 15,
+        "value": 57,
+        "increments": [
+          57
+        ]
+      },
+      {
+        "residue": 16,
+        "value": 37,
+        "increments": [
+          37
+        ]
+      },
+      {
+        "residue": 17,
+        "value": 38,
+        "increments": [
+          38
+        ]
+      },
+      {
+        "residue": 18,
+        "value": 81,
+        "increments": [
+          81
+        ]
+      },
+      {
+        "residue": 19,
+        "value": 61,
+        "increments": [
+          61
+        ]
+      },
+      {
+        "residue": 20,
+        "value": 62,
+        "increments": [
+          25,
+          37
+        ]
+      }
+    ],
+    "used_seeds": {
+      "22": {
+        "base_m": 11,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 9,
+        "delta": 4,
+        "delete_h1": [
+          5
+        ]
+      },
+      "26": {
+        "base_m": 13,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 10,
+        "delta": 2,
+        "delete_h1": [
+          2,
+          4
+        ]
+      },
+      "33": {
+        "base_m": 11,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "34": {
+        "base_m": 17,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 10,
+        "delta": 6,
+        "delete_h1": []
+      },
+      "38": {
+        "base_m": 19,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 11,
+        "delta": 4,
+        "delete_h1": [
+          0
+        ]
+      },
+      "39": {
+        "base_m": 13,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "44": {
+        "base_m": 11,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "46": {
+        "base_m": 23,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 3,
+        "delete_h1": []
+      },
+      "51": {
+        "base_m": 17,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "52": {
+        "base_m": 13,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "57": {
+        "base_m": 19,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "58": {
+        "base_m": 29,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 3,
+        "delete_h1": []
+      },
+      "62": {
+        "base_m": 31,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 8,
+        "delete_h1": []
+      },
+      "66": {
+        "base_m": 11,
+        "sheets": 6,
+        "method": "linear_cyclic_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "69": {
+        "base_m": 23,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "74": {
+        "base_m": 37,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 10,
+        "delta": 6,
+        "delete_h1": []
+      },
+      "77": {
+        "base_m": 11,
+        "sheets": 7,
+        "method": "linear_cyclic_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "82": {
+        "base_m": 41,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 10,
+        "delta": 6,
+        "delete_h1": []
+      }
+    },
+    "consecutive_representatives": [
+      {
+        "m": 62,
+        "seed_orders": [
+          62
+        ]
+      },
+      {
+        "m": 63,
+        "seed_orders": [
+          26,
+          38
+        ]
+      },
+      {
+        "m": 64,
+        "seed_orders": [
+          22,
+          22,
+          22
+        ]
+      },
+      {
+        "m": 65,
+        "seed_orders": [
+          44,
+          22
+        ]
+      },
+      {
+        "m": 66,
+        "seed_orders": [
+          66
+        ]
+      },
+      {
+        "m": 67,
+        "seed_orders": [
+          46,
+          22
+        ]
+      },
+      {
+        "m": 68,
+        "seed_orders": [
+          26,
+          22,
+          22
+        ]
+      },
+      {
+        "m": 69,
+        "seed_orders": [
+          69
+        ]
+      },
+      {
+        "m": 70,
+        "seed_orders": [
+          33,
+          38
+        ]
+      },
+      {
+        "m": 71,
+        "seed_orders": [
+          26,
+          46
+        ]
+      },
+      {
+        "m": 72,
+        "seed_orders": [
+          51,
+          22
+        ]
+      },
+      {
+        "m": 73,
+        "seed_orders": [
+          52,
+          22
+        ]
+      },
+      {
+        "m": 74,
+        "seed_orders": [
+          74
+        ]
+      },
+      {
+        "m": 75,
+        "seed_orders": [
+          33,
+          22,
+          22
+        ]
+      },
+      {
+        "m": 76,
+        "seed_orders": [
+          34,
+          22,
+          22
+        ]
+      },
+      {
+        "m": 77,
+        "seed_orders": [
+          77
+        ]
+      },
+      {
+        "m": 78,
+        "seed_orders": [
+          57,
+          22
+        ]
+      },
+      {
+        "m": 79,
+        "seed_orders": [
+          58,
+          22
+        ]
+      },
+      {
+        "m": 80,
+        "seed_orders": [
+          38,
+          22,
+          22
+        ]
+      },
+      {
+        "m": 81,
+        "seed_orders": [
+          39,
+          22,
+          22
+        ]
+      },
+      {
+        "m": 82,
+        "seed_orders": [
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "states": 10,
+    "min_increment": 25,
+    "frobenius": 72,
+    "all_orders_from": 74,
+    "apery": [
+      {
+        "residue": 0,
+        "value": 0,
+        "increments": []
+      },
+      {
+        "residue": 1,
+        "value": 51,
+        "increments": [
+          51
+        ]
+      },
+      {
+        "residue": 2,
+        "value": 77,
+        "increments": [
+          77
+        ]
+      },
+      {
+        "residue": 3,
+        "value": 78,
+        "increments": [
+          33,
+          45
+        ]
+      },
+      {
+        "residue": 4,
+        "value": 54,
+        "increments": [
+          54
+        ]
+      },
+      {
+        "residue": 5,
+        "value": 80,
+        "increments": [
+          37,
+          43
+        ]
+      },
+      {
+        "residue": 6,
+        "value": 56,
+        "increments": [
+          56
+        ]
+      },
+      {
+        "residue": 7,
+        "value": 32,
+        "increments": [
+          32
+        ]
+      },
+      {
+        "residue": 8,
+        "value": 33,
+        "increments": [
+          33
+        ]
+      },
+      {
+        "residue": 9,
+        "value": 84,
+        "increments": [
+          84
+        ]
+      },
+      {
+        "residue": 10,
+        "value": 85,
+        "increments": [
+          85
+        ]
+      },
+      {
+        "residue": 11,
+        "value": 61,
+        "increments": [
+          61
+        ]
+      },
+      {
+        "residue": 12,
+        "value": 37,
+        "increments": [
+          37
+        ]
+      },
+      {
+        "residue": 13,
+        "value": 38,
+        "increments": [
+          38
+        ]
+      },
+      {
+        "residue": 14,
+        "value": 64,
+        "increments": [
+          64
+        ]
+      },
+      {
+        "residue": 15,
+        "value": 65,
+        "increments": [
+          65
+        ]
+      },
+      {
+        "residue": 16,
+        "value": 66,
+        "increments": [
+          33,
+          33
+        ]
+      },
+      {
+        "residue": 17,
+        "value": 67,
+        "increments": [
+          67
+        ]
+      },
+      {
+        "residue": 18,
+        "value": 43,
+        "increments": [
+          43
+        ]
+      },
+      {
+        "residue": 19,
+        "value": 69,
+        "increments": [
+          32,
+          37
+        ]
+      },
+      {
+        "residue": 20,
+        "value": 45,
+        "increments": [
+          45
+        ]
+      },
+      {
+        "residue": 21,
+        "value": 71,
+        "increments": [
+          33,
+          38
+        ]
+      },
+      {
+        "residue": 22,
+        "value": 97,
+        "increments": [
+          32,
+          65
+        ]
+      },
+      {
+        "residue": 23,
+        "value": 73,
+        "increments": [
+          73
+        ]
+      },
+      {
+        "residue": 24,
+        "value": 74,
+        "increments": [
+          37,
+          37
+        ]
+      }
+    ],
+    "used_seeds": {
+      "26": {
+        "base_m": 13,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 10,
+        "delta": 2,
+        "delete_h1": [
+          2,
+          4
+        ]
+      },
+      "33": {
+        "base_m": 11,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "34": {
+        "base_m": 17,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 10,
+        "delta": 6,
+        "delete_h1": []
+      },
+      "38": {
+        "base_m": 19,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 11,
+        "delta": 4,
+        "delete_h1": [
+          0
+        ]
+      },
+      "39": {
+        "base_m": 13,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "44": {
+        "base_m": 11,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "46": {
+        "base_m": 23,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 3,
+        "delete_h1": []
+      },
+      "52": {
+        "base_m": 13,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "55": {
+        "base_m": 11,
+        "sheets": 5,
+        "method": "linear_cyclic_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "57": {
+        "base_m": 19,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "62": {
+        "base_m": 31,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 8,
+        "delete_h1": []
+      },
+      "65": {
+        "base_m": 13,
+        "sheets": 5,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "66": {
+        "base_m": 11,
+        "sheets": 6,
+        "method": "linear_cyclic_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "68": {
+        "base_m": 17,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "74": {
+        "base_m": 37,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 10,
+        "delta": 6,
+        "delete_h1": []
+      },
+      "78": {
+        "base_m": 13,
+        "sheets": 6,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "85": {
+        "base_m": 17,
+        "sheets": 5,
+        "method": "linear_cyclic_lift",
+        "states": 10,
+        "delta": 1
+      },
+      "86": {
+        "base_m": 43,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 10,
+        "delta": 8,
+        "delete_h1": []
+      }
+    },
+    "consecutive_representatives": [
+      {
+        "m": 74,
+        "seed_orders": [
+          74
+        ]
+      },
+      {
+        "m": 75,
+        "seed_orders": [
+          38,
+          38
+        ]
+      },
+      {
+        "m": 76,
+        "seed_orders": [
+          26,
+          26,
+          26
+        ]
+      },
+      {
+        "m": 77,
+        "seed_orders": [
+          52,
+          26
+        ]
+      },
+      {
+        "m": 78,
+        "seed_orders": [
+          78
+        ]
+      },
+      {
+        "m": 79,
+        "seed_orders": [
+          34,
+          46
+        ]
+      },
+      {
+        "m": 80,
+        "seed_orders": [
+          55,
+          26
+        ]
+      },
+      {
+        "m": 81,
+        "seed_orders": [
+          38,
+          44
+        ]
+      },
+      {
+        "m": 82,
+        "seed_orders": [
+          57,
+          26
+        ]
+      },
+      {
+        "m": 83,
+        "seed_orders": [
+          33,
+          26,
+          26
+        ]
+      },
+      {
+        "m": 84,
+        "seed_orders": [
+          34,
+          26,
+          26
+        ]
+      },
+      {
+        "m": 85,
+        "seed_orders": [
+          85
+        ]
+      },
+      {
+        "m": 86,
+        "seed_orders": [
+          86
+        ]
+      },
+      {
+        "m": 87,
+        "seed_orders": [
+          62,
+          26
+        ]
+      },
+      {
+        "m": 88,
+        "seed_orders": [
+          38,
+          26,
+          26
+        ]
+      },
+      {
+        "m": 89,
+        "seed_orders": [
+          39,
+          26,
+          26
+        ]
+      },
+      {
+        "m": 90,
+        "seed_orders": [
+          65,
+          26
+        ]
+      },
+      {
+        "m": 91,
+        "seed_orders": [
+          66,
+          26
+        ]
+      },
+      {
+        "m": 92,
+        "seed_orders": [
+          34,
+          34,
+          26
+        ]
+      },
+      {
+        "m": 93,
+        "seed_orders": [
+          68,
+          26
+        ]
+      },
+      {
+        "m": 94,
+        "seed_orders": [
+          44,
+          26,
+          26
+        ]
+      },
+      {
+        "m": 95,
+        "seed_orders": [
+          33,
+          38,
+          26
+        ]
+      },
+      {
+        "m": 96,
+        "seed_orders": [
+          46,
+          26,
+          26
+        ]
+      },
+      {
+        "m": 97,
+        "seed_orders": [
+          34,
+          39,
+          26
+        ]
+      },
+      {
+        "m": 98,
+        "seed_orders": [
+          33,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "states": 11,
+    "min_increment": 37,
+    "frobenius": 110,
+    "all_orders_from": 112,
+    "apery": [
+      {
+        "residue": 0,
+        "value": 0,
+        "increments": []
+      },
+      {
+        "residue": 1,
+        "value": 38,
+        "increments": [
+          38
+        ]
+      },
+      {
+        "residue": 2,
+        "value": 76,
+        "increments": [
+          38,
+          38
+        ]
+      },
+      {
+        "residue": 3,
+        "value": 77,
+        "increments": [
+          77
+        ]
+      },
+      {
+        "residue": 4,
+        "value": 115,
+        "increments": [
+          115
+        ]
+      },
+      {
+        "residue": 5,
+        "value": 116,
+        "increments": [
+          116
+        ]
+      },
+      {
+        "residue": 6,
+        "value": 117,
+        "increments": [
+          56,
+          61
+        ]
+      },
+      {
+        "residue": 7,
+        "value": 118,
+        "increments": [
+          57,
+          61
+        ]
+      },
+      {
+        "residue": 8,
+        "value": 45,
+        "increments": [
+          45
+        ]
+      },
+      {
+        "residue": 9,
+        "value": 83,
+        "increments": [
+          38,
+          45
+        ]
+      },
+      {
+        "residue": 10,
+        "value": 121,
+        "increments": [
+          57,
+          64
+        ]
+      },
+      {
+        "residue": 11,
+        "value": 122,
+        "increments": [
+          45,
+          77
+        ]
+      },
+      {
+        "residue": 12,
+        "value": 86,
+        "increments": [
+          86
+        ]
+      },
+      {
+        "residue": 13,
+        "value": 124,
+        "increments": [
+          38,
+          86
+        ]
+      },
+      {
+        "residue": 14,
+        "value": 51,
+        "increments": [
+          51
+        ]
+      },
+      {
+        "residue": 15,
+        "value": 89,
+        "increments": [
+          38,
+          51
+        ]
+      },
+      {
+        "residue": 16,
+        "value": 90,
+        "increments": [
+          90
+        ]
+      },
+      {
+        "residue": 17,
+        "value": 91,
+        "increments": [
+          91
+        ]
+      },
+      {
+        "residue": 18,
+        "value": 92,
+        "increments": [
+          92
+        ]
+      },
+      {
+        "residue": 19,
+        "value": 56,
+        "increments": [
+          56
+        ]
+      },
+      {
+        "residue": 20,
+        "value": 57,
+        "increments": [
+          57
+        ]
+      },
+      {
+        "residue": 21,
+        "value": 95,
+        "increments": [
+          38,
+          57
+        ]
+      },
+      {
+        "residue": 22,
+        "value": 96,
+        "increments": [
+          45,
+          51
+        ]
+      },
+      {
+        "residue": 23,
+        "value": 134,
+        "increments": [
+          57,
+          77
+        ]
+      },
+      {
+        "residue": 24,
+        "value": 61,
+        "increments": [
+          61
+        ]
+      },
+      {
+        "residue": 25,
+        "value": 99,
+        "increments": [
+          38,
+          61
+        ]
+      },
+      {
+        "residue": 26,
+        "value": 137,
+        "increments": [
+          137
+        ]
+      },
+      {
+        "residue": 27,
+        "value": 64,
+        "increments": [
+          64
+        ]
+      },
+      {
+        "residue": 28,
+        "value": 102,
+        "increments": [
+          38,
+          64
+        ]
+      },
+      {
+        "residue": 29,
+        "value": 103,
+        "increments": [
+          103
+        ]
+      },
+      {
+        "residue": 30,
+        "value": 141,
+        "increments": [
+          38,
+          103
+        ]
+      },
+      {
+        "residue": 31,
+        "value": 68,
+        "increments": [
+          68
+        ]
+      },
+      {
+        "residue": 32,
+        "value": 106,
+        "increments": [
+          38,
+          68
+        ]
+      },
+      {
+        "residue": 33,
+        "value": 107,
+        "increments": [
+          51,
+          56
+        ]
+      },
+      {
+        "residue": 34,
+        "value": 108,
+        "increments": [
+          51,
+          57
+        ]
+      },
+      {
+        "residue": 35,
+        "value": 109,
+        "increments": [
+          45,
+          64
+        ]
+      },
+      {
+        "residue": 36,
+        "value": 147,
+        "increments": [
+          56,
+          91
+        ]
+      }
+    ],
+    "used_seeds": {
+      "38": {
+        "base_m": 19,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 11,
+        "delta": 4,
+        "delete_h1": [
+          0
+        ]
+      },
+      "39": {
+        "base_m": 13,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "46": {
+        "base_m": 23,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 3,
+        "delete_h1": []
+      },
+      "52": {
+        "base_m": 13,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "57": {
+        "base_m": 19,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "58": {
+        "base_m": 29,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 3,
+        "delete_h1": []
+      },
+      "62": {
+        "base_m": 31,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 8,
+        "delete_h1": []
+      },
+      "65": {
+        "base_m": 13,
+        "sheets": 5,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "69": {
+        "base_m": 23,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "78": {
+        "base_m": 13,
+        "sheets": 6,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "87": {
+        "base_m": 29,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "91": {
+        "base_m": 13,
+        "sheets": 7,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "92": {
+        "base_m": 23,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "93": {
+        "base_m": 31,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "104": {
+        "base_m": 13,
+        "sheets": 8,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "116": {
+        "base_m": 29,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "117": {
+        "base_m": 13,
+        "sheets": 9,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "138": {
+        "base_m": 23,
+        "sheets": 6,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      }
+    },
+    "consecutive_representatives": [
+      {
+        "m": 112,
+        "seed_orders": [
+          38,
+          38,
+          38
+        ]
+      },
+      {
+        "m": 113,
+        "seed_orders": [
+          39,
+          38,
+          38
+        ]
+      },
+      {
+        "m": 114,
+        "seed_orders": [
+          39,
+          39,
+          38
+        ]
+      },
+      {
+        "m": 115,
+        "seed_orders": [
+          78,
+          38
+        ]
+      },
+      {
+        "m": 116,
+        "seed_orders": [
+          116
+        ]
+      },
+      {
+        "m": 117,
+        "seed_orders": [
+          117
+        ]
+      },
+      {
+        "m": 118,
+        "seed_orders": [
+          57,
+          62
+        ]
+      },
+      {
+        "m": 119,
+        "seed_orders": [
+          58,
+          62
+        ]
+      },
+      {
+        "m": 120,
+        "seed_orders": [
+          46,
+          38,
+          38
+        ]
+      },
+      {
+        "m": 121,
+        "seed_orders": [
+          39,
+          46,
+          38
+        ]
+      },
+      {
+        "m": 122,
+        "seed_orders": [
+          58,
+          65
+        ]
+      },
+      {
+        "m": 123,
+        "seed_orders": [
+          46,
+          78
+        ]
+      },
+      {
+        "m": 124,
+        "seed_orders": [
+          87,
+          38
+        ]
+      },
+      {
+        "m": 125,
+        "seed_orders": [
+          39,
+          87
+        ]
+      },
+      {
+        "m": 126,
+        "seed_orders": [
+          52,
+          38,
+          38
+        ]
+      },
+      {
+        "m": 127,
+        "seed_orders": [
+          39,
+          52,
+          38
+        ]
+      },
+      {
+        "m": 128,
+        "seed_orders": [
+          91,
+          38
+        ]
+      },
+      {
+        "m": 129,
+        "seed_orders": [
+          92,
+          38
+        ]
+      },
+      {
+        "m": 130,
+        "seed_orders": [
+          93,
+          38
+        ]
+      },
+      {
+        "m": 131,
+        "seed_orders": [
+          57,
+          38,
+          38
+        ]
+      },
+      {
+        "m": 132,
+        "seed_orders": [
+          58,
+          38,
+          38
+        ]
+      },
+      {
+        "m": 133,
+        "seed_orders": [
+          39,
+          58,
+          38
+        ]
+      },
+      {
+        "m": 134,
+        "seed_orders": [
+          46,
+          52,
+          38
+        ]
+      },
+      {
+        "m": 135,
+        "seed_orders": [
+          58,
+          78
+        ]
+      },
+      {
+        "m": 136,
+        "seed_orders": [
+          62,
+          38,
+          38
+        ]
+      },
+      {
+        "m": 137,
+        "seed_orders": [
+          39,
+          62,
+          38
+        ]
+      },
+      {
+        "m": 138,
+        "seed_orders": [
+          138
+        ]
+      },
+      {
+        "m": 139,
+        "seed_orders": [
+          65,
+          38,
+          38
+        ]
+      },
+      {
+        "m": 140,
+        "seed_orders": [
+          39,
+          65,
+          38
+        ]
+      },
+      {
+        "m": 141,
+        "seed_orders": [
+          104,
+          38
+        ]
+      },
+      {
+        "m": 142,
+        "seed_orders": [
+          39,
+          104
+        ]
+      },
+      {
+        "m": 143,
+        "seed_orders": [
+          69,
+          38,
+          38
+        ]
+      },
+      {
+        "m": 144,
+        "seed_orders": [
+          39,
+          69,
+          38
+        ]
+      },
+      {
+        "m": 145,
+        "seed_orders": [
+          52,
+          57,
+          38
+        ]
+      },
+      {
+        "m": 146,
+        "seed_orders": [
+          52,
+          58,
+          38
+        ]
+      },
+      {
+        "m": 147,
+        "seed_orders": [
+          46,
+          65,
+          38
+        ]
+      },
+      {
+        "m": 148,
+        "seed_orders": [
+          57,
+          92
+        ]
+      }
+    ]
+  },
+  {
+    "states": 12,
+    "min_increment": 38,
+    "frobenius": 111,
+    "all_orders_from": 113,
+    "apery": [
+      {
+        "residue": 0,
+        "value": 0,
+        "increments": []
+      },
+      {
+        "residue": 1,
+        "value": 77,
+        "increments": [
+          77
+        ]
+      },
+      {
+        "residue": 2,
+        "value": 116,
+        "increments": [
+          116
+        ]
+      },
+      {
+        "residue": 3,
+        "value": 117,
+        "increments": [
+          56,
+          61
+        ]
+      },
+      {
+        "residue": 4,
+        "value": 118,
+        "increments": [
+          57,
+          61
+        ]
+      },
+      {
+        "residue": 5,
+        "value": 119,
+        "increments": [
+          51,
+          68
+        ]
+      },
+      {
+        "residue": 6,
+        "value": 120,
+        "increments": [
+          45,
+          75
+        ]
+      },
+      {
+        "residue": 7,
+        "value": 45,
+        "increments": [
+          45
+        ]
+      },
+      {
+        "residue": 8,
+        "value": 122,
+        "increments": [
+          45,
+          77
+        ]
+      },
+      {
+        "residue": 9,
+        "value": 123,
+        "increments": [
+          123
+        ]
+      },
+      {
+        "residue": 10,
+        "value": 86,
+        "increments": [
+          86
+        ]
+      },
+      {
+        "residue": 11,
+        "value": 125,
+        "increments": [
+          57,
+          68
+        ]
+      },
+      {
+        "residue": 12,
+        "value": 126,
+        "increments": [
+          51,
+          75
+        ]
+      },
+      {
+        "residue": 13,
+        "value": 51,
+        "increments": [
+          51
+        ]
+      },
+      {
+        "residue": 14,
+        "value": 90,
+        "increments": [
+          90
+        ]
+      },
+      {
+        "residue": 15,
+        "value": 91,
+        "increments": [
+          91
+        ]
+      },
+      {
+        "residue": 16,
+        "value": 92,
+        "increments": [
+          92
+        ]
+      },
+      {
+        "residue": 17,
+        "value": 131,
+        "increments": [
+          45,
+          86
+        ]
+      },
+      {
+        "residue": 18,
+        "value": 56,
+        "increments": [
+          56
+        ]
+      },
+      {
+        "residue": 19,
+        "value": 57,
+        "increments": [
+          57
+        ]
+      },
+      {
+        "residue": 20,
+        "value": 96,
+        "increments": [
+          45,
+          51
+        ]
+      },
+      {
+        "residue": 21,
+        "value": 135,
+        "increments": [
+          45,
+          90
+        ]
+      },
+      {
+        "residue": 22,
+        "value": 136,
+        "increments": [
+          45,
+          91
+        ]
+      },
+      {
+        "residue": 23,
+        "value": 61,
+        "increments": [
+          61
+        ]
+      },
+      {
+        "residue": 24,
+        "value": 138,
+        "increments": [
+          61,
+          77
+        ]
+      },
+      {
+        "residue": 25,
+        "value": 101,
+        "increments": [
+          45,
+          56
+        ]
+      },
+      {
+        "residue": 26,
+        "value": 64,
+        "increments": [
+          64
+        ]
+      },
+      {
+        "residue": 27,
+        "value": 103,
+        "increments": [
+          103
+        ]
+      },
+      {
+        "residue": 28,
+        "value": 142,
+        "increments": [
+          142
+        ]
+      },
+      {
+        "residue": 29,
+        "value": 143,
+        "increments": [
+          51,
+          92
+        ]
+      },
+      {
+        "residue": 30,
+        "value": 68,
+        "increments": [
+          68
+        ]
+      },
+      {
+        "residue": 31,
+        "value": 107,
+        "increments": [
+          51,
+          56
+        ]
+      },
+      {
+        "residue": 32,
+        "value": 108,
+        "increments": [
+          51,
+          57
+        ]
+      },
+      {
+        "residue": 33,
+        "value": 109,
+        "increments": [
+          45,
+          64
+        ]
+      },
+      {
+        "residue": 34,
+        "value": 148,
+        "increments": [
+          45,
+          103
+        ]
+      },
+      {
+        "residue": 35,
+        "value": 149,
+        "increments": [
+          57,
+          92
+        ]
+      },
+      {
+        "residue": 36,
+        "value": 112,
+        "increments": [
+          51,
+          61
+        ]
+      },
+      {
+        "residue": 37,
+        "value": 75,
+        "increments": [
+          75
+        ]
+      }
+    ],
+    "used_seeds": {
+      "39": {
+        "base_m": 13,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "46": {
+        "base_m": 23,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 3,
+        "delete_h1": []
+      },
+      "52": {
+        "base_m": 13,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "57": {
+        "base_m": 19,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "58": {
+        "base_m": 29,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 3,
+        "delete_h1": []
+      },
+      "62": {
+        "base_m": 31,
+        "sheets": 2,
+        "method": "color_deleted_linear_two_lift",
+        "states": 12,
+        "delta": 8,
+        "delete_h1": []
+      },
+      "65": {
+        "base_m": 13,
+        "sheets": 5,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "69": {
+        "base_m": 23,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "76": {
+        "base_m": 19,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "78": {
+        "base_m": 13,
+        "sheets": 6,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "87": {
+        "base_m": 29,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "91": {
+        "base_m": 13,
+        "sheets": 7,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "92": {
+        "base_m": 23,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "93": {
+        "base_m": 31,
+        "sheets": 3,
+        "method": "monotone_code_linear_three_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "104": {
+        "base_m": 13,
+        "sheets": 8,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "117": {
+        "base_m": 13,
+        "sheets": 9,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "124": {
+        "base_m": 31,
+        "sheets": 4,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      },
+      "143": {
+        "base_m": 13,
+        "sheets": 11,
+        "method": "linear_cyclic_lift",
+        "states": 12,
+        "delta": 1
+      }
+    },
+    "consecutive_representatives": [
+      {
+        "m": 113,
+        "seed_orders": [
+          52,
+          62
+        ]
+      },
+      {
+        "m": 114,
+        "seed_orders": [
+          76,
+          39
+        ]
+      },
+      {
+        "m": 115,
+        "seed_orders": [
+          39,
+          39,
+          39
+        ]
+      },
+      {
+        "m": 116,
+        "seed_orders": [
+          78,
+          39
+        ]
+      },
+      {
+        "m": 117,
+        "seed_orders": [
+          117
+        ]
+      },
+      {
+        "m": 118,
+        "seed_orders": [
+          57,
+          62
+        ]
+      },
+      {
+        "m": 119,
+        "seed_orders": [
+          58,
+          62
+        ]
+      },
+      {
+        "m": 120,
+        "seed_orders": [
+          52,
+          69
+        ]
+      },
+      {
+        "m": 121,
+        "seed_orders": [
+          46,
+          76
+        ]
+      },
+      {
+        "m": 122,
+        "seed_orders": [
+          46,
+          39,
+          39
+        ]
+      },
+      {
+        "m": 123,
+        "seed_orders": [
+          46,
+          78
+        ]
+      },
+      {
+        "m": 124,
+        "seed_orders": [
+          124
+        ]
+      },
+      {
+        "m": 125,
+        "seed_orders": [
+          87,
+          39
+        ]
+      },
+      {
+        "m": 126,
+        "seed_orders": [
+          58,
+          69
+        ]
+      },
+      {
+        "m": 127,
+        "seed_orders": [
+          52,
+          76
+        ]
+      },
+      {
+        "m": 128,
+        "seed_orders": [
+          52,
+          39,
+          39
+        ]
+      },
+      {
+        "m": 129,
+        "seed_orders": [
+          91,
+          39
+        ]
+      },
+      {
+        "m": 130,
+        "seed_orders": [
+          92,
+          39
+        ]
+      },
+      {
+        "m": 131,
+        "seed_orders": [
+          93,
+          39
+        ]
+      },
+      {
+        "m": 132,
+        "seed_orders": [
+          46,
+          87
+        ]
+      },
+      {
+        "m": 133,
+        "seed_orders": [
+          57,
+          39,
+          39
+        ]
+      },
+      {
+        "m": 134,
+        "seed_orders": [
+          58,
+          39,
+          39
+        ]
+      },
+      {
+        "m": 135,
+        "seed_orders": [
+          46,
+          52,
+          39
+        ]
+      },
+      {
+        "m": 136,
+        "seed_orders": [
+          46,
+          91
+        ]
+      },
+      {
+        "m": 137,
+        "seed_orders": [
+          46,
+          92
+        ]
+      },
+      {
+        "m": 138,
+        "seed_orders": [
+          62,
+          39,
+          39
+        ]
+      },
+      {
+        "m": 139,
+        "seed_orders": [
+          62,
+          78
+        ]
+      },
+      {
+        "m": 140,
+        "seed_orders": [
+          46,
+          57,
+          39
+        ]
+      },
+      {
+        "m": 141,
+        "seed_orders": [
+          65,
+          39,
+          39
+        ]
+      },
+      {
+        "m": 142,
+        "seed_orders": [
+          104,
+          39
+        ]
+      },
+      {
+        "m": 143,
+        "seed_orders": [
+          143
+        ]
+      },
+      {
+        "m": 144,
+        "seed_orders": [
+          52,
+          93
+        ]
+      },
+      {
+        "m": 145,
+        "seed_orders": [
+          69,
+          39,
+          39
+        ]
+      },
+      {
+        "m": 146,
+        "seed_orders": [
+          52,
+          57,
+          39
+        ]
+      },
+      {
+        "m": 147,
+        "seed_orders": [
+          52,
+          58,
+          39
+        ]
+      },
+      {
+        "m": 148,
+        "seed_orders": [
+          46,
+          65,
+          39
+        ]
+      },
+      {
+        "m": 149,
+        "seed_orders": [
+          46,
+          104
+        ]
+      },
+      {
+        "m": 150,
+        "seed_orders": [
+          58,
+          93
+        ]
+      }
+    ]
+  }
+]

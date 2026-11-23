@@ -1,0 +1,5592 @@
+[
+  {
+    "n": 6,
+    "m": 2,
+    "states": 10,
+    "edges": 20,
+    "method": "prior_ten_odd_lift",
+    "layers": 1
+  },
+  {
+    "n": 9,
+    "m": 3,
+    "states": 10,
+    "edges": 30,
+    "method": "prior_eleven_lift",
+    "layers": 1
+  },
+  {
+    "n": 18,
+    "m": 6,
+    "states": 10,
+    "edges": 60,
+    "method": "prior_eleven_lift",
+    "layers": 2
+  },
+  {
+    "n": 27,
+    "m": 9,
+    "states": 10,
+    "edges": 90,
+    "method": "prior_eleven_lift",
+    "layers": 3
+  },
+  {
+    "n": 30,
+    "m": 10,
+    "states": 10,
+    "edges": 100,
+    "method": "prior_ten_odd_lift",
+    "layers": 5
+  },
+  {
+    "n": 36,
+    "m": 12,
+    "states": 10,
+    "edges": 120,
+    "method": "prior_eleven_lift",
+    "layers": 4
+  },
+  {
+    "n": 42,
+    "m": 14,
+    "states": 10,
+    "edges": 140,
+    "method": "prior_ten_odd_lift",
+    "layers": 7
+  },
+  {
+    "n": 45,
+    "m": 15,
+    "states": 10,
+    "edges": 150,
+    "method": "prior_eleven_lift",
+    "layers": 5
+  },
+  {
+    "n": 54,
+    "m": 18,
+    "states": 10,
+    "edges": 180,
+    "method": "prior_eleven_lift",
+    "layers": 6
+  },
+  {
+    "n": 63,
+    "m": 21,
+    "states": 10,
+    "edges": 210,
+    "method": "prior_eleven_lift",
+    "layers": 7
+  },
+  {
+    "n": 66,
+    "m": 22,
+    "states": 10,
+    "edges": 220,
+    "method": "prior_ten_odd_lift",
+    "layers": 11
+  },
+  {
+    "n": 72,
+    "m": 24,
+    "states": 10,
+    "edges": 240,
+    "method": "prior_eleven_lift",
+    "layers": 8
+  },
+  {
+    "n": 78,
+    "m": 26,
+    "states": 10,
+    "edges": 260,
+    "method": "prior_ten_odd_lift",
+    "layers": 13
+  },
+  {
+    "n": 81,
+    "m": 27,
+    "states": 10,
+    "edges": 270,
+    "method": "prior_eleven_lift",
+    "layers": 9
+  },
+  {
+    "n": 90,
+    "m": 30,
+    "states": 10,
+    "edges": 300,
+    "method": "prior_eleven_lift",
+    "layers": 10
+  },
+  {
+    "n": 99,
+    "m": 33,
+    "states": 10,
+    "edges": 330,
+    "method": "prior_eleven_lift",
+    "layers": 11
+  },
+  {
+    "n": 102,
+    "m": 34,
+    "states": 10,
+    "edges": 340,
+    "method": "prior_ten_odd_lift",
+    "layers": 17
+  },
+  {
+    "n": 108,
+    "m": 36,
+    "states": 10,
+    "edges": 360,
+    "method": "prior_eleven_lift",
+    "layers": 12
+  },
+  {
+    "n": 114,
+    "m": 38,
+    "states": 10,
+    "edges": 380,
+    "method": "prior_ten_odd_lift",
+    "layers": 19
+  },
+  {
+    "n": 117,
+    "m": 39,
+    "states": 10,
+    "edges": 390,
+    "method": "prior_eleven_lift",
+    "layers": 13
+  },
+  {
+    "n": 126,
+    "m": 42,
+    "states": 10,
+    "edges": 420,
+    "method": "prior_eleven_lift",
+    "layers": 14
+  },
+  {
+    "n": 135,
+    "m": 45,
+    "states": 10,
+    "edges": 450,
+    "method": "prior_eleven_lift",
+    "layers": 15
+  },
+  {
+    "n": 138,
+    "m": 46,
+    "states": 10,
+    "edges": 460,
+    "method": "prior_ten_odd_lift",
+    "layers": 23
+  },
+  {
+    "n": 144,
+    "m": 48,
+    "states": 10,
+    "edges": 480,
+    "method": "prior_eleven_lift",
+    "layers": 16
+  },
+  {
+    "n": 150,
+    "m": 50,
+    "states": 10,
+    "edges": 500,
+    "method": "prior_ten_odd_lift",
+    "layers": 25
+  },
+  {
+    "n": 153,
+    "m": 51,
+    "states": 10,
+    "edges": 510,
+    "method": "prior_eleven_lift",
+    "layers": 17
+  },
+  {
+    "n": 162,
+    "m": 54,
+    "states": 10,
+    "edges": 540,
+    "method": "prior_eleven_lift",
+    "layers": 18
+  },
+  {
+    "n": 171,
+    "m": 57,
+    "states": 10,
+    "edges": 570,
+    "method": "prior_eleven_lift",
+    "layers": 19
+  },
+  {
+    "n": 174,
+    "m": 58,
+    "states": 10,
+    "edges": 580,
+    "method": "prior_ten_odd_lift",
+    "layers": 29
+  },
+  {
+    "n": 180,
+    "m": 60,
+    "states": 10,
+    "edges": 600,
+    "method": "prior_eleven_lift",
+    "layers": 20
+  },
+  {
+    "n": 186,
+    "m": 62,
+    "states": 10,
+    "edges": 620,
+    "method": "prior_ten_odd_lift",
+    "layers": 31
+  },
+  {
+    "n": 189,
+    "m": 63,
+    "states": 10,
+    "edges": 630,
+    "method": "prior_eleven_lift",
+    "layers": 21
+  },
+  {
+    "n": 198,
+    "m": 66,
+    "states": 10,
+    "edges": 660,
+    "method": "prior_eleven_lift",
+    "layers": 22
+  },
+  {
+    "n": 207,
+    "m": 69,
+    "states": 10,
+    "edges": 690,
+    "method": "prior_eleven_lift",
+    "layers": 23
+  },
+  {
+    "n": 210,
+    "m": 70,
+    "states": 10,
+    "edges": 700,
+    "method": "prior_ten_odd_lift",
+    "layers": 35
+  },
+  {
+    "n": 216,
+    "m": 72,
+    "states": 10,
+    "edges": 720,
+    "method": "prior_eleven_lift",
+    "layers": 24
+  },
+  {
+    "n": 222,
+    "m": 74,
+    "states": 10,
+    "edges": 740,
+    "method": "prior_ten_odd_lift",
+    "layers": 37
+  },
+  {
+    "n": 225,
+    "m": 75,
+    "states": 10,
+    "edges": 750,
+    "method": "prior_eleven_lift",
+    "layers": 25
+  },
+  {
+    "n": 234,
+    "m": 78,
+    "states": 10,
+    "edges": 780,
+    "method": "prior_eleven_lift",
+    "layers": 26
+  },
+  {
+    "n": 243,
+    "m": 81,
+    "states": 10,
+    "edges": 810,
+    "method": "prior_eleven_lift",
+    "layers": 27
+  },
+  {
+    "n": 246,
+    "m": 82,
+    "states": 10,
+    "edges": 820,
+    "method": "prior_ten_odd_lift",
+    "layers": 41
+  },
+  {
+    "n": 252,
+    "m": 84,
+    "states": 10,
+    "edges": 840,
+    "method": "prior_eleven_lift",
+    "layers": 28
+  },
+  {
+    "n": 258,
+    "m": 86,
+    "states": 10,
+    "edges": 860,
+    "method": "prior_ten_odd_lift",
+    "layers": 43
+  },
+  {
+    "n": 261,
+    "m": 87,
+    "states": 10,
+    "edges": 870,
+    "method": "prior_eleven_lift",
+    "layers": 29
+  },
+  {
+    "n": 270,
+    "m": 90,
+    "states": 10,
+    "edges": 900,
+    "method": "prior_eleven_lift",
+    "layers": 30
+  },
+  {
+    "n": 279,
+    "m": 93,
+    "states": 10,
+    "edges": 930,
+    "method": "prior_eleven_lift",
+    "layers": 31
+  },
+  {
+    "n": 282,
+    "m": 94,
+    "states": 10,
+    "edges": 940,
+    "method": "prior_ten_odd_lift",
+    "layers": 47
+  },
+  {
+    "n": 288,
+    "m": 96,
+    "states": 10,
+    "edges": 960,
+    "method": "prior_eleven_lift",
+    "layers": 32
+  },
+  {
+    "n": 294,
+    "m": 98,
+    "states": 10,
+    "edges": 980,
+    "method": "prior_ten_odd_lift",
+    "layers": 49
+  },
+  {
+    "n": 297,
+    "m": 99,
+    "states": 10,
+    "edges": 990,
+    "method": "prior_eleven_lift",
+    "layers": 33
+  },
+  {
+    "n": 306,
+    "m": 102,
+    "states": 10,
+    "edges": 1020,
+    "method": "prior_eleven_lift",
+    "layers": 34
+  },
+  {
+    "n": 315,
+    "m": 105,
+    "states": 10,
+    "edges": 1050,
+    "method": "prior_eleven_lift",
+    "layers": 35
+  },
+  {
+    "n": 318,
+    "m": 106,
+    "states": 10,
+    "edges": 1060,
+    "method": "prior_ten_odd_lift",
+    "layers": 53
+  },
+  {
+    "n": 324,
+    "m": 108,
+    "states": 10,
+    "edges": 1080,
+    "method": "prior_eleven_lift",
+    "layers": 36
+  },
+  {
+    "n": 330,
+    "m": 110,
+    "states": 10,
+    "edges": 1100,
+    "method": "prior_ten_odd_lift",
+    "layers": 55
+  },
+  {
+    "n": 333,
+    "m": 111,
+    "states": 10,
+    "edges": 1110,
+    "method": "prior_eleven_lift",
+    "layers": 37
+  },
+  {
+    "n": 342,
+    "m": 114,
+    "states": 10,
+    "edges": 1140,
+    "method": "prior_eleven_lift",
+    "layers": 38
+  },
+  {
+    "n": 351,
+    "m": 117,
+    "states": 10,
+    "edges": 1170,
+    "method": "prior_eleven_lift",
+    "layers": 39
+  },
+  {
+    "n": 354,
+    "m": 118,
+    "states": 10,
+    "edges": 1180,
+    "method": "prior_ten_odd_lift",
+    "layers": 59
+  },
+  {
+    "n": 360,
+    "m": 120,
+    "states": 10,
+    "edges": 1200,
+    "method": "prior_eleven_lift",
+    "layers": 40
+  },
+  {
+    "n": 366,
+    "m": 122,
+    "states": 10,
+    "edges": 1220,
+    "method": "prior_ten_odd_lift",
+    "layers": 61
+  },
+  {
+    "n": 369,
+    "m": 123,
+    "states": 10,
+    "edges": 1230,
+    "method": "prior_eleven_lift",
+    "layers": 41
+  },
+  {
+    "n": 378,
+    "m": 126,
+    "states": 10,
+    "edges": 1260,
+    "method": "prior_eleven_lift",
+    "layers": 42
+  },
+  {
+    "n": 387,
+    "m": 129,
+    "states": 10,
+    "edges": 1290,
+    "method": "prior_eleven_lift",
+    "layers": 43
+  },
+  {
+    "n": 390,
+    "m": 130,
+    "states": 10,
+    "edges": 1300,
+    "method": "prior_ten_odd_lift",
+    "layers": 65
+  },
+  {
+    "n": 396,
+    "m": 132,
+    "states": 10,
+    "edges": 1320,
+    "method": "prior_eleven_lift",
+    "layers": 44
+  },
+  {
+    "n": 402,
+    "m": 134,
+    "states": 10,
+    "edges": 1340,
+    "method": "prior_ten_odd_lift",
+    "layers": 67
+  },
+  {
+    "n": 405,
+    "m": 135,
+    "states": 10,
+    "edges": 1350,
+    "method": "prior_eleven_lift",
+    "layers": 45
+  },
+  {
+    "n": 414,
+    "m": 138,
+    "states": 10,
+    "edges": 1380,
+    "method": "prior_eleven_lift",
+    "layers": 46
+  },
+  {
+    "n": 423,
+    "m": 141,
+    "states": 10,
+    "edges": 1410,
+    "method": "prior_eleven_lift",
+    "layers": 47
+  },
+  {
+    "n": 426,
+    "m": 142,
+    "states": 10,
+    "edges": 1420,
+    "method": "prior_ten_odd_lift",
+    "layers": 71
+  },
+  {
+    "n": 432,
+    "m": 144,
+    "states": 10,
+    "edges": 1440,
+    "method": "prior_eleven_lift",
+    "layers": 48
+  },
+  {
+    "n": 438,
+    "m": 146,
+    "states": 10,
+    "edges": 1460,
+    "method": "prior_ten_odd_lift",
+    "layers": 73
+  },
+  {
+    "n": 441,
+    "m": 147,
+    "states": 10,
+    "edges": 1470,
+    "method": "prior_eleven_lift",
+    "layers": 49
+  },
+  {
+    "n": 450,
+    "m": 150,
+    "states": 10,
+    "edges": 1500,
+    "method": "prior_eleven_lift",
+    "layers": 50
+  },
+  {
+    "n": 459,
+    "m": 153,
+    "states": 10,
+    "edges": 1530,
+    "method": "prior_eleven_lift",
+    "layers": 51
+  },
+  {
+    "n": 462,
+    "m": 154,
+    "states": 10,
+    "edges": 1540,
+    "method": "prior_ten_odd_lift",
+    "layers": 77
+  },
+  {
+    "n": 468,
+    "m": 156,
+    "states": 10,
+    "edges": 1560,
+    "method": "prior_eleven_lift",
+    "layers": 52
+  },
+  {
+    "n": 474,
+    "m": 158,
+    "states": 10,
+    "edges": 1580,
+    "method": "prior_ten_odd_lift",
+    "layers": 79
+  },
+  {
+    "n": 477,
+    "m": 159,
+    "states": 10,
+    "edges": 1590,
+    "method": "prior_eleven_lift",
+    "layers": 53
+  },
+  {
+    "n": 486,
+    "m": 162,
+    "states": 10,
+    "edges": 1620,
+    "method": "prior_eleven_lift",
+    "layers": 54
+  },
+  {
+    "n": 495,
+    "m": 165,
+    "states": 10,
+    "edges": 1650,
+    "method": "prior_eleven_lift",
+    "layers": 55
+  },
+  {
+    "n": 498,
+    "m": 166,
+    "states": 10,
+    "edges": 1660,
+    "method": "prior_ten_odd_lift",
+    "layers": 83
+  },
+  {
+    "n": 504,
+    "m": 168,
+    "states": 10,
+    "edges": 1680,
+    "method": "prior_eleven_lift",
+    "layers": 56
+  },
+  {
+    "n": 510,
+    "m": 170,
+    "states": 10,
+    "edges": 1700,
+    "method": "prior_ten_odd_lift",
+    "layers": 85
+  },
+  {
+    "n": 513,
+    "m": 171,
+    "states": 10,
+    "edges": 1710,
+    "method": "prior_eleven_lift",
+    "layers": 57
+  },
+  {
+    "n": 522,
+    "m": 174,
+    "states": 10,
+    "edges": 1740,
+    "method": "prior_eleven_lift",
+    "layers": 58
+  },
+  {
+    "n": 531,
+    "m": 177,
+    "states": 10,
+    "edges": 1770,
+    "method": "prior_eleven_lift",
+    "layers": 59
+  },
+  {
+    "n": 534,
+    "m": 178,
+    "states": 10,
+    "edges": 1780,
+    "method": "prior_ten_odd_lift",
+    "layers": 89
+  },
+  {
+    "n": 540,
+    "m": 180,
+    "states": 10,
+    "edges": 1800,
+    "method": "prior_eleven_lift",
+    "layers": 60
+  },
+  {
+    "n": 546,
+    "m": 182,
+    "states": 10,
+    "edges": 1820,
+    "method": "prior_ten_odd_lift",
+    "layers": 91
+  },
+  {
+    "n": 549,
+    "m": 183,
+    "states": 10,
+    "edges": 1830,
+    "method": "prior_eleven_lift",
+    "layers": 61
+  },
+  {
+    "n": 558,
+    "m": 186,
+    "states": 10,
+    "edges": 1860,
+    "method": "prior_eleven_lift",
+    "layers": 62
+  },
+  {
+    "n": 567,
+    "m": 189,
+    "states": 10,
+    "edges": 1890,
+    "method": "prior_eleven_lift",
+    "layers": 63
+  },
+  {
+    "n": 570,
+    "m": 190,
+    "states": 10,
+    "edges": 1900,
+    "method": "prior_ten_odd_lift",
+    "layers": 95
+  },
+  {
+    "n": 576,
+    "m": 192,
+    "states": 10,
+    "edges": 1920,
+    "method": "prior_eleven_lift",
+    "layers": 64
+  },
+  {
+    "n": 582,
+    "m": 194,
+    "states": 10,
+    "edges": 1940,
+    "method": "prior_ten_odd_lift",
+    "layers": 97
+  },
+  {
+    "n": 585,
+    "m": 195,
+    "states": 10,
+    "edges": 1950,
+    "method": "prior_eleven_lift",
+    "layers": 65
+  },
+  {
+    "n": 594,
+    "m": 198,
+    "states": 10,
+    "edges": 1980,
+    "method": "prior_eleven_lift",
+    "layers": 66
+  },
+  {
+    "n": 603,
+    "m": 201,
+    "states": 10,
+    "edges": 2010,
+    "method": "prior_eleven_lift",
+    "layers": 67
+  },
+  {
+    "n": 606,
+    "m": 202,
+    "states": 10,
+    "edges": 2020,
+    "method": "prior_ten_odd_lift",
+    "layers": 101
+  },
+  {
+    "n": 612,
+    "m": 204,
+    "states": 10,
+    "edges": 2040,
+    "method": "prior_eleven_lift",
+    "layers": 68
+  },
+  {
+    "n": 618,
+    "m": 206,
+    "states": 10,
+    "edges": 2060,
+    "method": "prior_ten_odd_lift",
+    "layers": 103
+  },
+  {
+    "n": 621,
+    "m": 207,
+    "states": 10,
+    "edges": 2070,
+    "method": "prior_eleven_lift",
+    "layers": 69
+  },
+  {
+    "n": 630,
+    "m": 210,
+    "states": 10,
+    "edges": 2100,
+    "method": "prior_eleven_lift",
+    "layers": 70
+  },
+  {
+    "n": 639,
+    "m": 213,
+    "states": 10,
+    "edges": 2130,
+    "method": "prior_eleven_lift",
+    "layers": 71
+  },
+  {
+    "n": 642,
+    "m": 214,
+    "states": 10,
+    "edges": 2140,
+    "method": "prior_ten_odd_lift",
+    "layers": 107
+  },
+  {
+    "n": 648,
+    "m": 216,
+    "states": 10,
+    "edges": 2160,
+    "method": "prior_eleven_lift",
+    "layers": 72
+  },
+  {
+    "n": 654,
+    "m": 218,
+    "states": 10,
+    "edges": 2180,
+    "method": "prior_ten_odd_lift",
+    "layers": 109
+  },
+  {
+    "n": 657,
+    "m": 219,
+    "states": 10,
+    "edges": 2190,
+    "method": "prior_eleven_lift",
+    "layers": 73
+  },
+  {
+    "n": 666,
+    "m": 222,
+    "states": 10,
+    "edges": 2220,
+    "method": "prior_eleven_lift",
+    "layers": 74
+  },
+  {
+    "n": 675,
+    "m": 225,
+    "states": 10,
+    "edges": 2250,
+    "method": "prior_eleven_lift",
+    "layers": 75
+  },
+  {
+    "n": 678,
+    "m": 226,
+    "states": 10,
+    "edges": 2260,
+    "method": "prior_ten_odd_lift",
+    "layers": 113
+  },
+  {
+    "n": 684,
+    "m": 228,
+    "states": 10,
+    "edges": 2280,
+    "method": "prior_eleven_lift",
+    "layers": 76
+  },
+  {
+    "n": 690,
+    "m": 230,
+    "states": 10,
+    "edges": 2300,
+    "method": "prior_ten_odd_lift",
+    "layers": 115
+  },
+  {
+    "n": 693,
+    "m": 231,
+    "states": 10,
+    "edges": 2310,
+    "method": "prior_eleven_lift",
+    "layers": 77
+  },
+  {
+    "n": 702,
+    "m": 234,
+    "states": 10,
+    "edges": 2340,
+    "method": "prior_eleven_lift",
+    "layers": 78
+  },
+  {
+    "n": 711,
+    "m": 237,
+    "states": 10,
+    "edges": 2370,
+    "method": "prior_eleven_lift",
+    "layers": 79
+  },
+  {
+    "n": 714,
+    "m": 238,
+    "states": 10,
+    "edges": 2380,
+    "method": "prior_ten_odd_lift",
+    "layers": 119
+  },
+  {
+    "n": 720,
+    "m": 240,
+    "states": 10,
+    "edges": 2400,
+    "method": "prior_eleven_lift",
+    "layers": 80
+  },
+  {
+    "n": 726,
+    "m": 242,
+    "states": 10,
+    "edges": 2420,
+    "method": "prior_ten_odd_lift",
+    "layers": 121
+  },
+  {
+    "n": 729,
+    "m": 243,
+    "states": 10,
+    "edges": 2430,
+    "method": "prior_eleven_lift",
+    "layers": 81
+  },
+  {
+    "n": 738,
+    "m": 246,
+    "states": 10,
+    "edges": 2460,
+    "method": "prior_eleven_lift",
+    "layers": 82
+  },
+  {
+    "n": 747,
+    "m": 249,
+    "states": 10,
+    "edges": 2490,
+    "method": "prior_eleven_lift",
+    "layers": 83
+  },
+  {
+    "n": 750,
+    "m": 250,
+    "states": 10,
+    "edges": 2500,
+    "method": "prior_ten_odd_lift",
+    "layers": 125
+  },
+  {
+    "n": 756,
+    "m": 252,
+    "states": 10,
+    "edges": 2520,
+    "method": "prior_eleven_lift",
+    "layers": 84
+  },
+  {
+    "n": 762,
+    "m": 254,
+    "states": 10,
+    "edges": 2540,
+    "method": "prior_ten_odd_lift",
+    "layers": 127
+  },
+  {
+    "n": 765,
+    "m": 255,
+    "states": 10,
+    "edges": 2550,
+    "method": "prior_eleven_lift",
+    "layers": 85
+  },
+  {
+    "n": 774,
+    "m": 258,
+    "states": 10,
+    "edges": 2580,
+    "method": "prior_eleven_lift",
+    "layers": 86
+  },
+  {
+    "n": 783,
+    "m": 261,
+    "states": 10,
+    "edges": 2610,
+    "method": "prior_eleven_lift",
+    "layers": 87
+  },
+  {
+    "n": 786,
+    "m": 262,
+    "states": 10,
+    "edges": 2620,
+    "method": "prior_ten_odd_lift",
+    "layers": 131
+  },
+  {
+    "n": 792,
+    "m": 264,
+    "states": 10,
+    "edges": 2640,
+    "method": "prior_eleven_lift",
+    "layers": 88
+  },
+  {
+    "n": 798,
+    "m": 266,
+    "states": 10,
+    "edges": 2660,
+    "method": "prior_ten_odd_lift",
+    "layers": 133
+  },
+  {
+    "n": 801,
+    "m": 267,
+    "states": 10,
+    "edges": 2670,
+    "method": "prior_eleven_lift",
+    "layers": 89
+  },
+  {
+    "n": 810,
+    "m": 270,
+    "states": 10,
+    "edges": 2700,
+    "method": "prior_eleven_lift",
+    "layers": 90
+  },
+  {
+    "n": 819,
+    "m": 273,
+    "states": 10,
+    "edges": 2730,
+    "method": "prior_eleven_lift",
+    "layers": 91
+  },
+  {
+    "n": 822,
+    "m": 274,
+    "states": 10,
+    "edges": 2740,
+    "method": "prior_ten_odd_lift",
+    "layers": 137
+  },
+  {
+    "n": 828,
+    "m": 276,
+    "states": 10,
+    "edges": 2760,
+    "method": "prior_eleven_lift",
+    "layers": 92
+  },
+  {
+    "n": 834,
+    "m": 278,
+    "states": 10,
+    "edges": 2780,
+    "method": "prior_ten_odd_lift",
+    "layers": 139
+  },
+  {
+    "n": 837,
+    "m": 279,
+    "states": 10,
+    "edges": 2790,
+    "method": "prior_eleven_lift",
+    "layers": 93
+  },
+  {
+    "n": 846,
+    "m": 282,
+    "states": 10,
+    "edges": 2820,
+    "method": "prior_eleven_lift",
+    "layers": 94
+  },
+  {
+    "n": 855,
+    "m": 285,
+    "states": 10,
+    "edges": 2850,
+    "method": "prior_eleven_lift",
+    "layers": 95
+  },
+  {
+    "n": 858,
+    "m": 286,
+    "states": 10,
+    "edges": 2860,
+    "method": "prior_ten_odd_lift",
+    "layers": 143
+  },
+  {
+    "n": 864,
+    "m": 288,
+    "states": 10,
+    "edges": 2880,
+    "method": "prior_eleven_lift",
+    "layers": 96
+  },
+  {
+    "n": 870,
+    "m": 290,
+    "states": 10,
+    "edges": 2900,
+    "method": "prior_ten_odd_lift",
+    "layers": 145
+  },
+  {
+    "n": 873,
+    "m": 291,
+    "states": 10,
+    "edges": 2910,
+    "method": "prior_eleven_lift",
+    "layers": 97
+  },
+  {
+    "n": 882,
+    "m": 294,
+    "states": 10,
+    "edges": 2940,
+    "method": "prior_eleven_lift",
+    "layers": 98
+  },
+  {
+    "n": 891,
+    "m": 297,
+    "states": 10,
+    "edges": 2970,
+    "method": "prior_eleven_lift",
+    "layers": 99
+  },
+  {
+    "n": 894,
+    "m": 298,
+    "states": 10,
+    "edges": 2980,
+    "method": "prior_ten_odd_lift",
+    "layers": 149
+  },
+  {
+    "n": 900,
+    "m": 300,
+    "states": 10,
+    "edges": 3000,
+    "method": "prior_eleven_lift",
+    "layers": 100
+  },
+  {
+    "n": 906,
+    "m": 302,
+    "states": 10,
+    "edges": 3020,
+    "method": "prior_ten_odd_lift",
+    "layers": 151
+  },
+  {
+    "n": 909,
+    "m": 303,
+    "states": 10,
+    "edges": 3030,
+    "method": "prior_eleven_lift",
+    "layers": 101
+  },
+  {
+    "n": 918,
+    "m": 306,
+    "states": 10,
+    "edges": 3060,
+    "method": "prior_eleven_lift",
+    "layers": 102
+  },
+  {
+    "n": 927,
+    "m": 309,
+    "states": 10,
+    "edges": 3090,
+    "method": "prior_eleven_lift",
+    "layers": 103
+  },
+  {
+    "n": 930,
+    "m": 310,
+    "states": 10,
+    "edges": 3100,
+    "method": "prior_ten_odd_lift",
+    "layers": 155
+  },
+  {
+    "n": 936,
+    "m": 312,
+    "states": 10,
+    "edges": 3120,
+    "method": "prior_eleven_lift",
+    "layers": 104
+  },
+  {
+    "n": 942,
+    "m": 314,
+    "states": 10,
+    "edges": 3140,
+    "method": "prior_ten_odd_lift",
+    "layers": 157
+  },
+  {
+    "n": 945,
+    "m": 315,
+    "states": 10,
+    "edges": 3150,
+    "method": "prior_eleven_lift",
+    "layers": 105
+  },
+  {
+    "n": 954,
+    "m": 318,
+    "states": 10,
+    "edges": 3180,
+    "method": "prior_eleven_lift",
+    "layers": 106
+  },
+  {
+    "n": 963,
+    "m": 321,
+    "states": 10,
+    "edges": 3210,
+    "method": "prior_eleven_lift",
+    "layers": 107
+  },
+  {
+    "n": 966,
+    "m": 322,
+    "states": 10,
+    "edges": 3220,
+    "method": "prior_ten_odd_lift",
+    "layers": 161
+  },
+  {
+    "n": 972,
+    "m": 324,
+    "states": 10,
+    "edges": 3240,
+    "method": "prior_eleven_lift",
+    "layers": 108
+  },
+  {
+    "n": 978,
+    "m": 326,
+    "states": 10,
+    "edges": 3260,
+    "method": "prior_ten_odd_lift",
+    "layers": 163
+  },
+  {
+    "n": 981,
+    "m": 327,
+    "states": 10,
+    "edges": 3270,
+    "method": "prior_eleven_lift",
+    "layers": 109
+  },
+  {
+    "n": 990,
+    "m": 330,
+    "states": 10,
+    "edges": 3300,
+    "method": "prior_eleven_lift",
+    "layers": 110
+  },
+  {
+    "n": 999,
+    "m": 333,
+    "states": 10,
+    "edges": 3330,
+    "method": "prior_eleven_lift",
+    "layers": 111
+  },
+  {
+    "n": 1002,
+    "m": 334,
+    "states": 10,
+    "edges": 3340,
+    "method": "prior_ten_odd_lift",
+    "layers": 167
+  },
+  {
+    "n": 1008,
+    "m": 336,
+    "states": 10,
+    "edges": 3360,
+    "method": "prior_eleven_lift",
+    "layers": 112
+  },
+  {
+    "n": 1014,
+    "m": 338,
+    "states": 10,
+    "edges": 3380,
+    "method": "prior_ten_odd_lift",
+    "layers": 169
+  },
+  {
+    "n": 1017,
+    "m": 339,
+    "states": 10,
+    "edges": 3390,
+    "method": "prior_eleven_lift",
+    "layers": 113
+  },
+  {
+    "n": 1026,
+    "m": 342,
+    "states": 10,
+    "edges": 3420,
+    "method": "prior_eleven_lift",
+    "layers": 114
+  },
+  {
+    "n": 1035,
+    "m": 345,
+    "states": 10,
+    "edges": 3450,
+    "method": "prior_eleven_lift",
+    "layers": 115
+  },
+  {
+    "n": 1038,
+    "m": 346,
+    "states": 10,
+    "edges": 3460,
+    "method": "prior_ten_odd_lift",
+    "layers": 173
+  },
+  {
+    "n": 1044,
+    "m": 348,
+    "states": 10,
+    "edges": 3480,
+    "method": "prior_eleven_lift",
+    "layers": 116
+  },
+  {
+    "n": 1050,
+    "m": 350,
+    "states": 10,
+    "edges": 3500,
+    "method": "prior_ten_odd_lift",
+    "layers": 175
+  },
+  {
+    "n": 1053,
+    "m": 351,
+    "states": 10,
+    "edges": 3510,
+    "method": "prior_eleven_lift",
+    "layers": 117
+  },
+  {
+    "n": 1062,
+    "m": 354,
+    "states": 10,
+    "edges": 3540,
+    "method": "prior_eleven_lift",
+    "layers": 118
+  },
+  {
+    "n": 1071,
+    "m": 357,
+    "states": 10,
+    "edges": 3570,
+    "method": "prior_eleven_lift",
+    "layers": 119
+  },
+  {
+    "n": 1074,
+    "m": 358,
+    "states": 10,
+    "edges": 3580,
+    "method": "prior_ten_odd_lift",
+    "layers": 179
+  },
+  {
+    "n": 1080,
+    "m": 360,
+    "states": 10,
+    "edges": 3600,
+    "method": "prior_eleven_lift",
+    "layers": 120
+  },
+  {
+    "n": 1086,
+    "m": 362,
+    "states": 10,
+    "edges": 3620,
+    "method": "prior_ten_odd_lift",
+    "layers": 181
+  },
+  {
+    "n": 1089,
+    "m": 363,
+    "states": 10,
+    "edges": 3630,
+    "method": "prior_eleven_lift",
+    "layers": 121
+  },
+  {
+    "n": 1098,
+    "m": 366,
+    "states": 10,
+    "edges": 3660,
+    "method": "prior_eleven_lift",
+    "layers": 122
+  },
+  {
+    "n": 1107,
+    "m": 369,
+    "states": 10,
+    "edges": 3690,
+    "method": "prior_eleven_lift",
+    "layers": 123
+  },
+  {
+    "n": 1110,
+    "m": 370,
+    "states": 10,
+    "edges": 3700,
+    "method": "prior_ten_odd_lift",
+    "layers": 185
+  },
+  {
+    "n": 1116,
+    "m": 372,
+    "states": 10,
+    "edges": 3720,
+    "method": "prior_eleven_lift",
+    "layers": 124
+  },
+  {
+    "n": 1122,
+    "m": 374,
+    "states": 10,
+    "edges": 3740,
+    "method": "prior_ten_odd_lift",
+    "layers": 187
+  },
+  {
+    "n": 1125,
+    "m": 375,
+    "states": 10,
+    "edges": 3750,
+    "method": "prior_eleven_lift",
+    "layers": 125
+  },
+  {
+    "n": 1134,
+    "m": 378,
+    "states": 10,
+    "edges": 3780,
+    "method": "prior_eleven_lift",
+    "layers": 126
+  },
+  {
+    "n": 1143,
+    "m": 381,
+    "states": 10,
+    "edges": 3810,
+    "method": "prior_eleven_lift",
+    "layers": 127
+  },
+  {
+    "n": 1146,
+    "m": 382,
+    "states": 10,
+    "edges": 3820,
+    "method": "prior_ten_odd_lift",
+    "layers": 191
+  },
+  {
+    "n": 1152,
+    "m": 384,
+    "states": 10,
+    "edges": 3840,
+    "method": "prior_eleven_lift",
+    "layers": 128
+  },
+  {
+    "n": 1158,
+    "m": 386,
+    "states": 10,
+    "edges": 3860,
+    "method": "prior_ten_odd_lift",
+    "layers": 193
+  },
+  {
+    "n": 1161,
+    "m": 387,
+    "states": 10,
+    "edges": 3870,
+    "method": "prior_eleven_lift",
+    "layers": 129
+  },
+  {
+    "n": 1170,
+    "m": 390,
+    "states": 10,
+    "edges": 3900,
+    "method": "prior_eleven_lift",
+    "layers": 130
+  },
+  {
+    "n": 1179,
+    "m": 393,
+    "states": 10,
+    "edges": 3930,
+    "method": "prior_eleven_lift",
+    "layers": 131
+  },
+  {
+    "n": 1182,
+    "m": 394,
+    "states": 10,
+    "edges": 3940,
+    "method": "prior_ten_odd_lift",
+    "layers": 197
+  },
+  {
+    "n": 1188,
+    "m": 396,
+    "states": 10,
+    "edges": 3960,
+    "method": "prior_eleven_lift",
+    "layers": 132
+  },
+  {
+    "n": 1194,
+    "m": 398,
+    "states": 10,
+    "edges": 3980,
+    "method": "prior_ten_odd_lift",
+    "layers": 199
+  },
+  {
+    "n": 1197,
+    "m": 399,
+    "states": 10,
+    "edges": 3990,
+    "method": "prior_eleven_lift",
+    "layers": 133
+  },
+  {
+    "n": 1206,
+    "m": 402,
+    "states": 10,
+    "edges": 4020,
+    "method": "prior_eleven_lift",
+    "layers": 134
+  },
+  {
+    "n": 1215,
+    "m": 405,
+    "states": 10,
+    "edges": 4050,
+    "method": "prior_eleven_lift",
+    "layers": 135
+  },
+  {
+    "n": 1218,
+    "m": 406,
+    "states": 10,
+    "edges": 4060,
+    "method": "prior_ten_odd_lift",
+    "layers": 203
+  },
+  {
+    "n": 1224,
+    "m": 408,
+    "states": 10,
+    "edges": 4080,
+    "method": "prior_eleven_lift",
+    "layers": 136
+  },
+  {
+    "n": 1230,
+    "m": 410,
+    "states": 10,
+    "edges": 4100,
+    "method": "prior_ten_odd_lift",
+    "layers": 205
+  },
+  {
+    "n": 1233,
+    "m": 411,
+    "states": 10,
+    "edges": 4110,
+    "method": "prior_eleven_lift",
+    "layers": 137
+  },
+  {
+    "n": 1242,
+    "m": 414,
+    "states": 10,
+    "edges": 4140,
+    "method": "prior_eleven_lift",
+    "layers": 138
+  },
+  {
+    "n": 1251,
+    "m": 417,
+    "states": 10,
+    "edges": 4170,
+    "method": "prior_eleven_lift",
+    "layers": 139
+  },
+  {
+    "n": 1254,
+    "m": 418,
+    "states": 10,
+    "edges": 4180,
+    "method": "prior_ten_odd_lift",
+    "layers": 209
+  },
+  {
+    "n": 1260,
+    "m": 420,
+    "states": 10,
+    "edges": 4200,
+    "method": "prior_eleven_lift",
+    "layers": 140
+  },
+  {
+    "n": 1266,
+    "m": 422,
+    "states": 10,
+    "edges": 4220,
+    "method": "prior_ten_odd_lift",
+    "layers": 211
+  },
+  {
+    "n": 1269,
+    "m": 423,
+    "states": 10,
+    "edges": 4230,
+    "method": "prior_eleven_lift",
+    "layers": 141
+  },
+  {
+    "n": 1278,
+    "m": 426,
+    "states": 10,
+    "edges": 4260,
+    "method": "prior_eleven_lift",
+    "layers": 142
+  },
+  {
+    "n": 1287,
+    "m": 429,
+    "states": 10,
+    "edges": 4290,
+    "method": "prior_eleven_lift",
+    "layers": 143
+  },
+  {
+    "n": 1290,
+    "m": 430,
+    "states": 10,
+    "edges": 4300,
+    "method": "prior_ten_odd_lift",
+    "layers": 215
+  },
+  {
+    "n": 1296,
+    "m": 432,
+    "states": 10,
+    "edges": 4320,
+    "method": "prior_eleven_lift",
+    "layers": 144
+  },
+  {
+    "n": 1302,
+    "m": 434,
+    "states": 10,
+    "edges": 4340,
+    "method": "prior_ten_odd_lift",
+    "layers": 217
+  },
+  {
+    "n": 1305,
+    "m": 435,
+    "states": 10,
+    "edges": 4350,
+    "method": "prior_eleven_lift",
+    "layers": 145
+  },
+  {
+    "n": 1314,
+    "m": 438,
+    "states": 10,
+    "edges": 4380,
+    "method": "prior_eleven_lift",
+    "layers": 146
+  },
+  {
+    "n": 1323,
+    "m": 441,
+    "states": 10,
+    "edges": 4410,
+    "method": "prior_eleven_lift",
+    "layers": 147
+  },
+  {
+    "n": 1326,
+    "m": 442,
+    "states": 10,
+    "edges": 4420,
+    "method": "prior_ten_odd_lift",
+    "layers": 221
+  },
+  {
+    "n": 1332,
+    "m": 444,
+    "states": 10,
+    "edges": 4440,
+    "method": "prior_eleven_lift",
+    "layers": 148
+  },
+  {
+    "n": 1338,
+    "m": 446,
+    "states": 10,
+    "edges": 4460,
+    "method": "prior_ten_odd_lift",
+    "layers": 223
+  },
+  {
+    "n": 1341,
+    "m": 447,
+    "states": 10,
+    "edges": 4470,
+    "method": "prior_eleven_lift",
+    "layers": 149
+  },
+  {
+    "n": 1350,
+    "m": 450,
+    "states": 10,
+    "edges": 4500,
+    "method": "prior_eleven_lift",
+    "layers": 150
+  },
+  {
+    "n": 1359,
+    "m": 453,
+    "states": 10,
+    "edges": 4530,
+    "method": "prior_eleven_lift",
+    "layers": 151
+  },
+  {
+    "n": 1362,
+    "m": 454,
+    "states": 10,
+    "edges": 4540,
+    "method": "prior_ten_odd_lift",
+    "layers": 227
+  },
+  {
+    "n": 1368,
+    "m": 456,
+    "states": 10,
+    "edges": 4560,
+    "method": "prior_eleven_lift",
+    "layers": 152
+  },
+  {
+    "n": 1374,
+    "m": 458,
+    "states": 10,
+    "edges": 4580,
+    "method": "prior_ten_odd_lift",
+    "layers": 229
+  },
+  {
+    "n": 1377,
+    "m": 459,
+    "states": 10,
+    "edges": 4590,
+    "method": "prior_eleven_lift",
+    "layers": 153
+  },
+  {
+    "n": 1386,
+    "m": 462,
+    "states": 10,
+    "edges": 4620,
+    "method": "prior_eleven_lift",
+    "layers": 154
+  },
+  {
+    "n": 1395,
+    "m": 465,
+    "states": 10,
+    "edges": 4650,
+    "method": "prior_eleven_lift",
+    "layers": 155
+  },
+  {
+    "n": 1398,
+    "m": 466,
+    "states": 10,
+    "edges": 4660,
+    "method": "prior_ten_odd_lift",
+    "layers": 233
+  },
+  {
+    "n": 1404,
+    "m": 468,
+    "states": 10,
+    "edges": 4680,
+    "method": "prior_eleven_lift",
+    "layers": 156
+  },
+  {
+    "n": 1410,
+    "m": 470,
+    "states": 10,
+    "edges": 4700,
+    "method": "prior_ten_odd_lift",
+    "layers": 235
+  },
+  {
+    "n": 1413,
+    "m": 471,
+    "states": 10,
+    "edges": 4710,
+    "method": "prior_eleven_lift",
+    "layers": 157
+  },
+  {
+    "n": 1422,
+    "m": 474,
+    "states": 10,
+    "edges": 4740,
+    "method": "prior_eleven_lift",
+    "layers": 158
+  },
+  {
+    "n": 1431,
+    "m": 477,
+    "states": 10,
+    "edges": 4770,
+    "method": "prior_eleven_lift",
+    "layers": 159
+  },
+  {
+    "n": 1434,
+    "m": 478,
+    "states": 10,
+    "edges": 4780,
+    "method": "prior_ten_odd_lift",
+    "layers": 239
+  },
+  {
+    "n": 1440,
+    "m": 480,
+    "states": 10,
+    "edges": 4800,
+    "method": "prior_eleven_lift",
+    "layers": 160
+  },
+  {
+    "n": 1446,
+    "m": 482,
+    "states": 10,
+    "edges": 4820,
+    "method": "prior_ten_odd_lift",
+    "layers": 241
+  },
+  {
+    "n": 1449,
+    "m": 483,
+    "states": 10,
+    "edges": 4830,
+    "method": "prior_eleven_lift",
+    "layers": 161
+  },
+  {
+    "n": 1458,
+    "m": 486,
+    "states": 10,
+    "edges": 4860,
+    "method": "prior_eleven_lift",
+    "layers": 162
+  },
+  {
+    "n": 1467,
+    "m": 489,
+    "states": 10,
+    "edges": 4890,
+    "method": "prior_eleven_lift",
+    "layers": 163
+  },
+  {
+    "n": 1470,
+    "m": 490,
+    "states": 10,
+    "edges": 4900,
+    "method": "prior_ten_odd_lift",
+    "layers": 245
+  },
+  {
+    "n": 1476,
+    "m": 492,
+    "states": 10,
+    "edges": 4920,
+    "method": "prior_eleven_lift",
+    "layers": 164
+  },
+  {
+    "n": 1482,
+    "m": 494,
+    "states": 10,
+    "edges": 4940,
+    "method": "prior_ten_odd_lift",
+    "layers": 247
+  },
+  {
+    "n": 1485,
+    "m": 495,
+    "states": 10,
+    "edges": 4950,
+    "method": "prior_eleven_lift",
+    "layers": 165
+  },
+  {
+    "n": 1494,
+    "m": 498,
+    "states": 10,
+    "edges": 4980,
+    "method": "prior_eleven_lift",
+    "layers": 166
+  },
+  {
+    "n": 1503,
+    "m": 501,
+    "states": 10,
+    "edges": 5010,
+    "method": "prior_eleven_lift",
+    "layers": 167
+  },
+  {
+    "n": 1506,
+    "m": 502,
+    "states": 10,
+    "edges": 5020,
+    "method": "prior_ten_odd_lift",
+    "layers": 251
+  },
+  {
+    "n": 1512,
+    "m": 504,
+    "states": 10,
+    "edges": 5040,
+    "method": "prior_eleven_lift",
+    "layers": 168
+  },
+  {
+    "n": 1518,
+    "m": 506,
+    "states": 10,
+    "edges": 5060,
+    "method": "prior_ten_odd_lift",
+    "layers": 253
+  },
+  {
+    "n": 1521,
+    "m": 507,
+    "states": 10,
+    "edges": 5070,
+    "method": "prior_eleven_lift",
+    "layers": 169
+  },
+  {
+    "n": 1530,
+    "m": 510,
+    "states": 10,
+    "edges": 5100,
+    "method": "prior_eleven_lift",
+    "layers": 170
+  },
+  {
+    "n": 1539,
+    "m": 513,
+    "states": 10,
+    "edges": 5130,
+    "method": "prior_eleven_lift",
+    "layers": 171
+  },
+  {
+    "n": 1542,
+    "m": 514,
+    "states": 10,
+    "edges": 5140,
+    "method": "prior_ten_odd_lift",
+    "layers": 257
+  },
+  {
+    "n": 1548,
+    "m": 516,
+    "states": 10,
+    "edges": 5160,
+    "method": "prior_eleven_lift",
+    "layers": 172
+  },
+  {
+    "n": 1554,
+    "m": 518,
+    "states": 10,
+    "edges": 5180,
+    "method": "prior_ten_odd_lift",
+    "layers": 259
+  },
+  {
+    "n": 1557,
+    "m": 519,
+    "states": 10,
+    "edges": 5190,
+    "method": "prior_eleven_lift",
+    "layers": 173
+  },
+  {
+    "n": 1566,
+    "m": 522,
+    "states": 10,
+    "edges": 5220,
+    "method": "prior_eleven_lift",
+    "layers": 174
+  },
+  {
+    "n": 1575,
+    "m": 525,
+    "states": 10,
+    "edges": 5250,
+    "method": "prior_eleven_lift",
+    "layers": 175
+  },
+  {
+    "n": 1578,
+    "m": 526,
+    "states": 10,
+    "edges": 5260,
+    "method": "prior_ten_odd_lift",
+    "layers": 263
+  },
+  {
+    "n": 1584,
+    "m": 528,
+    "states": 10,
+    "edges": 5280,
+    "method": "prior_eleven_lift",
+    "layers": 176
+  },
+  {
+    "n": 1590,
+    "m": 530,
+    "states": 10,
+    "edges": 5300,
+    "method": "prior_ten_odd_lift",
+    "layers": 265
+  },
+  {
+    "n": 1593,
+    "m": 531,
+    "states": 10,
+    "edges": 5310,
+    "method": "prior_eleven_lift",
+    "layers": 177
+  },
+  {
+    "n": 1602,
+    "m": 534,
+    "states": 10,
+    "edges": 5340,
+    "method": "prior_eleven_lift",
+    "layers": 178
+  },
+  {
+    "n": 1611,
+    "m": 537,
+    "states": 10,
+    "edges": 5370,
+    "method": "prior_eleven_lift",
+    "layers": 179
+  },
+  {
+    "n": 1614,
+    "m": 538,
+    "states": 10,
+    "edges": 5380,
+    "method": "prior_ten_odd_lift",
+    "layers": 269
+  },
+  {
+    "n": 1620,
+    "m": 540,
+    "states": 10,
+    "edges": 5400,
+    "method": "prior_eleven_lift",
+    "layers": 180
+  },
+  {
+    "n": 1626,
+    "m": 542,
+    "states": 10,
+    "edges": 5420,
+    "method": "prior_ten_odd_lift",
+    "layers": 271
+  },
+  {
+    "n": 1629,
+    "m": 543,
+    "states": 10,
+    "edges": 5430,
+    "method": "prior_eleven_lift",
+    "layers": 181
+  },
+  {
+    "n": 1638,
+    "m": 546,
+    "states": 10,
+    "edges": 5460,
+    "method": "prior_eleven_lift",
+    "layers": 182
+  },
+  {
+    "n": 1647,
+    "m": 549,
+    "states": 10,
+    "edges": 5490,
+    "method": "prior_eleven_lift",
+    "layers": 183
+  },
+  {
+    "n": 1650,
+    "m": 550,
+    "states": 10,
+    "edges": 5500,
+    "method": "prior_ten_odd_lift",
+    "layers": 275
+  },
+  {
+    "n": 1656,
+    "m": 552,
+    "states": 10,
+    "edges": 5520,
+    "method": "prior_eleven_lift",
+    "layers": 184
+  },
+  {
+    "n": 1662,
+    "m": 554,
+    "states": 10,
+    "edges": 5540,
+    "method": "prior_ten_odd_lift",
+    "layers": 277
+  },
+  {
+    "n": 1665,
+    "m": 555,
+    "states": 10,
+    "edges": 5550,
+    "method": "prior_eleven_lift",
+    "layers": 185
+  },
+  {
+    "n": 1674,
+    "m": 558,
+    "states": 10,
+    "edges": 5580,
+    "method": "prior_eleven_lift",
+    "layers": 186
+  },
+  {
+    "n": 1683,
+    "m": 561,
+    "states": 10,
+    "edges": 5610,
+    "method": "prior_eleven_lift",
+    "layers": 187
+  },
+  {
+    "n": 1686,
+    "m": 562,
+    "states": 10,
+    "edges": 5620,
+    "method": "prior_ten_odd_lift",
+    "layers": 281
+  },
+  {
+    "n": 1692,
+    "m": 564,
+    "states": 10,
+    "edges": 5640,
+    "method": "prior_eleven_lift",
+    "layers": 188
+  },
+  {
+    "n": 1698,
+    "m": 566,
+    "states": 10,
+    "edges": 5660,
+    "method": "prior_ten_odd_lift",
+    "layers": 283
+  },
+  {
+    "n": 1701,
+    "m": 567,
+    "states": 10,
+    "edges": 5670,
+    "method": "prior_eleven_lift",
+    "layers": 189
+  },
+  {
+    "n": 1710,
+    "m": 570,
+    "states": 10,
+    "edges": 5700,
+    "method": "prior_eleven_lift",
+    "layers": 190
+  },
+  {
+    "n": 1719,
+    "m": 573,
+    "states": 10,
+    "edges": 5730,
+    "method": "prior_eleven_lift",
+    "layers": 191
+  },
+  {
+    "n": 1722,
+    "m": 574,
+    "states": 10,
+    "edges": 5740,
+    "method": "prior_ten_odd_lift",
+    "layers": 287
+  },
+  {
+    "n": 1728,
+    "m": 576,
+    "states": 10,
+    "edges": 5760,
+    "method": "prior_eleven_lift",
+    "layers": 192
+  },
+  {
+    "n": 1734,
+    "m": 578,
+    "states": 10,
+    "edges": 5780,
+    "method": "prior_ten_odd_lift",
+    "layers": 289
+  },
+  {
+    "n": 1737,
+    "m": 579,
+    "states": 10,
+    "edges": 5790,
+    "method": "prior_eleven_lift",
+    "layers": 193
+  },
+  {
+    "n": 1746,
+    "m": 582,
+    "states": 10,
+    "edges": 5820,
+    "method": "prior_eleven_lift",
+    "layers": 194
+  },
+  {
+    "n": 1755,
+    "m": 585,
+    "states": 10,
+    "edges": 5850,
+    "method": "prior_eleven_lift",
+    "layers": 195
+  },
+  {
+    "n": 1758,
+    "m": 586,
+    "states": 10,
+    "edges": 5860,
+    "method": "prior_ten_odd_lift",
+    "layers": 293
+  },
+  {
+    "n": 1764,
+    "m": 588,
+    "states": 10,
+    "edges": 5880,
+    "method": "prior_eleven_lift",
+    "layers": 196
+  },
+  {
+    "n": 1770,
+    "m": 590,
+    "states": 10,
+    "edges": 5900,
+    "method": "prior_ten_odd_lift",
+    "layers": 295
+  },
+  {
+    "n": 1773,
+    "m": 591,
+    "states": 10,
+    "edges": 5910,
+    "method": "prior_eleven_lift",
+    "layers": 197
+  },
+  {
+    "n": 1782,
+    "m": 594,
+    "states": 10,
+    "edges": 5940,
+    "method": "prior_eleven_lift",
+    "layers": 198
+  },
+  {
+    "n": 1791,
+    "m": 597,
+    "states": 10,
+    "edges": 5970,
+    "method": "prior_eleven_lift",
+    "layers": 199
+  },
+  {
+    "n": 1794,
+    "m": 598,
+    "states": 10,
+    "edges": 5980,
+    "method": "prior_ten_odd_lift",
+    "layers": 299
+  },
+  {
+    "n": 1800,
+    "m": 600,
+    "states": 10,
+    "edges": 6000,
+    "method": "prior_eleven_lift",
+    "layers": 200
+  },
+  {
+    "n": 1806,
+    "m": 602,
+    "states": 10,
+    "edges": 6020,
+    "method": "prior_ten_odd_lift",
+    "layers": 301
+  },
+  {
+    "n": 1809,
+    "m": 603,
+    "states": 10,
+    "edges": 6030,
+    "method": "prior_eleven_lift",
+    "layers": 201
+  },
+  {
+    "n": 1818,
+    "m": 606,
+    "states": 10,
+    "edges": 6060,
+    "method": "prior_eleven_lift",
+    "layers": 202
+  },
+  {
+    "n": 1827,
+    "m": 609,
+    "states": 10,
+    "edges": 6090,
+    "method": "prior_eleven_lift",
+    "layers": 203
+  },
+  {
+    "n": 1830,
+    "m": 610,
+    "states": 10,
+    "edges": 6100,
+    "method": "prior_ten_odd_lift",
+    "layers": 305
+  },
+  {
+    "n": 1836,
+    "m": 612,
+    "states": 10,
+    "edges": 6120,
+    "method": "prior_eleven_lift",
+    "layers": 204
+  },
+  {
+    "n": 1842,
+    "m": 614,
+    "states": 10,
+    "edges": 6140,
+    "method": "prior_ten_odd_lift",
+    "layers": 307
+  },
+  {
+    "n": 1845,
+    "m": 615,
+    "states": 10,
+    "edges": 6150,
+    "method": "prior_eleven_lift",
+    "layers": 205
+  },
+  {
+    "n": 1854,
+    "m": 618,
+    "states": 10,
+    "edges": 6180,
+    "method": "prior_eleven_lift",
+    "layers": 206
+  },
+  {
+    "n": 1863,
+    "m": 621,
+    "states": 10,
+    "edges": 6210,
+    "method": "prior_eleven_lift",
+    "layers": 207
+  },
+  {
+    "n": 1866,
+    "m": 622,
+    "states": 10,
+    "edges": 6220,
+    "method": "prior_ten_odd_lift",
+    "layers": 311
+  },
+  {
+    "n": 1872,
+    "m": 624,
+    "states": 10,
+    "edges": 6240,
+    "method": "prior_eleven_lift",
+    "layers": 208
+  },
+  {
+    "n": 1878,
+    "m": 626,
+    "states": 10,
+    "edges": 6260,
+    "method": "prior_ten_odd_lift",
+    "layers": 313
+  },
+  {
+    "n": 1881,
+    "m": 627,
+    "states": 10,
+    "edges": 6270,
+    "method": "prior_eleven_lift",
+    "layers": 209
+  },
+  {
+    "n": 1890,
+    "m": 630,
+    "states": 10,
+    "edges": 6300,
+    "method": "prior_eleven_lift",
+    "layers": 210
+  },
+  {
+    "n": 1899,
+    "m": 633,
+    "states": 10,
+    "edges": 6330,
+    "method": "prior_eleven_lift",
+    "layers": 211
+  },
+  {
+    "n": 1902,
+    "m": 634,
+    "states": 10,
+    "edges": 6340,
+    "method": "prior_ten_odd_lift",
+    "layers": 317
+  },
+  {
+    "n": 1908,
+    "m": 636,
+    "states": 10,
+    "edges": 6360,
+    "method": "prior_eleven_lift",
+    "layers": 212
+  },
+  {
+    "n": 1914,
+    "m": 638,
+    "states": 10,
+    "edges": 6380,
+    "method": "prior_ten_odd_lift",
+    "layers": 319
+  },
+  {
+    "n": 1917,
+    "m": 639,
+    "states": 10,
+    "edges": 6390,
+    "method": "prior_eleven_lift",
+    "layers": 213
+  },
+  {
+    "n": 1926,
+    "m": 642,
+    "states": 10,
+    "edges": 6420,
+    "method": "prior_eleven_lift",
+    "layers": 214
+  },
+  {
+    "n": 1935,
+    "m": 645,
+    "states": 10,
+    "edges": 6450,
+    "method": "prior_eleven_lift",
+    "layers": 215
+  },
+  {
+    "n": 1938,
+    "m": 646,
+    "states": 10,
+    "edges": 6460,
+    "method": "prior_ten_odd_lift",
+    "layers": 323
+  },
+  {
+    "n": 1944,
+    "m": 648,
+    "states": 10,
+    "edges": 6480,
+    "method": "prior_eleven_lift",
+    "layers": 216
+  },
+  {
+    "n": 1950,
+    "m": 650,
+    "states": 10,
+    "edges": 6500,
+    "method": "prior_ten_odd_lift",
+    "layers": 325
+  },
+  {
+    "n": 1953,
+    "m": 651,
+    "states": 10,
+    "edges": 6510,
+    "method": "prior_eleven_lift",
+    "layers": 217
+  },
+  {
+    "n": 1962,
+    "m": 654,
+    "states": 10,
+    "edges": 6540,
+    "method": "prior_eleven_lift",
+    "layers": 218
+  },
+  {
+    "n": 1971,
+    "m": 657,
+    "states": 10,
+    "edges": 6570,
+    "method": "prior_eleven_lift",
+    "layers": 219
+  },
+  {
+    "n": 1974,
+    "m": 658,
+    "states": 10,
+    "edges": 6580,
+    "method": "prior_ten_odd_lift",
+    "layers": 329
+  },
+  {
+    "n": 1980,
+    "m": 660,
+    "states": 10,
+    "edges": 6600,
+    "method": "prior_eleven_lift",
+    "layers": 220
+  },
+  {
+    "n": 1986,
+    "m": 662,
+    "states": 10,
+    "edges": 6620,
+    "method": "prior_ten_odd_lift",
+    "layers": 331
+  },
+  {
+    "n": 1989,
+    "m": 663,
+    "states": 10,
+    "edges": 6630,
+    "method": "prior_eleven_lift",
+    "layers": 221
+  },
+  {
+    "n": 1998,
+    "m": 666,
+    "states": 10,
+    "edges": 6660,
+    "method": "prior_eleven_lift",
+    "layers": 222
+  },
+  {
+    "n": 2007,
+    "m": 669,
+    "states": 10,
+    "edges": 6690,
+    "method": "prior_eleven_lift",
+    "layers": 223
+  },
+  {
+    "n": 2010,
+    "m": 670,
+    "states": 10,
+    "edges": 6700,
+    "method": "prior_ten_odd_lift",
+    "layers": 335
+  },
+  {
+    "n": 2016,
+    "m": 672,
+    "states": 10,
+    "edges": 6720,
+    "method": "prior_eleven_lift",
+    "layers": 224
+  },
+  {
+    "n": 2022,
+    "m": 674,
+    "states": 10,
+    "edges": 6740,
+    "method": "prior_ten_odd_lift",
+    "layers": 337
+  },
+  {
+    "n": 2025,
+    "m": 675,
+    "states": 10,
+    "edges": 6750,
+    "method": "prior_eleven_lift",
+    "layers": 225
+  },
+  {
+    "n": 2034,
+    "m": 678,
+    "states": 10,
+    "edges": 6780,
+    "method": "prior_eleven_lift",
+    "layers": 226
+  },
+  {
+    "n": 2043,
+    "m": 681,
+    "states": 10,
+    "edges": 6810,
+    "method": "prior_eleven_lift",
+    "layers": 227
+  },
+  {
+    "n": 2046,
+    "m": 682,
+    "states": 10,
+    "edges": 6820,
+    "method": "prior_ten_odd_lift",
+    "layers": 341
+  },
+  {
+    "n": 2049,
+    "m": 683,
+    "states": 10,
+    "edges": 6830,
+    "method": "unrestricted_binary",
+    "base_m": 171,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2052,
+    "m": 684,
+    "states": 10,
+    "edges": 6840,
+    "method": "prior_eleven_lift",
+    "layers": 228
+  },
+  {
+    "n": 2055,
+    "m": 685,
+    "states": 10,
+    "edges": 6850,
+    "method": "unrestricted_binary",
+    "base_m": 171,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2058,
+    "m": 686,
+    "states": 10,
+    "edges": 6860,
+    "method": "prior_ten_odd_lift",
+    "layers": 343
+  },
+  {
+    "n": 2061,
+    "m": 687,
+    "states": 10,
+    "edges": 6870,
+    "method": "prior_eleven_lift",
+    "layers": 229
+  },
+  {
+    "n": 2064,
+    "m": 688,
+    "states": 10,
+    "edges": 6880,
+    "method": "unrestricted_binary",
+    "base_m": 174,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2067,
+    "m": 689,
+    "states": 10,
+    "edges": 6890,
+    "method": "unrestricted_binary",
+    "base_m": 177,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2070,
+    "m": 690,
+    "states": 10,
+    "edges": 6900,
+    "method": "prior_eleven_lift",
+    "layers": 230
+  },
+  {
+    "n": 2073,
+    "m": 691,
+    "states": 10,
+    "edges": 6910,
+    "method": "unrestricted_binary",
+    "base_m": 177,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2076,
+    "m": 692,
+    "states": 10,
+    "edges": 6920,
+    "method": "unrestricted_binary",
+    "base_m": 180,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2079,
+    "m": 693,
+    "states": 10,
+    "edges": 6930,
+    "method": "prior_eleven_lift",
+    "layers": 231
+  },
+  {
+    "n": 2082,
+    "m": 694,
+    "states": 10,
+    "edges": 6940,
+    "method": "prior_ten_odd_lift",
+    "layers": 347
+  },
+  {
+    "n": 2085,
+    "m": 695,
+    "states": 10,
+    "edges": 6950,
+    "method": "unrestricted_binary",
+    "base_m": 183,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2088,
+    "m": 696,
+    "states": 10,
+    "edges": 6960,
+    "method": "prior_eleven_lift",
+    "layers": 232
+  },
+  {
+    "n": 2091,
+    "m": 697,
+    "states": 10,
+    "edges": 6970,
+    "method": "unrestricted_binary",
+    "base_m": 183,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2094,
+    "m": 698,
+    "states": 10,
+    "edges": 6980,
+    "method": "prior_ten_odd_lift",
+    "layers": 349
+  },
+  {
+    "n": 2097,
+    "m": 699,
+    "states": 10,
+    "edges": 6990,
+    "method": "prior_eleven_lift",
+    "layers": 233
+  },
+  {
+    "n": 2100,
+    "m": 700,
+    "states": 10,
+    "edges": 7000,
+    "method": "unrestricted_binary",
+    "base_m": 186,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2103,
+    "m": 701,
+    "states": 10,
+    "edges": 7010,
+    "method": "unrestricted_binary",
+    "base_m": 189,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2106,
+    "m": 702,
+    "states": 10,
+    "edges": 7020,
+    "method": "prior_eleven_lift",
+    "layers": 234
+  },
+  {
+    "n": 2109,
+    "m": 703,
+    "states": 10,
+    "edges": 7030,
+    "method": "unrestricted_binary",
+    "base_m": 189,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2112,
+    "m": 704,
+    "states": 10,
+    "edges": 7040,
+    "method": "unrestricted_binary",
+    "base_m": 192,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2115,
+    "m": 705,
+    "states": 10,
+    "edges": 7050,
+    "method": "prior_eleven_lift",
+    "layers": 235
+  },
+  {
+    "n": 2118,
+    "m": 706,
+    "states": 10,
+    "edges": 7060,
+    "method": "prior_ten_odd_lift",
+    "layers": 353
+  },
+  {
+    "n": 2121,
+    "m": 707,
+    "states": 10,
+    "edges": 7070,
+    "method": "unrestricted_binary",
+    "base_m": 195,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2124,
+    "m": 708,
+    "states": 10,
+    "edges": 7080,
+    "method": "prior_eleven_lift",
+    "layers": 236
+  },
+  {
+    "n": 2127,
+    "m": 709,
+    "states": 10,
+    "edges": 7090,
+    "method": "unrestricted_binary",
+    "base_m": 195,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2130,
+    "m": 710,
+    "states": 10,
+    "edges": 7100,
+    "method": "prior_ten_odd_lift",
+    "layers": 355
+  },
+  {
+    "n": 2133,
+    "m": 711,
+    "states": 10,
+    "edges": 7110,
+    "method": "prior_eleven_lift",
+    "layers": 237
+  },
+  {
+    "n": 2136,
+    "m": 712,
+    "states": 10,
+    "edges": 7120,
+    "method": "unrestricted_binary",
+    "base_m": 198,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2139,
+    "m": 713,
+    "states": 10,
+    "edges": 7130,
+    "method": "unrestricted_binary",
+    "base_m": 201,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2142,
+    "m": 714,
+    "states": 10,
+    "edges": 7140,
+    "method": "prior_eleven_lift",
+    "layers": 238
+  },
+  {
+    "n": 2145,
+    "m": 715,
+    "states": 10,
+    "edges": 7150,
+    "method": "unrestricted_binary",
+    "base_m": 201,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2148,
+    "m": 716,
+    "states": 10,
+    "edges": 7160,
+    "method": "unrestricted_binary",
+    "base_m": 204,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2151,
+    "m": 717,
+    "states": 10,
+    "edges": 7170,
+    "method": "prior_eleven_lift",
+    "layers": 239
+  },
+  {
+    "n": 2154,
+    "m": 718,
+    "states": 10,
+    "edges": 7180,
+    "method": "prior_ten_odd_lift",
+    "layers": 359
+  },
+  {
+    "n": 2157,
+    "m": 719,
+    "states": 10,
+    "edges": 7190,
+    "method": "unrestricted_binary",
+    "base_m": 207,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2160,
+    "m": 720,
+    "states": 10,
+    "edges": 7200,
+    "method": "prior_eleven_lift",
+    "layers": 240
+  },
+  {
+    "n": 2163,
+    "m": 721,
+    "states": 10,
+    "edges": 7210,
+    "method": "unrestricted_binary",
+    "base_m": 207,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2166,
+    "m": 722,
+    "states": 10,
+    "edges": 7220,
+    "method": "prior_ten_odd_lift",
+    "layers": 361
+  },
+  {
+    "n": 2169,
+    "m": 723,
+    "states": 10,
+    "edges": 7230,
+    "method": "prior_eleven_lift",
+    "layers": 241
+  },
+  {
+    "n": 2172,
+    "m": 724,
+    "states": 10,
+    "edges": 7240,
+    "method": "unrestricted_binary",
+    "base_m": 210,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2175,
+    "m": 725,
+    "states": 10,
+    "edges": 7250,
+    "method": "unrestricted_binary",
+    "base_m": 213,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2178,
+    "m": 726,
+    "states": 10,
+    "edges": 7260,
+    "method": "prior_eleven_lift",
+    "layers": 242
+  },
+  {
+    "n": 2181,
+    "m": 727,
+    "states": 10,
+    "edges": 7270,
+    "method": "unrestricted_binary",
+    "base_m": 213,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2184,
+    "m": 728,
+    "states": 10,
+    "edges": 7280,
+    "method": "unrestricted_binary",
+    "base_m": 216,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2187,
+    "m": 729,
+    "states": 10,
+    "edges": 7290,
+    "method": "prior_eleven_lift",
+    "layers": 243
+  },
+  {
+    "n": 2190,
+    "m": 730,
+    "states": 10,
+    "edges": 7300,
+    "method": "prior_ten_odd_lift",
+    "layers": 365
+  },
+  {
+    "n": 2193,
+    "m": 731,
+    "states": 10,
+    "edges": 7310,
+    "method": "unrestricted_binary",
+    "base_m": 219,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2196,
+    "m": 732,
+    "states": 10,
+    "edges": 7320,
+    "method": "prior_eleven_lift",
+    "layers": 244
+  },
+  {
+    "n": 2199,
+    "m": 733,
+    "states": 10,
+    "edges": 7330,
+    "method": "unrestricted_binary",
+    "base_m": 219,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2202,
+    "m": 734,
+    "states": 10,
+    "edges": 7340,
+    "method": "prior_ten_odd_lift",
+    "layers": 367
+  },
+  {
+    "n": 2205,
+    "m": 735,
+    "states": 10,
+    "edges": 7350,
+    "method": "prior_eleven_lift",
+    "layers": 245
+  },
+  {
+    "n": 2208,
+    "m": 736,
+    "states": 10,
+    "edges": 7360,
+    "method": "unrestricted_binary",
+    "base_m": 222,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2211,
+    "m": 737,
+    "states": 10,
+    "edges": 7370,
+    "method": "unrestricted_binary",
+    "base_m": 225,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2214,
+    "m": 738,
+    "states": 10,
+    "edges": 7380,
+    "method": "prior_eleven_lift",
+    "layers": 246
+  },
+  {
+    "n": 2217,
+    "m": 739,
+    "states": 10,
+    "edges": 7390,
+    "method": "unrestricted_binary",
+    "base_m": 225,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2220,
+    "m": 740,
+    "states": 10,
+    "edges": 7400,
+    "method": "unrestricted_binary",
+    "base_m": 228,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2223,
+    "m": 741,
+    "states": 10,
+    "edges": 7410,
+    "method": "prior_eleven_lift",
+    "layers": 247
+  },
+  {
+    "n": 2226,
+    "m": 742,
+    "states": 10,
+    "edges": 7420,
+    "method": "prior_ten_odd_lift",
+    "layers": 371
+  },
+  {
+    "n": 2229,
+    "m": 743,
+    "states": 10,
+    "edges": 7430,
+    "method": "unrestricted_binary",
+    "base_m": 231,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2232,
+    "m": 744,
+    "states": 10,
+    "edges": 7440,
+    "method": "prior_eleven_lift",
+    "layers": 248
+  },
+  {
+    "n": 2235,
+    "m": 745,
+    "states": 10,
+    "edges": 7450,
+    "method": "unrestricted_binary",
+    "base_m": 231,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2238,
+    "m": 746,
+    "states": 10,
+    "edges": 7460,
+    "method": "prior_ten_odd_lift",
+    "layers": 373
+  },
+  {
+    "n": 2241,
+    "m": 747,
+    "states": 10,
+    "edges": 7470,
+    "method": "prior_eleven_lift",
+    "layers": 249
+  },
+  {
+    "n": 2244,
+    "m": 748,
+    "states": 10,
+    "edges": 7480,
+    "method": "unrestricted_binary",
+    "base_m": 234,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2247,
+    "m": 749,
+    "states": 10,
+    "edges": 7490,
+    "method": "unrestricted_binary",
+    "base_m": 237,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2250,
+    "m": 750,
+    "states": 10,
+    "edges": 7500,
+    "method": "prior_eleven_lift",
+    "layers": 250
+  },
+  {
+    "n": 2253,
+    "m": 751,
+    "states": 10,
+    "edges": 7510,
+    "method": "unrestricted_binary",
+    "base_m": 237,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2256,
+    "m": 752,
+    "states": 10,
+    "edges": 7520,
+    "method": "unrestricted_binary",
+    "base_m": 240,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2259,
+    "m": 753,
+    "states": 10,
+    "edges": 7530,
+    "method": "prior_eleven_lift",
+    "layers": 251
+  },
+  {
+    "n": 2262,
+    "m": 754,
+    "states": 10,
+    "edges": 7540,
+    "method": "prior_ten_odd_lift",
+    "layers": 377
+  },
+  {
+    "n": 2265,
+    "m": 755,
+    "states": 10,
+    "edges": 7550,
+    "method": "unrestricted_binary",
+    "base_m": 243,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2268,
+    "m": 756,
+    "states": 10,
+    "edges": 7560,
+    "method": "prior_eleven_lift",
+    "layers": 252
+  },
+  {
+    "n": 2271,
+    "m": 757,
+    "states": 10,
+    "edges": 7570,
+    "method": "unrestricted_binary",
+    "base_m": 243,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2274,
+    "m": 758,
+    "states": 10,
+    "edges": 7580,
+    "method": "prior_ten_odd_lift",
+    "layers": 379
+  },
+  {
+    "n": 2277,
+    "m": 759,
+    "states": 10,
+    "edges": 7590,
+    "method": "prior_eleven_lift",
+    "layers": 253
+  },
+  {
+    "n": 2280,
+    "m": 760,
+    "states": 10,
+    "edges": 7600,
+    "method": "unrestricted_binary",
+    "base_m": 246,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2283,
+    "m": 761,
+    "states": 10,
+    "edges": 7610,
+    "method": "unrestricted_binary",
+    "base_m": 249,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2286,
+    "m": 762,
+    "states": 10,
+    "edges": 7620,
+    "method": "prior_eleven_lift",
+    "layers": 254
+  },
+  {
+    "n": 2289,
+    "m": 763,
+    "states": 10,
+    "edges": 7630,
+    "method": "unrestricted_binary",
+    "base_m": 249,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2292,
+    "m": 764,
+    "states": 10,
+    "edges": 7640,
+    "method": "unrestricted_binary",
+    "base_m": 252,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2295,
+    "m": 765,
+    "states": 10,
+    "edges": 7650,
+    "method": "prior_eleven_lift",
+    "layers": 255
+  },
+  {
+    "n": 2298,
+    "m": 766,
+    "states": 10,
+    "edges": 7660,
+    "method": "prior_ten_odd_lift",
+    "layers": 383
+  },
+  {
+    "n": 2301,
+    "m": 767,
+    "states": 10,
+    "edges": 7670,
+    "method": "unrestricted_binary",
+    "base_m": 255,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2304,
+    "m": 768,
+    "states": 10,
+    "edges": 7680,
+    "method": "prior_eleven_lift",
+    "layers": 256
+  },
+  {
+    "n": 2307,
+    "m": 769,
+    "states": 10,
+    "edges": 7690,
+    "method": "unrestricted_binary",
+    "base_m": 255,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2310,
+    "m": 770,
+    "states": 10,
+    "edges": 7700,
+    "method": "prior_ten_odd_lift",
+    "layers": 385
+  },
+  {
+    "n": 2313,
+    "m": 771,
+    "states": 10,
+    "edges": 7710,
+    "method": "prior_eleven_lift",
+    "layers": 257
+  },
+  {
+    "n": 2316,
+    "m": 772,
+    "states": 10,
+    "edges": 7720,
+    "method": "unrestricted_binary",
+    "base_m": 258,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2319,
+    "m": 773,
+    "states": 10,
+    "edges": 7730,
+    "method": "unrestricted_binary",
+    "base_m": 261,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2322,
+    "m": 774,
+    "states": 10,
+    "edges": 7740,
+    "method": "prior_eleven_lift",
+    "layers": 258
+  },
+  {
+    "n": 2325,
+    "m": 775,
+    "states": 10,
+    "edges": 7750,
+    "method": "unrestricted_binary",
+    "base_m": 261,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2328,
+    "m": 776,
+    "states": 10,
+    "edges": 7760,
+    "method": "unrestricted_binary",
+    "base_m": 264,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2331,
+    "m": 777,
+    "states": 10,
+    "edges": 7770,
+    "method": "prior_eleven_lift",
+    "layers": 259
+  },
+  {
+    "n": 2334,
+    "m": 778,
+    "states": 10,
+    "edges": 7780,
+    "method": "prior_ten_odd_lift",
+    "layers": 389
+  },
+  {
+    "n": 2337,
+    "m": 779,
+    "states": 10,
+    "edges": 7790,
+    "method": "unrestricted_binary",
+    "base_m": 267,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2340,
+    "m": 780,
+    "states": 10,
+    "edges": 7800,
+    "method": "prior_eleven_lift",
+    "layers": 260
+  },
+  {
+    "n": 2343,
+    "m": 781,
+    "states": 10,
+    "edges": 7810,
+    "method": "unrestricted_binary",
+    "base_m": 267,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2346,
+    "m": 782,
+    "states": 10,
+    "edges": 7820,
+    "method": "prior_ten_odd_lift",
+    "layers": 391
+  },
+  {
+    "n": 2349,
+    "m": 783,
+    "states": 10,
+    "edges": 7830,
+    "method": "prior_eleven_lift",
+    "layers": 261
+  },
+  {
+    "n": 2352,
+    "m": 784,
+    "states": 10,
+    "edges": 7840,
+    "method": "unrestricted_binary",
+    "base_m": 270,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2355,
+    "m": 785,
+    "states": 10,
+    "edges": 7850,
+    "method": "unrestricted_binary",
+    "base_m": 273,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2358,
+    "m": 786,
+    "states": 10,
+    "edges": 7860,
+    "method": "prior_eleven_lift",
+    "layers": 262
+  },
+  {
+    "n": 2361,
+    "m": 787,
+    "states": 10,
+    "edges": 7870,
+    "method": "unrestricted_binary",
+    "base_m": 273,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2364,
+    "m": 788,
+    "states": 10,
+    "edges": 7880,
+    "method": "unrestricted_binary",
+    "base_m": 276,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2367,
+    "m": 789,
+    "states": 10,
+    "edges": 7890,
+    "method": "prior_eleven_lift",
+    "layers": 263
+  },
+  {
+    "n": 2370,
+    "m": 790,
+    "states": 10,
+    "edges": 7900,
+    "method": "prior_ten_odd_lift",
+    "layers": 395
+  },
+  {
+    "n": 2373,
+    "m": 791,
+    "states": 10,
+    "edges": 7910,
+    "method": "unrestricted_binary",
+    "base_m": 279,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2376,
+    "m": 792,
+    "states": 10,
+    "edges": 7920,
+    "method": "prior_eleven_lift",
+    "layers": 264
+  },
+  {
+    "n": 2379,
+    "m": 793,
+    "states": 10,
+    "edges": 7930,
+    "method": "unrestricted_binary",
+    "base_m": 279,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2382,
+    "m": 794,
+    "states": 10,
+    "edges": 7940,
+    "method": "prior_ten_odd_lift",
+    "layers": 397
+  },
+  {
+    "n": 2385,
+    "m": 795,
+    "states": 10,
+    "edges": 7950,
+    "method": "prior_eleven_lift",
+    "layers": 265
+  },
+  {
+    "n": 2388,
+    "m": 796,
+    "states": 10,
+    "edges": 7960,
+    "method": "unrestricted_binary",
+    "base_m": 282,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2391,
+    "m": 797,
+    "states": 10,
+    "edges": 7970,
+    "method": "unrestricted_binary",
+    "base_m": 285,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2394,
+    "m": 798,
+    "states": 10,
+    "edges": 7980,
+    "method": "prior_eleven_lift",
+    "layers": 266
+  },
+  {
+    "n": 2397,
+    "m": 799,
+    "states": 10,
+    "edges": 7990,
+    "method": "unrestricted_binary",
+    "base_m": 285,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2400,
+    "m": 800,
+    "states": 10,
+    "edges": 8000,
+    "method": "unrestricted_binary",
+    "base_m": 288,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2403,
+    "m": 801,
+    "states": 10,
+    "edges": 8010,
+    "method": "prior_eleven_lift",
+    "layers": 267
+  },
+  {
+    "n": 2406,
+    "m": 802,
+    "states": 10,
+    "edges": 8020,
+    "method": "prior_ten_odd_lift",
+    "layers": 401
+  },
+  {
+    "n": 2409,
+    "m": 803,
+    "states": 10,
+    "edges": 8030,
+    "method": "unrestricted_binary",
+    "base_m": 291,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2412,
+    "m": 804,
+    "states": 10,
+    "edges": 8040,
+    "method": "prior_eleven_lift",
+    "layers": 268
+  },
+  {
+    "n": 2415,
+    "m": 805,
+    "states": 10,
+    "edges": 8050,
+    "method": "unrestricted_binary",
+    "base_m": 291,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2418,
+    "m": 806,
+    "states": 10,
+    "edges": 8060,
+    "method": "prior_ten_odd_lift",
+    "layers": 403
+  },
+  {
+    "n": 2421,
+    "m": 807,
+    "states": 10,
+    "edges": 8070,
+    "method": "prior_eleven_lift",
+    "layers": 269
+  },
+  {
+    "n": 2424,
+    "m": 808,
+    "states": 10,
+    "edges": 8080,
+    "method": "unrestricted_binary",
+    "base_m": 294,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2427,
+    "m": 809,
+    "states": 10,
+    "edges": 8090,
+    "method": "unrestricted_binary",
+    "base_m": 297,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2430,
+    "m": 810,
+    "states": 10,
+    "edges": 8100,
+    "method": "prior_eleven_lift",
+    "layers": 270
+  },
+  {
+    "n": 2433,
+    "m": 811,
+    "states": 10,
+    "edges": 8110,
+    "method": "unrestricted_binary",
+    "base_m": 297,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2436,
+    "m": 812,
+    "states": 10,
+    "edges": 8120,
+    "method": "unrestricted_binary",
+    "base_m": 300,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2439,
+    "m": 813,
+    "states": 10,
+    "edges": 8130,
+    "method": "prior_eleven_lift",
+    "layers": 271
+  },
+  {
+    "n": 2442,
+    "m": 814,
+    "states": 10,
+    "edges": 8140,
+    "method": "prior_ten_odd_lift",
+    "layers": 407
+  },
+  {
+    "n": 2445,
+    "m": 815,
+    "states": 10,
+    "edges": 8150,
+    "method": "unrestricted_binary",
+    "base_m": 303,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2448,
+    "m": 816,
+    "states": 10,
+    "edges": 8160,
+    "method": "prior_eleven_lift",
+    "layers": 272
+  },
+  {
+    "n": 2451,
+    "m": 817,
+    "states": 10,
+    "edges": 8170,
+    "method": "unrestricted_binary",
+    "base_m": 303,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2454,
+    "m": 818,
+    "states": 10,
+    "edges": 8180,
+    "method": "prior_ten_odd_lift",
+    "layers": 409
+  },
+  {
+    "n": 2457,
+    "m": 819,
+    "states": 10,
+    "edges": 8190,
+    "method": "prior_eleven_lift",
+    "layers": 273
+  },
+  {
+    "n": 2460,
+    "m": 820,
+    "states": 10,
+    "edges": 8200,
+    "method": "unrestricted_binary",
+    "base_m": 306,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2463,
+    "m": 821,
+    "states": 10,
+    "edges": 8210,
+    "method": "unrestricted_binary",
+    "base_m": 309,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2466,
+    "m": 822,
+    "states": 10,
+    "edges": 8220,
+    "method": "prior_eleven_lift",
+    "layers": 274
+  },
+  {
+    "n": 2469,
+    "m": 823,
+    "states": 10,
+    "edges": 8230,
+    "method": "unrestricted_binary",
+    "base_m": 309,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2472,
+    "m": 824,
+    "states": 10,
+    "edges": 8240,
+    "method": "unrestricted_binary",
+    "base_m": 312,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2475,
+    "m": 825,
+    "states": 10,
+    "edges": 8250,
+    "method": "prior_eleven_lift",
+    "layers": 275
+  },
+  {
+    "n": 2478,
+    "m": 826,
+    "states": 10,
+    "edges": 8260,
+    "method": "prior_ten_odd_lift",
+    "layers": 413
+  },
+  {
+    "n": 2481,
+    "m": 827,
+    "states": 10,
+    "edges": 8270,
+    "method": "unrestricted_binary",
+    "base_m": 315,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2484,
+    "m": 828,
+    "states": 10,
+    "edges": 8280,
+    "method": "prior_eleven_lift",
+    "layers": 276
+  },
+  {
+    "n": 2487,
+    "m": 829,
+    "states": 10,
+    "edges": 8290,
+    "method": "unrestricted_binary",
+    "base_m": 315,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2490,
+    "m": 830,
+    "states": 10,
+    "edges": 8300,
+    "method": "prior_ten_odd_lift",
+    "layers": 415
+  },
+  {
+    "n": 2493,
+    "m": 831,
+    "states": 10,
+    "edges": 8310,
+    "method": "prior_eleven_lift",
+    "layers": 277
+  },
+  {
+    "n": 2496,
+    "m": 832,
+    "states": 10,
+    "edges": 8320,
+    "method": "unrestricted_binary",
+    "base_m": 318,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2499,
+    "m": 833,
+    "states": 10,
+    "edges": 8330,
+    "method": "unrestricted_binary",
+    "base_m": 321,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2502,
+    "m": 834,
+    "states": 10,
+    "edges": 8340,
+    "method": "prior_eleven_lift",
+    "layers": 278
+  },
+  {
+    "n": 2505,
+    "m": 835,
+    "states": 10,
+    "edges": 8350,
+    "method": "unrestricted_binary",
+    "base_m": 321,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2508,
+    "m": 836,
+    "states": 10,
+    "edges": 8360,
+    "method": "unrestricted_binary",
+    "base_m": 324,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2511,
+    "m": 837,
+    "states": 10,
+    "edges": 8370,
+    "method": "prior_eleven_lift",
+    "layers": 279
+  },
+  {
+    "n": 2514,
+    "m": 838,
+    "states": 10,
+    "edges": 8380,
+    "method": "prior_ten_odd_lift",
+    "layers": 419
+  },
+  {
+    "n": 2517,
+    "m": 839,
+    "states": 10,
+    "edges": 8390,
+    "method": "unrestricted_binary",
+    "base_m": 327,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2520,
+    "m": 840,
+    "states": 10,
+    "edges": 8400,
+    "method": "prior_eleven_lift",
+    "layers": 280
+  },
+  {
+    "n": 2523,
+    "m": 841,
+    "states": 10,
+    "edges": 8410,
+    "method": "unrestricted_binary",
+    "base_m": 327,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2526,
+    "m": 842,
+    "states": 10,
+    "edges": 8420,
+    "method": "prior_ten_odd_lift",
+    "layers": 421
+  },
+  {
+    "n": 2529,
+    "m": 843,
+    "states": 10,
+    "edges": 8430,
+    "method": "prior_eleven_lift",
+    "layers": 281
+  },
+  {
+    "n": 2532,
+    "m": 844,
+    "states": 10,
+    "edges": 8440,
+    "method": "unrestricted_binary",
+    "base_m": 330,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2535,
+    "m": 845,
+    "states": 10,
+    "edges": 8450,
+    "method": "unrestricted_binary",
+    "base_m": 333,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2538,
+    "m": 846,
+    "states": 10,
+    "edges": 8460,
+    "method": "prior_eleven_lift",
+    "layers": 282
+  },
+  {
+    "n": 2541,
+    "m": 847,
+    "states": 10,
+    "edges": 8470,
+    "method": "unrestricted_binary",
+    "base_m": 333,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2544,
+    "m": 848,
+    "states": 10,
+    "edges": 8480,
+    "method": "unrestricted_binary",
+    "base_m": 336,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2547,
+    "m": 849,
+    "states": 10,
+    "edges": 8490,
+    "method": "prior_eleven_lift",
+    "layers": 283
+  },
+  {
+    "n": 2550,
+    "m": 850,
+    "states": 10,
+    "edges": 8500,
+    "method": "prior_ten_odd_lift",
+    "layers": 425
+  },
+  {
+    "n": 2553,
+    "m": 851,
+    "states": 10,
+    "edges": 8510,
+    "method": "unrestricted_binary",
+    "base_m": 339,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2556,
+    "m": 852,
+    "states": 10,
+    "edges": 8520,
+    "method": "prior_eleven_lift",
+    "layers": 284
+  },
+  {
+    "n": 2559,
+    "m": 853,
+    "states": 10,
+    "edges": 8530,
+    "method": "unrestricted_binary",
+    "base_m": 339,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2562,
+    "m": 854,
+    "states": 10,
+    "edges": 8540,
+    "method": "prior_ten_odd_lift",
+    "layers": 427
+  },
+  {
+    "n": 2565,
+    "m": 855,
+    "states": 10,
+    "edges": 8550,
+    "method": "prior_eleven_lift",
+    "layers": 285
+  },
+  {
+    "n": 2568,
+    "m": 856,
+    "states": 10,
+    "edges": 8560,
+    "method": "unrestricted_binary",
+    "base_m": 342,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2571,
+    "m": 857,
+    "states": 10,
+    "edges": 8570,
+    "method": "unrestricted_binary",
+    "base_m": 345,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2574,
+    "m": 858,
+    "states": 10,
+    "edges": 8580,
+    "method": "prior_eleven_lift",
+    "layers": 286
+  },
+  {
+    "n": 2577,
+    "m": 859,
+    "states": 10,
+    "edges": 8590,
+    "method": "unrestricted_binary",
+    "base_m": 345,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2580,
+    "m": 860,
+    "states": 10,
+    "edges": 8600,
+    "method": "unrestricted_binary",
+    "base_m": 348,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2583,
+    "m": 861,
+    "states": 10,
+    "edges": 8610,
+    "method": "prior_eleven_lift",
+    "layers": 287
+  },
+  {
+    "n": 2586,
+    "m": 862,
+    "states": 10,
+    "edges": 8620,
+    "method": "prior_ten_odd_lift",
+    "layers": 431
+  },
+  {
+    "n": 2589,
+    "m": 863,
+    "states": 10,
+    "edges": 8630,
+    "method": "unrestricted_binary",
+    "base_m": 351,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2592,
+    "m": 864,
+    "states": 10,
+    "edges": 8640,
+    "method": "prior_eleven_lift",
+    "layers": 288
+  },
+  {
+    "n": 2595,
+    "m": 865,
+    "states": 10,
+    "edges": 8650,
+    "method": "unrestricted_binary",
+    "base_m": 351,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2598,
+    "m": 866,
+    "states": 10,
+    "edges": 8660,
+    "method": "prior_ten_odd_lift",
+    "layers": 433
+  },
+  {
+    "n": 2601,
+    "m": 867,
+    "states": 10,
+    "edges": 8670,
+    "method": "prior_eleven_lift",
+    "layers": 289
+  },
+  {
+    "n": 2604,
+    "m": 868,
+    "states": 10,
+    "edges": 8680,
+    "method": "unrestricted_binary",
+    "base_m": 354,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2607,
+    "m": 869,
+    "states": 10,
+    "edges": 8690,
+    "method": "unrestricted_binary",
+    "base_m": 357,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2610,
+    "m": 870,
+    "states": 10,
+    "edges": 8700,
+    "method": "prior_eleven_lift",
+    "layers": 290
+  },
+  {
+    "n": 2613,
+    "m": 871,
+    "states": 10,
+    "edges": 8710,
+    "method": "unrestricted_binary",
+    "base_m": 357,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2616,
+    "m": 872,
+    "states": 10,
+    "edges": 8720,
+    "method": "unrestricted_binary",
+    "base_m": 360,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2619,
+    "m": 873,
+    "states": 10,
+    "edges": 8730,
+    "method": "prior_eleven_lift",
+    "layers": 291
+  },
+  {
+    "n": 2622,
+    "m": 874,
+    "states": 10,
+    "edges": 8740,
+    "method": "prior_ten_odd_lift",
+    "layers": 437
+  },
+  {
+    "n": 2625,
+    "m": 875,
+    "states": 10,
+    "edges": 8750,
+    "method": "unrestricted_binary",
+    "base_m": 363,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2628,
+    "m": 876,
+    "states": 10,
+    "edges": 8760,
+    "method": "prior_eleven_lift",
+    "layers": 292
+  },
+  {
+    "n": 2631,
+    "m": 877,
+    "states": 10,
+    "edges": 8770,
+    "method": "unrestricted_binary",
+    "base_m": 363,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2634,
+    "m": 878,
+    "states": 10,
+    "edges": 8780,
+    "method": "prior_ten_odd_lift",
+    "layers": 439
+  },
+  {
+    "n": 2637,
+    "m": 879,
+    "states": 10,
+    "edges": 8790,
+    "method": "prior_eleven_lift",
+    "layers": 293
+  },
+  {
+    "n": 2640,
+    "m": 880,
+    "states": 10,
+    "edges": 8800,
+    "method": "unrestricted_binary",
+    "base_m": 366,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2643,
+    "m": 881,
+    "states": 10,
+    "edges": 8810,
+    "method": "unrestricted_binary",
+    "base_m": 369,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2646,
+    "m": 882,
+    "states": 10,
+    "edges": 8820,
+    "method": "prior_eleven_lift",
+    "layers": 294
+  },
+  {
+    "n": 2649,
+    "m": 883,
+    "states": 10,
+    "edges": 8830,
+    "method": "unrestricted_binary",
+    "base_m": 369,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2652,
+    "m": 884,
+    "states": 10,
+    "edges": 8840,
+    "method": "unrestricted_binary",
+    "base_m": 372,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2655,
+    "m": 885,
+    "states": 10,
+    "edges": 8850,
+    "method": "prior_eleven_lift",
+    "layers": 295
+  },
+  {
+    "n": 2658,
+    "m": 886,
+    "states": 10,
+    "edges": 8860,
+    "method": "prior_ten_odd_lift",
+    "layers": 443
+  },
+  {
+    "n": 2661,
+    "m": 887,
+    "states": 10,
+    "edges": 8870,
+    "method": "unrestricted_binary",
+    "base_m": 375,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2664,
+    "m": 888,
+    "states": 10,
+    "edges": 8880,
+    "method": "prior_eleven_lift",
+    "layers": 296
+  },
+  {
+    "n": 2667,
+    "m": 889,
+    "states": 10,
+    "edges": 8890,
+    "method": "unrestricted_binary",
+    "base_m": 375,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2670,
+    "m": 890,
+    "states": 10,
+    "edges": 8900,
+    "method": "prior_ten_odd_lift",
+    "layers": 445
+  },
+  {
+    "n": 2673,
+    "m": 891,
+    "states": 10,
+    "edges": 8910,
+    "method": "prior_eleven_lift",
+    "layers": 297
+  },
+  {
+    "n": 2676,
+    "m": 892,
+    "states": 10,
+    "edges": 8920,
+    "method": "unrestricted_binary",
+    "base_m": 378,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2679,
+    "m": 893,
+    "states": 10,
+    "edges": 8930,
+    "method": "unrestricted_binary",
+    "base_m": 381,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2682,
+    "m": 894,
+    "states": 10,
+    "edges": 8940,
+    "method": "prior_eleven_lift",
+    "layers": 298
+  },
+  {
+    "n": 2685,
+    "m": 895,
+    "states": 10,
+    "edges": 8950,
+    "method": "unrestricted_binary",
+    "base_m": 381,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2688,
+    "m": 896,
+    "states": 10,
+    "edges": 8960,
+    "method": "unrestricted_binary",
+    "base_m": 384,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2691,
+    "m": 897,
+    "states": 10,
+    "edges": 8970,
+    "method": "prior_eleven_lift",
+    "layers": 299
+  },
+  {
+    "n": 2694,
+    "m": 898,
+    "states": 10,
+    "edges": 8980,
+    "method": "prior_ten_odd_lift",
+    "layers": 449
+  },
+  {
+    "n": 2697,
+    "m": 899,
+    "states": 10,
+    "edges": 8990,
+    "method": "unrestricted_binary",
+    "base_m": 387,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2700,
+    "m": 900,
+    "states": 10,
+    "edges": 9000,
+    "method": "prior_eleven_lift",
+    "layers": 300
+  },
+  {
+    "n": 2703,
+    "m": 901,
+    "states": 10,
+    "edges": 9010,
+    "method": "unrestricted_binary",
+    "base_m": 387,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2706,
+    "m": 902,
+    "states": 10,
+    "edges": 9020,
+    "method": "prior_ten_odd_lift",
+    "layers": 451
+  },
+  {
+    "n": 2709,
+    "m": 903,
+    "states": 10,
+    "edges": 9030,
+    "method": "prior_eleven_lift",
+    "layers": 301
+  },
+  {
+    "n": 2712,
+    "m": 904,
+    "states": 10,
+    "edges": 9040,
+    "method": "unrestricted_binary",
+    "base_m": 390,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2715,
+    "m": 905,
+    "states": 10,
+    "edges": 9050,
+    "method": "unrestricted_binary",
+    "base_m": 393,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2718,
+    "m": 906,
+    "states": 10,
+    "edges": 9060,
+    "method": "prior_eleven_lift",
+    "layers": 302
+  },
+  {
+    "n": 2721,
+    "m": 907,
+    "states": 10,
+    "edges": 9070,
+    "method": "unrestricted_binary",
+    "base_m": 393,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2724,
+    "m": 908,
+    "states": 10,
+    "edges": 9080,
+    "method": "unrestricted_binary",
+    "base_m": 396,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2727,
+    "m": 909,
+    "states": 10,
+    "edges": 9090,
+    "method": "prior_eleven_lift",
+    "layers": 303
+  },
+  {
+    "n": 2730,
+    "m": 910,
+    "states": 10,
+    "edges": 9100,
+    "method": "prior_ten_odd_lift",
+    "layers": 455
+  },
+  {
+    "n": 2733,
+    "m": 911,
+    "states": 10,
+    "edges": 9110,
+    "method": "unrestricted_binary",
+    "base_m": 399,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2736,
+    "m": 912,
+    "states": 10,
+    "edges": 9120,
+    "method": "prior_eleven_lift",
+    "layers": 304
+  },
+  {
+    "n": 2739,
+    "m": 913,
+    "states": 10,
+    "edges": 9130,
+    "method": "unrestricted_binary",
+    "base_m": 399,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2742,
+    "m": 914,
+    "states": 10,
+    "edges": 9140,
+    "method": "prior_ten_odd_lift",
+    "layers": 457
+  },
+  {
+    "n": 2745,
+    "m": 915,
+    "states": 10,
+    "edges": 9150,
+    "method": "prior_eleven_lift",
+    "layers": 305
+  },
+  {
+    "n": 2748,
+    "m": 916,
+    "states": 10,
+    "edges": 9160,
+    "method": "unrestricted_binary",
+    "base_m": 402,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2751,
+    "m": 917,
+    "states": 10,
+    "edges": 9170,
+    "method": "unrestricted_binary",
+    "base_m": 405,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2754,
+    "m": 918,
+    "states": 10,
+    "edges": 9180,
+    "method": "prior_eleven_lift",
+    "layers": 306
+  },
+  {
+    "n": 2757,
+    "m": 919,
+    "states": 10,
+    "edges": 9190,
+    "method": "unrestricted_binary",
+    "base_m": 405,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2760,
+    "m": 920,
+    "states": 10,
+    "edges": 9200,
+    "method": "unrestricted_binary",
+    "base_m": 408,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2763,
+    "m": 921,
+    "states": 10,
+    "edges": 9210,
+    "method": "prior_eleven_lift",
+    "layers": 307
+  },
+  {
+    "n": 2766,
+    "m": 922,
+    "states": 10,
+    "edges": 9220,
+    "method": "prior_ten_odd_lift",
+    "layers": 461
+  },
+  {
+    "n": 2769,
+    "m": 923,
+    "states": 10,
+    "edges": 9230,
+    "method": "unrestricted_binary",
+    "base_m": 411,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2772,
+    "m": 924,
+    "states": 10,
+    "edges": 9240,
+    "method": "prior_eleven_lift",
+    "layers": 308
+  },
+  {
+    "n": 2775,
+    "m": 925,
+    "states": 10,
+    "edges": 9250,
+    "method": "unrestricted_binary",
+    "base_m": 411,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2778,
+    "m": 926,
+    "states": 10,
+    "edges": 9260,
+    "method": "prior_ten_odd_lift",
+    "layers": 463
+  },
+  {
+    "n": 2781,
+    "m": 927,
+    "states": 10,
+    "edges": 9270,
+    "method": "prior_eleven_lift",
+    "layers": 309
+  },
+  {
+    "n": 2784,
+    "m": 928,
+    "states": 10,
+    "edges": 9280,
+    "method": "unrestricted_binary",
+    "base_m": 414,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2787,
+    "m": 929,
+    "states": 10,
+    "edges": 9290,
+    "method": "unrestricted_binary",
+    "base_m": 417,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2790,
+    "m": 930,
+    "states": 10,
+    "edges": 9300,
+    "method": "prior_eleven_lift",
+    "layers": 310
+  },
+  {
+    "n": 2793,
+    "m": 931,
+    "states": 10,
+    "edges": 9310,
+    "method": "unrestricted_binary",
+    "base_m": 417,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2796,
+    "m": 932,
+    "states": 10,
+    "edges": 9320,
+    "method": "unrestricted_binary",
+    "base_m": 420,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2799,
+    "m": 933,
+    "states": 10,
+    "edges": 9330,
+    "method": "prior_eleven_lift",
+    "layers": 311
+  },
+  {
+    "n": 2802,
+    "m": 934,
+    "states": 10,
+    "edges": 9340,
+    "method": "prior_ten_odd_lift",
+    "layers": 467
+  },
+  {
+    "n": 2805,
+    "m": 935,
+    "states": 10,
+    "edges": 9350,
+    "method": "unrestricted_binary",
+    "base_m": 423,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2808,
+    "m": 936,
+    "states": 10,
+    "edges": 9360,
+    "method": "prior_eleven_lift",
+    "layers": 312
+  },
+  {
+    "n": 2811,
+    "m": 937,
+    "states": 10,
+    "edges": 9370,
+    "method": "unrestricted_binary",
+    "base_m": 423,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2814,
+    "m": 938,
+    "states": 10,
+    "edges": 9380,
+    "method": "prior_ten_odd_lift",
+    "layers": 469
+  },
+  {
+    "n": 2817,
+    "m": 939,
+    "states": 10,
+    "edges": 9390,
+    "method": "prior_eleven_lift",
+    "layers": 313
+  },
+  {
+    "n": 2820,
+    "m": 940,
+    "states": 10,
+    "edges": 9400,
+    "method": "unrestricted_binary",
+    "base_m": 426,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2823,
+    "m": 941,
+    "states": 10,
+    "edges": 9410,
+    "method": "unrestricted_binary",
+    "base_m": 429,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2826,
+    "m": 942,
+    "states": 10,
+    "edges": 9420,
+    "method": "prior_eleven_lift",
+    "layers": 314
+  },
+  {
+    "n": 2829,
+    "m": 943,
+    "states": 10,
+    "edges": 9430,
+    "method": "unrestricted_binary",
+    "base_m": 429,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2832,
+    "m": 944,
+    "states": 10,
+    "edges": 9440,
+    "method": "unrestricted_binary",
+    "base_m": 432,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2835,
+    "m": 945,
+    "states": 10,
+    "edges": 9450,
+    "method": "prior_eleven_lift",
+    "layers": 315
+  },
+  {
+    "n": 2838,
+    "m": 946,
+    "states": 10,
+    "edges": 9460,
+    "method": "prior_ten_odd_lift",
+    "layers": 473
+  },
+  {
+    "n": 2841,
+    "m": 947,
+    "states": 10,
+    "edges": 9470,
+    "method": "unrestricted_binary",
+    "base_m": 435,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2844,
+    "m": 948,
+    "states": 10,
+    "edges": 9480,
+    "method": "prior_eleven_lift",
+    "layers": 316
+  },
+  {
+    "n": 2847,
+    "m": 949,
+    "states": 10,
+    "edges": 9490,
+    "method": "unrestricted_binary",
+    "base_m": 435,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2850,
+    "m": 950,
+    "states": 10,
+    "edges": 9500,
+    "method": "prior_ten_odd_lift",
+    "layers": 475
+  },
+  {
+    "n": 2853,
+    "m": 951,
+    "states": 10,
+    "edges": 9510,
+    "method": "prior_eleven_lift",
+    "layers": 317
+  },
+  {
+    "n": 2856,
+    "m": 952,
+    "states": 10,
+    "edges": 9520,
+    "method": "unrestricted_binary",
+    "base_m": 438,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2859,
+    "m": 953,
+    "states": 10,
+    "edges": 9530,
+    "method": "unrestricted_binary",
+    "base_m": 441,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2862,
+    "m": 954,
+    "states": 10,
+    "edges": 9540,
+    "method": "prior_eleven_lift",
+    "layers": 318
+  },
+  {
+    "n": 2865,
+    "m": 955,
+    "states": 10,
+    "edges": 9550,
+    "method": "unrestricted_binary",
+    "base_m": 441,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2868,
+    "m": 956,
+    "states": 10,
+    "edges": 9560,
+    "method": "unrestricted_binary",
+    "base_m": 444,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2871,
+    "m": 957,
+    "states": 10,
+    "edges": 9570,
+    "method": "prior_eleven_lift",
+    "layers": 319
+  },
+  {
+    "n": 2874,
+    "m": 958,
+    "states": 10,
+    "edges": 9580,
+    "method": "prior_ten_odd_lift",
+    "layers": 479
+  },
+  {
+    "n": 2877,
+    "m": 959,
+    "states": 10,
+    "edges": 9590,
+    "method": "unrestricted_binary",
+    "base_m": 447,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2880,
+    "m": 960,
+    "states": 10,
+    "edges": 9600,
+    "method": "prior_eleven_lift",
+    "layers": 320
+  },
+  {
+    "n": 2883,
+    "m": 961,
+    "states": 10,
+    "edges": 9610,
+    "method": "unrestricted_binary",
+    "base_m": 447,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2886,
+    "m": 962,
+    "states": 10,
+    "edges": 9620,
+    "method": "prior_ten_odd_lift",
+    "layers": 481
+  },
+  {
+    "n": 2889,
+    "m": 963,
+    "states": 10,
+    "edges": 9630,
+    "method": "prior_eleven_lift",
+    "layers": 321
+  },
+  {
+    "n": 2892,
+    "m": 964,
+    "states": 10,
+    "edges": 9640,
+    "method": "unrestricted_binary",
+    "base_m": 450,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2895,
+    "m": 965,
+    "states": 10,
+    "edges": 9650,
+    "method": "unrestricted_binary",
+    "base_m": 453,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2898,
+    "m": 966,
+    "states": 10,
+    "edges": 9660,
+    "method": "prior_eleven_lift",
+    "layers": 322
+  },
+  {
+    "n": 2901,
+    "m": 967,
+    "states": 10,
+    "edges": 9670,
+    "method": "unrestricted_binary",
+    "base_m": 453,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2904,
+    "m": 968,
+    "states": 10,
+    "edges": 9680,
+    "method": "unrestricted_binary",
+    "base_m": 456,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2907,
+    "m": 969,
+    "states": 10,
+    "edges": 9690,
+    "method": "prior_eleven_lift",
+    "layers": 323
+  },
+  {
+    "n": 2910,
+    "m": 970,
+    "states": 10,
+    "edges": 9700,
+    "method": "prior_ten_odd_lift",
+    "layers": 485
+  },
+  {
+    "n": 2913,
+    "m": 971,
+    "states": 10,
+    "edges": 9710,
+    "method": "unrestricted_binary",
+    "base_m": 459,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2916,
+    "m": 972,
+    "states": 10,
+    "edges": 9720,
+    "method": "prior_eleven_lift",
+    "layers": 324
+  },
+  {
+    "n": 2919,
+    "m": 973,
+    "states": 10,
+    "edges": 9730,
+    "method": "unrestricted_binary",
+    "base_m": 459,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2922,
+    "m": 974,
+    "states": 10,
+    "edges": 9740,
+    "method": "prior_ten_odd_lift",
+    "layers": 487
+  },
+  {
+    "n": 2925,
+    "m": 975,
+    "states": 10,
+    "edges": 9750,
+    "method": "prior_eleven_lift",
+    "layers": 325
+  },
+  {
+    "n": 2928,
+    "m": 976,
+    "states": 10,
+    "edges": 9760,
+    "method": "unrestricted_binary",
+    "base_m": 462,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2931,
+    "m": 977,
+    "states": 10,
+    "edges": 9770,
+    "method": "unrestricted_binary",
+    "base_m": 465,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2934,
+    "m": 978,
+    "states": 10,
+    "edges": 9780,
+    "method": "prior_eleven_lift",
+    "layers": 326
+  },
+  {
+    "n": 2937,
+    "m": 979,
+    "states": 10,
+    "edges": 9790,
+    "method": "unrestricted_binary",
+    "base_m": 465,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2940,
+    "m": 980,
+    "states": 10,
+    "edges": 9800,
+    "method": "unrestricted_binary",
+    "base_m": 468,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2943,
+    "m": 981,
+    "states": 10,
+    "edges": 9810,
+    "method": "prior_eleven_lift",
+    "layers": 327
+  },
+  {
+    "n": 2946,
+    "m": 982,
+    "states": 10,
+    "edges": 9820,
+    "method": "prior_ten_odd_lift",
+    "layers": 491
+  },
+  {
+    "n": 2949,
+    "m": 983,
+    "states": 10,
+    "edges": 9830,
+    "method": "unrestricted_binary",
+    "base_m": 471,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2952,
+    "m": 984,
+    "states": 10,
+    "edges": 9840,
+    "method": "prior_eleven_lift",
+    "layers": 328
+  },
+  {
+    "n": 2955,
+    "m": 985,
+    "states": 10,
+    "edges": 9850,
+    "method": "unrestricted_binary",
+    "base_m": 471,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2958,
+    "m": 986,
+    "states": 10,
+    "edges": 9860,
+    "method": "prior_ten_odd_lift",
+    "layers": 493
+  },
+  {
+    "n": 2961,
+    "m": 987,
+    "states": 10,
+    "edges": 9870,
+    "method": "prior_eleven_lift",
+    "layers": 329
+  },
+  {
+    "n": 2964,
+    "m": 988,
+    "states": 10,
+    "edges": 9880,
+    "method": "unrestricted_binary",
+    "base_m": 474,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2967,
+    "m": 989,
+    "states": 10,
+    "edges": 9890,
+    "method": "unrestricted_binary",
+    "base_m": 477,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2970,
+    "m": 990,
+    "states": 10,
+    "edges": 9900,
+    "method": "prior_eleven_lift",
+    "layers": 330
+  },
+  {
+    "n": 2973,
+    "m": 991,
+    "states": 10,
+    "edges": 9910,
+    "method": "unrestricted_binary",
+    "base_m": 477,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2976,
+    "m": 992,
+    "states": 10,
+    "edges": 9920,
+    "method": "unrestricted_binary",
+    "base_m": 480,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2979,
+    "m": 993,
+    "states": 10,
+    "edges": 9930,
+    "method": "prior_eleven_lift",
+    "layers": 331
+  },
+  {
+    "n": 2982,
+    "m": 994,
+    "states": 10,
+    "edges": 9940,
+    "method": "prior_ten_odd_lift",
+    "layers": 497
+  },
+  {
+    "n": 2985,
+    "m": 995,
+    "states": 10,
+    "edges": 9950,
+    "method": "unrestricted_binary",
+    "base_m": 483,
+    "increment": 512,
+    "seed_q": null
+  },
+  {
+    "n": 2988,
+    "m": 996,
+    "states": 10,
+    "edges": 9960,
+    "method": "prior_eleven_lift",
+    "layers": 332
+  },
+  {
+    "n": 2991,
+    "m": 997,
+    "states": 10,
+    "edges": 9970,
+    "method": "unrestricted_binary",
+    "base_m": 483,
+    "increment": 514,
+    "seed_q": 3
+  },
+  {
+    "n": 2994,
+    "m": 998,
+    "states": 10,
+    "edges": 9980,
+    "method": "prior_ten_odd_lift",
+    "layers": 499
+  },
+  {
+    "n": 2997,
+    "m": 999,
+    "states": 10,
+    "edges": 9990,
+    "method": "prior_eleven_lift",
+    "layers": 333
+  },
+  {
+    "n": 3000,
+    "m": 1000,
+    "states": 10,
+    "edges": 10000,
+    "method": "unrestricted_binary",
+    "base_m": 486,
+    "increment": 514,
+    "seed_q": 3
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "certificates": [
+    {
+      "states": 8,
+      "threshold": 33,
+      "consecutive_representatives": 7,
+      "all_witnesses_valid": true
+    },
+    {
+      "states": 9,
+      "threshold": 62,
+      "consecutive_representatives": 21,
+      "all_witnesses_valid": true
+    },
+    {
+      "states": 10,
+      "threshold": 74,
+      "consecutive_representatives": 25,
+      "all_witnesses_valid": true
+    },
+    {
+      "states": 11,
+      "threshold": 112,
+      "consecutive_representatives": 37,
+      "all_witnesses_valid": true
+    },
+    {
+      "states": 12,
+      "threshold": 113,
+      "consecutive_representatives": 38,
+      "all_witnesses_valid": true
+    }
+  ],
+  "distinct_seed_checks": 40,
+  "old_latin_data_matches_retained_certificate": true
+}

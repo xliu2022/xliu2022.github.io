@@ -1,0 +1,1059 @@
+{
+  "schema_version": 1,
+  "description": "Simple 3-uniform 13-rigid hypergraph on nine vertices; no partite restriction.",
+  "vertex_numbering": "vertex_id = 3*x + y, with x,y in {0,1,2}; arithmetic modulo 3",
+  "vertices": [
+    {
+      "vertex_id": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "vertex_id": 1,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "vertex_id": 2,
+      "x": 0,
+      "y": 2
+    },
+    {
+      "vertex_id": 3,
+      "x": 1,
+      "y": 0
+    },
+    {
+      "vertex_id": 4,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "vertex_id": 5,
+      "x": 1,
+      "y": 2
+    },
+    {
+      "vertex_id": 6,
+      "x": 2,
+      "y": 0
+    },
+    {
+      "vertex_id": 7,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "vertex_id": 8,
+      "x": 2,
+      "y": 2
+    }
+  ],
+  "allowed_vector_sums": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "hyperedges": [
+    {
+      "edge_id": "E01",
+      "vertices": [
+        0,
+        1,
+        2
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 0
+    },
+    {
+      "edge_id": "E02",
+      "vertices": [
+        0,
+        1,
+        3
+      ],
+      "vector_sum": [
+        1,
+        1
+      ],
+      "owner_state_index": 10
+    },
+    {
+      "edge_id": "E03",
+      "vertices": [
+        0,
+        1,
+        5
+      ],
+      "vector_sum": [
+        1,
+        0
+      ],
+      "owner_state_index": 4
+    },
+    {
+      "edge_id": "E04",
+      "vertices": [
+        0,
+        2,
+        4
+      ],
+      "vector_sum": [
+        1,
+        0
+      ],
+      "owner_state_index": 5
+    },
+    {
+      "edge_id": "E05",
+      "vertices": [
+        0,
+        2,
+        5
+      ],
+      "vector_sum": [
+        1,
+        1
+      ],
+      "owner_state_index": 11
+    },
+    {
+      "edge_id": "E06",
+      "vertices": [
+        0,
+        3,
+        6
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 1
+    },
+    {
+      "edge_id": "E07",
+      "vertices": [
+        0,
+        3,
+        7
+      ],
+      "vector_sum": [
+        0,
+        1
+      ],
+      "owner_state_index": 7
+    },
+    {
+      "edge_id": "E08",
+      "vertices": [
+        0,
+        4,
+        6
+      ],
+      "vector_sum": [
+        0,
+        1
+      ],
+      "owner_state_index": 8
+    },
+    {
+      "edge_id": "E09",
+      "vertices": [
+        0,
+        4,
+        8
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 2
+    },
+    {
+      "edge_id": "E10",
+      "vertices": [
+        0,
+        5,
+        7
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 3
+    },
+    {
+      "edge_id": "E11",
+      "vertices": [
+        0,
+        5,
+        8
+      ],
+      "vector_sum": [
+        0,
+        1
+      ],
+      "owner_state_index": 9
+    },
+    {
+      "edge_id": "E12",
+      "vertices": [
+        0,
+        6,
+        7
+      ],
+      "vector_sum": [
+        1,
+        1
+      ],
+      "owner_state_index": 12
+    },
+    {
+      "edge_id": "E13",
+      "vertices": [
+        0,
+        7,
+        8
+      ],
+      "vector_sum": [
+        1,
+        0
+      ],
+      "owner_state_index": 6
+    },
+    {
+      "edge_id": "E14",
+      "vertices": [
+        1,
+        2,
+        3
+      ],
+      "vector_sum": [
+        1,
+        0
+      ],
+      "owner_state_index": 6
+    },
+    {
+      "edge_id": "E15",
+      "vertices": [
+        1,
+        2,
+        4
+      ],
+      "vector_sum": [
+        1,
+        1
+      ],
+      "owner_state_index": 12
+    },
+    {
+      "edge_id": "E16",
+      "vertices": [
+        1,
+        3,
+        6
+      ],
+      "vector_sum": [
+        0,
+        1
+      ],
+      "owner_state_index": 9
+    },
+    {
+      "edge_id": "E17",
+      "vertices": [
+        1,
+        3,
+        8
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 3
+    },
+    {
+      "edge_id": "E18",
+      "vertices": [
+        1,
+        4,
+        7
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 1
+    },
+    {
+      "edge_id": "E19",
+      "vertices": [
+        1,
+        4,
+        8
+      ],
+      "vector_sum": [
+        0,
+        1
+      ],
+      "owner_state_index": 7
+    },
+    {
+      "edge_id": "E20",
+      "vertices": [
+        1,
+        5,
+        6
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 2
+    },
+    {
+      "edge_id": "E21",
+      "vertices": [
+        1,
+        5,
+        7
+      ],
+      "vector_sum": [
+        0,
+        1
+      ],
+      "owner_state_index": 8
+    },
+    {
+      "edge_id": "E22",
+      "vertices": [
+        1,
+        6,
+        8
+      ],
+      "vector_sum": [
+        1,
+        0
+      ],
+      "owner_state_index": 5
+    },
+    {
+      "edge_id": "E23",
+      "vertices": [
+        1,
+        7,
+        8
+      ],
+      "vector_sum": [
+        1,
+        1
+      ],
+      "owner_state_index": 11
+    },
+    {
+      "edge_id": "E24",
+      "vertices": [
+        2,
+        3,
+        7
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 2
+    },
+    {
+      "edge_id": "E25",
+      "vertices": [
+        2,
+        3,
+        8
+      ],
+      "vector_sum": [
+        0,
+        1
+      ],
+      "owner_state_index": 8
+    },
+    {
+      "edge_id": "E26",
+      "vertices": [
+        2,
+        4,
+        6
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 3
+    },
+    {
+      "edge_id": "E27",
+      "vertices": [
+        2,
+        4,
+        7
+      ],
+      "vector_sum": [
+        0,
+        1
+      ],
+      "owner_state_index": 9
+    },
+    {
+      "edge_id": "E28",
+      "vertices": [
+        2,
+        5,
+        6
+      ],
+      "vector_sum": [
+        0,
+        1
+      ],
+      "owner_state_index": 7
+    },
+    {
+      "edge_id": "E29",
+      "vertices": [
+        2,
+        5,
+        8
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 1
+    },
+    {
+      "edge_id": "E30",
+      "vertices": [
+        2,
+        6,
+        7
+      ],
+      "vector_sum": [
+        1,
+        0
+      ],
+      "owner_state_index": 4
+    },
+    {
+      "edge_id": "E31",
+      "vertices": [
+        2,
+        6,
+        8
+      ],
+      "vector_sum": [
+        1,
+        1
+      ],
+      "owner_state_index": 10
+    },
+    {
+      "edge_id": "E32",
+      "vertices": [
+        3,
+        4,
+        5
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 0
+    },
+    {
+      "edge_id": "E33",
+      "vertices": [
+        3,
+        4,
+        6
+      ],
+      "vector_sum": [
+        1,
+        1
+      ],
+      "owner_state_index": 11
+    },
+    {
+      "edge_id": "E34",
+      "vertices": [
+        3,
+        4,
+        8
+      ],
+      "vector_sum": [
+        1,
+        0
+      ],
+      "owner_state_index": 4
+    },
+    {
+      "edge_id": "E35",
+      "vertices": [
+        3,
+        5,
+        7
+      ],
+      "vector_sum": [
+        1,
+        0
+      ],
+      "owner_state_index": 5
+    },
+    {
+      "edge_id": "E36",
+      "vertices": [
+        3,
+        5,
+        8
+      ],
+      "vector_sum": [
+        1,
+        1
+      ],
+      "owner_state_index": 12
+    },
+    {
+      "edge_id": "E37",
+      "vertices": [
+        4,
+        5,
+        6
+      ],
+      "vector_sum": [
+        1,
+        0
+      ],
+      "owner_state_index": 6
+    },
+    {
+      "edge_id": "E38",
+      "vertices": [
+        4,
+        5,
+        7
+      ],
+      "vector_sum": [
+        1,
+        1
+      ],
+      "owner_state_index": 10
+    },
+    {
+      "edge_id": "E39",
+      "vertices": [
+        6,
+        7,
+        8
+      ],
+      "vector_sum": [
+        0,
+        0
+      ],
+      "owner_state_index": 0
+    }
+  ],
+  "perfect_matchings": [
+    {
+      "state_index": 0,
+      "matching_label": "M_00",
+      "vector_sum_class": [
+        0,
+        0
+      ],
+      "edge_ids": [
+        "E01",
+        "E32",
+        "E39"
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "edge_amplitude_product": "a_E01 * a_E32 * a_E39",
+      "exchange_arcs": 18,
+      "directed_triangles": 6
+    },
+    {
+      "state_index": 1,
+      "matching_label": "M_01",
+      "vector_sum_class": [
+        0,
+        0
+      ],
+      "edge_ids": [
+        "E06",
+        "E18",
+        "E29"
+      ],
+      "edges": [
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          1,
+          4,
+          7
+        ],
+        [
+          2,
+          5,
+          8
+        ]
+      ],
+      "edge_amplitude_product": "a_E06 * a_E18 * a_E29",
+      "exchange_arcs": 18,
+      "directed_triangles": 6
+    },
+    {
+      "state_index": 2,
+      "matching_label": "M_02",
+      "vector_sum_class": [
+        0,
+        0
+      ],
+      "edge_ids": [
+        "E09",
+        "E20",
+        "E24"
+      ],
+      "edges": [
+        [
+          0,
+          4,
+          8
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ]
+      ],
+      "edge_amplitude_product": "a_E09 * a_E20 * a_E24",
+      "exchange_arcs": 18,
+      "directed_triangles": 6
+    },
+    {
+      "state_index": 3,
+      "matching_label": "M_03",
+      "vector_sum_class": [
+        0,
+        0
+      ],
+      "edge_ids": [
+        "E10",
+        "E17",
+        "E26"
+      ],
+      "edges": [
+        [
+          0,
+          5,
+          7
+        ],
+        [
+          1,
+          3,
+          8
+        ],
+        [
+          2,
+          4,
+          6
+        ]
+      ],
+      "edge_amplitude_product": "a_E10 * a_E17 * a_E26",
+      "exchange_arcs": 27,
+      "directed_triangles": 9
+    },
+    {
+      "state_index": 4,
+      "matching_label": "M_04",
+      "vector_sum_class": [
+        1,
+        0
+      ],
+      "edge_ids": [
+        "E03",
+        "E30",
+        "E34"
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          8
+        ]
+      ],
+      "edge_amplitude_product": "a_E03 * a_E30 * a_E34",
+      "exchange_arcs": 21,
+      "directed_triangles": 3
+    },
+    {
+      "state_index": 5,
+      "matching_label": "M_05",
+      "vector_sum_class": [
+        1,
+        0
+      ],
+      "edge_ids": [
+        "E04",
+        "E22",
+        "E35"
+      ],
+      "edges": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          6,
+          8
+        ],
+        [
+          3,
+          5,
+          7
+        ]
+      ],
+      "edge_amplitude_product": "a_E04 * a_E22 * a_E35",
+      "exchange_arcs": 21,
+      "directed_triangles": 3
+    },
+    {
+      "state_index": 6,
+      "matching_label": "M_06",
+      "vector_sum_class": [
+        1,
+        0
+      ],
+      "edge_ids": [
+        "E13",
+        "E14",
+        "E37"
+      ],
+      "edges": [
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "edge_amplitude_product": "a_E13 * a_E14 * a_E37",
+      "exchange_arcs": 21,
+      "directed_triangles": 3
+    },
+    {
+      "state_index": 7,
+      "matching_label": "M_07",
+      "vector_sum_class": [
+        0,
+        1
+      ],
+      "edge_ids": [
+        "E07",
+        "E19",
+        "E28"
+      ],
+      "edges": [
+        [
+          0,
+          3,
+          7
+        ],
+        [
+          1,
+          4,
+          8
+        ],
+        [
+          2,
+          5,
+          6
+        ]
+      ],
+      "edge_amplitude_product": "a_E07 * a_E19 * a_E28",
+      "exchange_arcs": 21,
+      "directed_triangles": 3
+    },
+    {
+      "state_index": 8,
+      "matching_label": "M_08",
+      "vector_sum_class": [
+        0,
+        1
+      ],
+      "edge_ids": [
+        "E08",
+        "E21",
+        "E25"
+      ],
+      "edges": [
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          1,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          8
+        ]
+      ],
+      "edge_amplitude_product": "a_E08 * a_E21 * a_E25",
+      "exchange_arcs": 21,
+      "directed_triangles": 3
+    },
+    {
+      "state_index": 9,
+      "matching_label": "M_09",
+      "vector_sum_class": [
+        0,
+        1
+      ],
+      "edge_ids": [
+        "E11",
+        "E16",
+        "E27"
+      ],
+      "edges": [
+        [
+          0,
+          5,
+          8
+        ],
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          2,
+          4,
+          7
+        ]
+      ],
+      "edge_amplitude_product": "a_E11 * a_E16 * a_E27",
+      "exchange_arcs": 21,
+      "directed_triangles": 3
+    },
+    {
+      "state_index": 10,
+      "matching_label": "M_10",
+      "vector_sum_class": [
+        1,
+        1
+      ],
+      "edge_ids": [
+        "E02",
+        "E31",
+        "E38"
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          6,
+          8
+        ],
+        [
+          4,
+          5,
+          7
+        ]
+      ],
+      "edge_amplitude_product": "a_E02 * a_E31 * a_E38",
+      "exchange_arcs": 21,
+      "directed_triangles": 3
+    },
+    {
+      "state_index": 11,
+      "matching_label": "M_11",
+      "vector_sum_class": [
+        1,
+        1
+      ],
+      "edge_ids": [
+        "E05",
+        "E23",
+        "E33"
+      ],
+      "edges": [
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          3,
+          4,
+          6
+        ]
+      ],
+      "edge_amplitude_product": "a_E05 * a_E23 * a_E33",
+      "exchange_arcs": 21,
+      "directed_triangles": 3
+    },
+    {
+      "state_index": 12,
+      "matching_label": "M_12",
+      "vector_sum_class": [
+        1,
+        1
+      ],
+      "edge_ids": [
+        "E12",
+        "E15",
+        "E36"
+      ],
+      "edges": [
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          3,
+          5,
+          8
+        ]
+      ],
+      "edge_amplitude_product": "a_E12 * a_E15 * a_E36",
+      "exchange_arcs": 21,
+      "directed_triangles": 3
+    }
+  ],
+  "verification": {
+    "all_unlabelled_three_triple_partitions_examined": 280,
+    "partitions_whose_three_edges_all_belong_to_H": 13,
+    "hyperedges": 39,
+    "pairwise_edge_disjoint": true,
+    "each_edge_occurs_in_exactly_one_perfect_matching": true,
+    "vertex_degrees": [
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13
+    ],
+    "pair_codegree_histogram": {
+      "3": 27,
+      "4": 9
+    },
+    "c_M_histogram": {
+      "3": 9,
+      "6": 3,
+      "9": 1
+    },
+    "weighted_bound_table_81w": [
+      0,
+      27,
+      45,
+      57,
+      62,
+      65,
+      63,
+      63
+    ],
+    "affine_weight_bound_equality_codegrees": [
+      4,
+      5
+    ]
+  },
+  "algebraic_identity": {
+    "variables": "x_(v,j) for vertex v and state index j; a_E for each hyperedge E",
+    "F": "sum over states j and edges E in M_j of a_E * product_{v in E} x_(v,j)",
+    "operation": "Give every x_(v,j) multidegree e_v in Z^9; retain the component of multidegree (1,1,1,1,1,1,1,1,1) in F^3/3!.",
+    "result": "sum_{j=0}^{12} (product_{E in M_j} a_E) * product_{v=0}^{8} x_(v,j)",
+    "coefficient_of_each_listed_matching_term": 1,
+    "physical_claim": "None: this is a finite polynomial identity, independent of physical realizability."
+  }
+}

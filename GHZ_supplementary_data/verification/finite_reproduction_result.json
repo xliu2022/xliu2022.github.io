@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "missing_pair_orbits": 20,
+  "balanced_orientations": 19427814,
+  "triangle_compatible": 1584297,
+  "parity_compatible": 833906,
+  "residual_covered": 716,
+  "final_survivors": 0,
+  "computer_assisted_conclusion": "f_3(9)=13"
+}

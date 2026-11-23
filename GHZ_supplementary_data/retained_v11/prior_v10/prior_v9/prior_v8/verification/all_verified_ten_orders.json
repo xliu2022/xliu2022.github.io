@@ -1,0 +1,128 @@
+[
+  {
+    "m": 23,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      11
+    ],
+    "dimension": 10,
+    "vertices": 69,
+    "edges": 230,
+    "base_count": 5,
+    "complete": true,
+    "dlx_nodes": 8977,
+    "python_exact_cover_nodes": 13697,
+    "python_seconds": 0.030170218999955978
+  },
+  {
+    "m": 29,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      17
+    ],
+    "dimension": 10,
+    "vertices": 87,
+    "edges": 290,
+    "base_count": 5,
+    "complete": true,
+    "dlx_nodes": 17285,
+    "python_exact_cover_nodes": 25581,
+    "python_seconds": 0.07840376600006493
+  },
+  {
+    "m": 31,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      11
+    ],
+    "dimension": 10,
+    "vertices": 93,
+    "edges": 310,
+    "base_count": 5,
+    "complete": true,
+    "dlx_nodes": 57997,
+    "python_exact_cover_nodes": 92102,
+    "python_seconds": 0.2675899189998745
+  },
+  {
+    "m": 37,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      21
+    ],
+    "dimension": 10,
+    "vertices": 111,
+    "edges": 370,
+    "base_count": 5,
+    "complete": true,
+    "dlx_nodes": 51599,
+    "python_exact_cover_nodes": 76975,
+    "python_seconds": 0.34608192199993937
+  },
+  {
+    "m": 41,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      16
+    ],
+    "dimension": 10,
+    "vertices": 123,
+    "edges": 410,
+    "base_count": 5,
+    "complete": true,
+    "dlx_nodes": 397840,
+    "python_exact_cover_nodes": 670928,
+    "python_seconds": 2.563331470000321
+  },
+  {
+    "m": 43,
+    "S": [
+      0,
+      1,
+      2,
+      5,
+      38
+    ],
+    "dimension": 10,
+    "vertices": 129,
+    "edges": 430,
+    "base_count": 5,
+    "complete": true,
+    "dlx_nodes": 181672,
+    "python_exact_cover_nodes": 295339,
+    "python_seconds": 1.2331135629997334
+  },
+  {
+    "m": 47,
+    "S": [
+      0,
+      1,
+      2,
+      11,
+      23
+    ],
+    "dimension": 10,
+    "vertices": 141,
+    "edges": 470,
+    "base_count": 5,
+    "complete": true,
+    "dlx_nodes": 730140,
+    "python_exact_cover_nodes": 1190391,
+    "python_seconds": 10.549554756999896
+  }
+]

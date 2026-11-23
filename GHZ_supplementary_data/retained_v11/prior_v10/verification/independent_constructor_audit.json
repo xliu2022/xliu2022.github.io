@@ -1,0 +1,132 @@
+{
+  "table_rows_consistent": 1000,
+  "checks": [
+    {
+      "m": 1,
+      "balanced_requested": true,
+      "states": 1,
+      "maximum_codegree": 1,
+      "has_parts": true,
+      "base_m": null,
+      "seed_orders": []
+    },
+    {
+      "m": 3,
+      "balanced_requested": false,
+      "states": 13,
+      "maximum_codegree": 4,
+      "has_parts": false,
+      "base_m": null,
+      "seed_orders": []
+    },
+    {
+      "m": 4,
+      "balanced_requested": true,
+      "states": 6,
+      "maximum_codegree": 2,
+      "has_parts": true,
+      "base_m": null,
+      "seed_orders": []
+    },
+    {
+      "m": 6,
+      "balanced_requested": false,
+      "states": 12,
+      "maximum_codegree": 4,
+      "has_parts": false,
+      "base_m": 6,
+      "seed_orders": []
+    },
+    {
+      "m": 10,
+      "balanced_requested": true,
+      "states": 8,
+      "maximum_codegree": 2,
+      "has_parts": true,
+      "base_m": 10,
+      "seed_orders": []
+    },
+    {
+      "m": 22,
+      "balanced_requested": true,
+      "states": 10,
+      "maximum_codegree": 2,
+      "has_parts": true,
+      "base_m": 22,
+      "seed_orders": []
+    },
+    {
+      "m": 26,
+      "balanced_requested": true,
+      "states": 12,
+      "maximum_codegree": 2,
+      "has_parts": true,
+      "base_m": 26,
+      "seed_orders": []
+    },
+    {
+      "m": 31,
+      "balanced_requested": true,
+      "states": 12,
+      "maximum_codegree": 2,
+      "has_parts": true,
+      "base_m": 31,
+      "seed_orders": []
+    },
+    {
+      "m": 35,
+      "balanced_requested": true,
+      "states": 12,
+      "maximum_codegree": 2,
+      "has_parts": true,
+      "base_m": 13,
+      "seed_orders": [
+        23
+      ]
+    },
+    {
+      "m": 42,
+      "balanced_requested": false,
+      "states": 12,
+      "maximum_codegree": 3,
+      "has_parts": false,
+      "base_m": 4,
+      "seed_orders": [
+        39
+      ]
+    },
+    {
+      "m": 43,
+      "balanced_requested": true,
+      "states": 12,
+      "maximum_codegree": 2,
+      "has_parts": true,
+      "base_m": 13,
+      "seed_orders": [
+        31
+      ]
+    },
+    {
+      "m": 169,
+      "balanced_requested": true,
+      "states": 12,
+      "maximum_codegree": 2,
+      "has_parts": true,
+      "base_m": 46,
+      "seed_orders": [
+        124
+      ]
+    },
+    {
+      "m": 1000,
+      "balanced_requested": true,
+      "states": 12,
+      "maximum_codegree": 2,
+      "has_parts": true,
+      "base_m": 13,
+      "seed_orders": [
+        988
+      ]
+    }
+  ]
+}

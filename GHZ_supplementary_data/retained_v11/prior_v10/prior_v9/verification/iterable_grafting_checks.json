@@ -1,0 +1,244 @@
+[
+  {
+    "vertices": 9,
+    "m": 3,
+    "states": 3,
+    "edges": 9,
+    "exact_perfect_matchings": 3,
+    "search_nodes": 10,
+    "complete": true,
+    "exact_transversal_size": 3
+  },
+  {
+    "vertices": 12,
+    "m": 4,
+    "states": 3,
+    "edges": 12,
+    "exact_perfect_matchings": 3,
+    "search_nodes": 13,
+    "complete": true,
+    "exact_transversal_size": 4
+  },
+  {
+    "vertices": 15,
+    "m": 5,
+    "states": 3,
+    "edges": 15,
+    "exact_perfect_matchings": 3,
+    "search_nodes": 16,
+    "complete": true,
+    "exact_transversal_size": 5
+  },
+  {
+    "vertices": 18,
+    "m": 6,
+    "states": 4,
+    "edges": 24,
+    "exact_perfect_matchings": 4,
+    "search_nodes": 38,
+    "complete": true,
+    "exact_transversal_size": 6
+  },
+  {
+    "vertices": 39,
+    "m": 13,
+    "states": 12,
+    "edges": 156,
+    "base_m": 13,
+    "seed_orders": [],
+    "exact_transversal_size": 13
+  },
+  {
+    "vertices": 57,
+    "m": 19,
+    "states": 12,
+    "edges": 228,
+    "base_m": 19,
+    "seed_orders": [],
+    "exact_transversal_size": 19
+  },
+  {
+    "vertices": 69,
+    "m": 23,
+    "states": 12,
+    "edges": 276,
+    "base_m": 23,
+    "seed_orders": [],
+    "exact_transversal_size": 23
+  },
+  {
+    "vertices": 87,
+    "m": 29,
+    "states": 12,
+    "edges": 348,
+    "base_m": 29,
+    "seed_orders": [],
+    "exact_transversal_size": 29
+  },
+  {
+    "vertices": 105,
+    "m": 35,
+    "states": 12,
+    "edges": 420,
+    "base_m": 13,
+    "seed_orders": [
+      23
+    ],
+    "exact_transversal_size": 35
+  },
+  {
+    "vertices": 111,
+    "m": 37,
+    "states": 12,
+    "edges": 444,
+    "base_m": 19,
+    "seed_orders": [
+      19
+    ],
+    "exact_transversal_size": 37
+  },
+  {
+    "vertices": 123,
+    "m": 41,
+    "states": 12,
+    "edges": 492,
+    "base_m": 13,
+    "seed_orders": [
+      29
+    ],
+    "exact_transversal_size": 41
+  },
+  {
+    "vertices": 129,
+    "m": 43,
+    "states": 12,
+    "edges": 516,
+    "base_m": 13,
+    "seed_orders": [
+      13,
+      19
+    ],
+    "exact_transversal_size": 43
+  },
+  {
+    "vertices": 135,
+    "m": 45,
+    "states": 12,
+    "edges": 540,
+    "base_m": 23,
+    "seed_orders": [
+      23
+    ],
+    "exact_transversal_size": 45
+  },
+  {
+    "vertices": 141,
+    "m": 47,
+    "states": 12,
+    "edges": 564,
+    "base_m": 19,
+    "seed_orders": [
+      29
+    ],
+    "exact_transversal_size": 47
+  },
+  {
+    "vertices": 147,
+    "m": 49,
+    "states": 12,
+    "edges": 588,
+    "base_m": 13,
+    "seed_orders": [
+      19,
+      19
+    ],
+    "exact_transversal_size": 49
+  },
+  {
+    "vertices": 153,
+    "m": 51,
+    "states": 12,
+    "edges": 612,
+    "base_m": 23,
+    "seed_orders": [
+      29
+    ],
+    "exact_transversal_size": 51
+  },
+  {
+    "vertices": 297,
+    "m": 99,
+    "states": 12,
+    "edges": 1188,
+    "base_m": 13,
+    "seed_orders": [
+      13,
+      19,
+      29,
+      29
+    ],
+    "exact_transversal_size": 99
+  },
+  {
+    "vertices": 597,
+    "m": 199,
+    "states": 12,
+    "edges": 2388,
+    "base_m": 13,
+    "seed_orders": [
+      19,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29
+    ],
+    "exact_transversal_size": 199
+  },
+  {
+    "vertices": 2997,
+    "m": 999,
+    "states": 12,
+    "edges": 11988,
+    "base_m": 19,
+    "seed_orders": [
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29,
+      29
+    ],
+    "exact_transversal_size": 999
+  }
+]

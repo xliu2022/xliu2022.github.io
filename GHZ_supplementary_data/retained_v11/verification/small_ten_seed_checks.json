@@ -1,0 +1,82 @@
+[
+  {
+    "m": 2,
+    "vertices": 6,
+    "states": 10,
+    "edges": 20,
+    "nodes": 21,
+    "complete": true
+  },
+  {
+    "m": 3,
+    "vertices": 9,
+    "states": 10,
+    "edges": 30,
+    "nodes": 57,
+    "complete": true
+  },
+  {
+    "m": 4,
+    "vertices": 12,
+    "states": 10,
+    "edges": 40,
+    "nodes": 183,
+    "complete": true
+  },
+  {
+    "m": 5,
+    "vertices": 15,
+    "states": 10,
+    "edges": 50,
+    "nodes": 510,
+    "complete": true
+  },
+  {
+    "m": 6,
+    "vertices": 18,
+    "states": 10,
+    "edges": 60,
+    "nodes": 1230,
+    "complete": true
+  },
+  {
+    "m": 7,
+    "vertices": 21,
+    "states": 10,
+    "edges": 70,
+    "nodes": 2917,
+    "complete": true
+  },
+  {
+    "m": 8,
+    "vertices": 24,
+    "states": 10,
+    "edges": 80,
+    "nodes": 8810,
+    "complete": true
+  },
+  {
+    "m": 9,
+    "vertices": 27,
+    "states": 10,
+    "edges": 90,
+    "nodes": 10485,
+    "complete": true
+  },
+  {
+    "m": 10,
+    "vertices": 30,
+    "states": 10,
+    "edges": 100,
+    "nodes": 6237,
+    "complete": true
+  },
+  {
+    "m": 11,
+    "vertices": 33,
+    "states": 10,
+    "edges": 110,
+    "nodes": 549605,
+    "complete": true
+  }
+]

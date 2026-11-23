@@ -1,0 +1,218 @@
+[
+  {
+    "vertices": 9,
+    "m": 3,
+    "states": 4,
+    "edges": 12,
+    "perfect_matchings": 4,
+    "nodes": 13,
+    "seconds": 2.7546999717742437e-05,
+    "complete": true,
+    "input_n": 6,
+    "seed_q": 2,
+    "selected_vertices": [
+      0,
+      1,
+      2
+    ],
+    "selected_triple_is_input_edge": true
+  },
+  {
+    "vertices": 9,
+    "m": 3,
+    "states": 4,
+    "edges": 12,
+    "perfect_matchings": 4,
+    "nodes": 15,
+    "seconds": 2.2474999695987208e-05,
+    "complete": true,
+    "input_n": 6,
+    "seed_q": 2,
+    "selected_vertices": [
+      0,
+      2,
+      3
+    ],
+    "selected_triple_is_input_edge": false
+  },
+  {
+    "vertices": 12,
+    "m": 4,
+    "states": 6,
+    "edges": 24,
+    "perfect_matchings": 6,
+    "nodes": 35,
+    "seconds": 6.023700007062871e-05,
+    "complete": true,
+    "input_n": 6,
+    "seed_q": 3,
+    "selected_vertices": [
+      0,
+      1,
+      2
+    ],
+    "selected_triple_is_input_edge": true
+  },
+  {
+    "vertices": 12,
+    "m": 4,
+    "states": 6,
+    "edges": 24,
+    "perfect_matchings": 6,
+    "nodes": 35,
+    "seconds": 5.558100019698031e-05,
+    "complete": true,
+    "input_n": 6,
+    "seed_q": 3,
+    "selected_vertices": [
+      0,
+      2,
+      5
+    ],
+    "selected_triple_is_input_edge": false
+  },
+  {
+    "vertices": 18,
+    "m": 6,
+    "states": 8,
+    "edges": 48,
+    "perfect_matchings": 8,
+    "nodes": 258,
+    "seconds": 0.0006800460000704334,
+    "complete": true,
+    "input_n": 6,
+    "seed_q": 5,
+    "selected_vertices": [
+      0,
+      1,
+      2
+    ],
+    "selected_triple_is_input_edge": true
+  },
+  {
+    "vertices": 18,
+    "m": 6,
+    "states": 8,
+    "edges": 48,
+    "perfect_matchings": 8,
+    "nodes": 236,
+    "seconds": 0.0005205890001889202,
+    "complete": true,
+    "input_n": 6,
+    "seed_q": 5,
+    "selected_vertices": [
+      0,
+      3,
+      5
+    ],
+    "selected_triple_is_input_edge": false
+  },
+  {
+    "vertices": 36,
+    "m": 12,
+    "states": 10,
+    "edges": 120,
+    "perfect_matchings": 10,
+    "nodes": 41729,
+    "seconds": 0.1910363460001463,
+    "complete": true,
+    "input_n": 6,
+    "seed_q": 11,
+    "selected_vertices": [
+      0,
+      1,
+      2
+    ],
+    "selected_triple_is_input_edge": true
+  },
+  {
+    "vertices": 36,
+    "m": 12,
+    "states": 10,
+    "edges": 120,
+    "perfect_matchings": 10,
+    "nodes": 43283,
+    "seconds": 0.20241424700043353,
+    "complete": true,
+    "input_n": 6,
+    "seed_q": 11,
+    "selected_vertices": [
+      1,
+      2,
+      3
+    ],
+    "selected_triple_is_input_edge": true
+  },
+  {
+    "vertices": 45,
+    "m": 15,
+    "states": 12,
+    "edges": 180,
+    "perfect_matchings": 12,
+    "nodes": 1706152,
+    "seconds": 9.69594319700036,
+    "complete": true,
+    "input_n": 9,
+    "seed_q": 13,
+    "selected_vertices": [
+      0,
+      1,
+      2
+    ],
+    "selected_triple_is_input_edge": true
+  },
+  {
+    "vertices": 45,
+    "m": 15,
+    "states": 12,
+    "edges": 180,
+    "perfect_matchings": 12,
+    "nodes": 1741769,
+    "seconds": 10.040399109999726,
+    "complete": true,
+    "input_n": 9,
+    "seed_q": 13,
+    "selected_vertices": [
+      0,
+      1,
+      3
+    ],
+    "selected_triple_is_input_edge": false
+  },
+  {
+    "vertices": 9,
+    "m": 3,
+    "states": 4,
+    "edges": 12,
+    "perfect_matchings": 4,
+    "nodes": 13,
+    "seconds": 1.879799992821063e-05,
+    "complete": true,
+    "iteration": 1,
+    "repeated_whole_edge_selection": true
+  },
+  {
+    "vertices": 12,
+    "m": 4,
+    "states": 4,
+    "edges": 16,
+    "perfect_matchings": 4,
+    "nodes": 17,
+    "seconds": 2.2598999748879578e-05,
+    "complete": true,
+    "iteration": 2,
+    "repeated_whole_edge_selection": true
+  },
+  {
+    "vertices": 15,
+    "m": 5,
+    "states": 4,
+    "edges": 20,
+    "perfect_matchings": 4,
+    "nodes": 21,
+    "seconds": 3.1882000257610343e-05,
+    "complete": true,
+    "iteration": 3,
+    "repeated_whole_edge_selection": true
+  }
+]
